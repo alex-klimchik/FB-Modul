@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Modul FB</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style>
+        .main-content {
+            height: calc(100vh - 70px);
+            overflow: auto;
+            display: flex;
+            flex-wrap: nowrap;
+            box-shadow: 0px 0px 5px 2px #00000080;
+        }
+
+        .board-col:nth-child(even) {
+            background-color: #eceff0;
+        }
+
+        .board-col:nth-child(odd) {
+            background-color: #f0f3f4;
+        }
+
+        .board-col {
+            width: 300px;
+            flex-shrink: 0;
+            padding: 0 10px;
+            box-sizing: border-box;
+        }
+
+        .clear_float::after {
+            content: '';
+            display: block;
+            clear: both;
+            height: 0px;
+            visibility: hidden;
+        }
+
+        .board-row {
+            border-radius: 15px;
+            width: 100%;
+            box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .board-row p {
+            margin: 0;
+        }
+
+        .account__card-mini {
+            flex-grow: 1;
+            cursor: pointer;
+            padding: 9px !important;
+            padding-left: 15px !important;
+            display: flex;
+            flex-wrap: nowrap;
+            line-height: 1.3;
+            font-size: 14px;
+            font-family: Avenir, Avenir Next, Segoe UI, Helvetica, Arial, sans-serif;
+            color: rgb(121, 131, 135);
+            background: #fff;
+            margin: 15px 0;
+        }
+
+        .account__card-mini span {
+            color: #3d474d;
+            font-weight: 500;
+        }
+
+        .account__card-mini .account__title span {
+            font-weight: bold !important;
+            font-size: 17px;
+        }
+
+        .card-content_left {
+            margin-right: 2%;
+            width: 48%;
+            box-sizing: border-box;
+            padding-right: 2%;
+            text-align: left;
+            border-right: 1px solid rgb(138, 148, 153);
+        }
+
+        .card-content_right {
+            width: 48%;
+            text-align: left;
+            box-sizing: border-box;
+            margin-left: 2%;
+        }
+
+        .card-content_right>div {
+            padding-left: 7px;
+            margin-bottom: 13px;
+            padding-bottom: 13px;
+        }
+
+        .card-content_right>div:not(:last-child) {
+            border-bottom: 1px solid rgb(138, 148, 153);
+        }
+
+        .card-content_right>div:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .card-content_right>div:nth-child(2) {
+            margin-bottom: 8px;
+        }
+
+        .card-content_left>div {
+            margin-bottom: 15px;
+        }
+
+        .card-content_icons {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .card-content_icons i {
+            height: 32px !important;
+            line-height: 32px !important;
+        }
+
+        .content_color-green {
+            color: #10c910 !important
+        }
+
+        .content_color-red {
+            color: red !important
+        }
+
+        .content_numbers {
+            font-weight: 500;
+        }
+
+        .content_date p {
+            font-size: 12px;
+        }
+
+        .content_date p:first-child {
+            margin-bottom: 6px;
+        }
+
+        .content_date p span {
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav id="mySidenav" class="sidebar sidebarNone">
+            <div class="sidebar-content">
+                <a class="sidebar-brand" style="color: white; ">
+                    <i class="fab fa-connectdevelop"></i>FB-Lagoon
+                </a>
+                <div class="sidebar-user">
+                    <img src="img/avatar.png" class="img-fluid rounded-circle mb-2" alt="Linda Miller">
+                    <div class="font-weight-bold">Юра Антисимит</div>
+                    <small>Админ FB-3</small>
+                    <br>
+                    <p style="font-size: 10px;"> <i class="fas fa-circle text-success"></i> Online</p>
+                </div>
+                <ul class="sidebar-nav">
+                    <li class="sidebar-header">Меню</li>
+                    <li class="sidebar-item ">
+                        <a class="sidebar-link" href="index.html">
+                            <i class="dr-r fas fa-home"></i> Главная
+                            <i lass="fas fa-angle-right dx-r"></i>
+                        </a>
+                    </li>
+                    <li class="sidebar-item ">
+                        <a class="sidebar-link" href="accounts.html">
+                            <i class="dr-r fas fa-file"></i> Аккаунты
+                            <i class="fas fa-angle-right dx-r"></i>
+                        </a>
+                    </li>
+                    <li class="sidebar-item ">
+                        <a class="sidebar-link">
+                            <i class="dr-r fas fa-share-square"> </i> Соц. Аккаунты
+                            <i class="fas fa-angle-right dx-r"></i>
+                        </a>
+                    </li>
+                    <li class="sidebar-item "><a class="sidebar-link"><i class="dr-r fas fa-user-cog"></i> Рекл.
+                            Аккаунты<i class="fas fa-angle-right dx-r"></i></a></li>
+                    <li class="sidebar-item "><a class="sidebar-link"><i class="dr-r far fa-id-card"></i> Группа
+                            обьявлений<i class="fas fa-angle-right dx-r"></i></a></li>
+                    <li class="sidebar-item "><a class="sidebar-link"><i class="dr-r far fa-calendar-alt"></i>
+                            Обьявления<span size="18" class="sidebar-badge badge badge-primary badge-pill">New</span><i
+                                class="fas fa-angle-right dx-r"></i></a></li>
+                    <li class="sidebar-item "><a class="sidebar-link"><i class="dr-r fas fa-file"></i> Proxy<i
+                                class="fas fa-angle-right dx-r"></i></a></li>
+                    <li class="sidebar-header">Расширение для админа</li>
+                    <li class="sidebar-item "><a class="sidebar-link"><i class="dr-r fas fa-share-square"></i>
+                            Настройки<i class="fas fa-angle-right dx-r"></i></a></li>
+                </ul>
+
+            </div>
+        </nav>
+        <div id="main" class="main mainfull">
+            <nav class="navbar-theme navbar navbar-expand"
+                style="color: white;background-color: #28304e; height: 55px;">
+                <span class="sidebar-toggle d-flex mr-2 nb-f"><i class="fas fa-align-justify"></i></span>
+                <form class="form-inline"><input placeholder="Поиск..." aria-label="Search" type="text"
+                        class="form-control-lite form-control"></form>
+                <div class="collapse navbar-collapse">
+                    <ul class="ml-auto navbar-nav">
+
+                        <a class="nb-aer">
+                            <p id="demo"></p>
+                        </a>
+
+                    </ul>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="ml-auto navbar-nav">
+
+                        <li class="ml-lg-1 active dropdown nav-item"><a class="nb-aer">ВТ 20.11.2019р</a></li>
+                        <li class="ml-lg-1 active dropdown nav-item"><a class="nb-aer">|</a></li>
+                        <li class="ml-lg-1 active dropdown nav-item"><a class="nb-f"><i
+                                    class="fas fa-envelope-open"></i></a></li>
+                        <li class="ml-lg-1 dropdown nav-item"><a class="nb-f"><i class="fas fa-bell"></i><span
+                                    class="indicator"></span></a></li>
+                        <li class="ml-lg-1 dropdown nav-item"><a class="nb-f"><i class="fas fa-cog"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="container-fluid" style="position: relative;">
+                <div class="card">
+                    <div class="main-content" style="overflow-x:auto;">
+                        <!-- main content -->
+                        <div class="board-col">
+                            <div class="board-row account__card-mini ">
+                                <div class="card-content_left">
+                                    <div class="account__title"><span>Alex</span></div>
+                                    <div>
+                                        <p class="content_numbers"><span>Задачи:</span> <span
+                                                class="content_color-green">3</span>/7</p>
+                                        <p class="content_numbers"><span>Просрочено:</span> <span
+                                                class="content_color-red">0</span></p>
+                                    </div>
+                                    <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
+                                    <div><span>Дополнительно <br> задач:</span> 3</div>
+                                </div>
+                                <div class="card-content_right">
+                                    <div>
+                                        <p><span>Ответственный:</span></p>
+                                        <p>Иванов Иван</p>
+                                    </div>
+                                    <div class="content_date">
+                                        <p><span>Дата создания:</span> 01/01/2020
+                                        </p>
+                                        <p><span>Дата завершения:</span> 01/01/2020
+                                        </p>
+                                    </div>
+                                    <div class="card-content_icons">
+                                        <i class="fas fa-envelope-open"></i>
+                                        <i class="fas fa-cog"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="board-row account__card-mini ">
+                                <div class="card-content_left">
+                                    <div class="account__title"><span>Alex</span></div>
+                                    <div>
+                                        <p class="content_numbers"><span>Задачи:</span> <span
+                                                class="content_color-green">3</span>/7</p>
+                                        <p class="content_numbers"><span>Просрочено:</span> <span
+                                                class="content_color-red">0</span></p>
+                                    </div>
+                                    <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
+                                    <div><span>Дополнительно <br> задач:</span> 3</div>
+                                </div>
+                                <div class="card-content_right">
+                                    <div>
+                                        <p><span>Ответственный:</span></p>
+                                        <p>Иванов Иван</p>
+                                    </div>
+                                    <div class="content_date">
+                                        <p><span>Дата создания:</span> 01/01/2020
+                                        </p>
+                                        <p><span>Дата завершения:</span> 01/01/2020
+                                        </p>
+                                    </div>
+                                    <div class="card-content_icons">
+                                        <i class="fas fa-envelope-open"></i>
+                                        <i class="fas fa-cog"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="board-row account__card-mini ">
+                                <div class="card-content_left">
+                                    <div class="account__title"><span>Alex</span></div>
+                                    <div>
+                                        <p class="content_numbers"><span>Задачи:</span> <span
+                                                class="content_color-green">3</span>/7</p>
+                                        <p class="content_numbers"><span>Просрочено:</span> <span
+                                                class="content_color-red">0</span></p>
+                                    </div>
+                                    <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
+                                    <div><span>Дополнительно <br> задач:</span> 3</div>
+                                </div>
+                                <div class="card-content_right">
+                                    <div>
+                                        <p><span>Ответственный:</span></p>
+                                        <p>Иванов Иван</p>
+                                    </div>
+                                    <div class="content_date">
+                                        <p><span>Дата создания:</span> 01/01/2020
+                                        </p>
+                                        <p><span>Дата завершения:</span> 01/01/2020
+                                        </p>
+                                    </div>
+                                    <div class="card-content_icons">
+                                        <i class="fas fa-envelope-open"></i>
+                                        <i class="fas fa-cog"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="board-row account__card-mini ">
+                                <div class="card-content_left">
+                                    <div class="account__title"><span>Alex</span></div>
+                                    <div>
+                                        <p class="content_numbers"><span>Задачи:</span> <span
+                                                class="content_color-green">3</span>/7</p>
+                                        <p class="content_numbers"><span>Просрочено:</span> <span
+                                                class="content_color-red">0</span></p>
+                                    </div>
+                                    <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
+                                    <div><span>Дополнительно <br> задач:</span> 3</div>
+                                </div>
+                                <div class="card-content_right">
+                                    <div>
+                                        <p><span>Ответственный:</span></p>
+                                        <p>Иванов Иван</p>
+                                    </div>
+                                    <div class="content_date">
+                                        <p><span>Дата создания:</span> 01/01/2020
+                                        </p>
+                                        <p><span>Дата завершения:</span> 01/01/2020
+                                        </p>
+                                    </div>
+                                    <div class="card-content_icons">
+                                        <i class="fas fa-envelope-open"></i>
+                                        <i class="fas fa-cog"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="board-col">
+                           
+                            <div class="board-row account__card-mini ">
+                                <div class="card-content_left">
+                                    <div class="account__title"><span>Alex</span></div>
+                                    <div>
+                                        <p class="content_numbers"><span>Задачи:</span> <span
+                                                class="content_color-green">3</span>/7</p>
+                                        <p class="content_numbers"><span>Просрочено:</span> <span
+                                                class="content_color-red">0</span></p>
+                                    </div>
+                                    <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
+                                    <div><span>Дополнительно <br> задач:</span> 3</div>
+                                </div>
+                                <div class="card-content_right">
+                                    <div>
+                                        <p><span>Ответственный:</span></p>
+                                        <p>Иванов Иван</p>
+                                    </div>
+                                    <div class="content_date">
+                                        <p><span>Дата создания:</span> 01/01/2020
+                                        </p>
+                                        <p><span>Дата завершения:</span> 01/01/2020
+                                        </p>
+                                    </div>
+                                    <div class="card-content_icons">
+                                        <i class="fas fa-envelope-open"></i>
+                                        <i class="fas fa-cog"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="board-col">
+                            <div class="board-row account__card-mini ">
+                                <div class="card-content_left">
+                                    <div class="account__title"><span>Alex</span></div>
+                                    <div>
+                                        <p class="content_numbers"><span>Задачи:</span> <span
+                                                class="content_color-green">3</span>/7</p>
+                                        <p class="content_numbers"><span>Просрочено:</span> <span
+                                                class="content_color-red">0</span></p>
+                                    </div>
+                                    <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
+                                    <div><span>Дополнительно <br> задач:</span> 3</div>
+                                </div>
+                                <div class="card-content_right">
+                                    <div>
+                                        <p><span>Ответственный:</span></p>
+                                        <p>Иванов Иван</p>
+                                    </div>
+                                    <div class="content_date">
+                                        <p><span>Дата создания:</span> 01/01/2020
+                                        </p>
+                                        <p><span>Дата завершения:</span> 01/01/2020
+                                        </p>
+                                    </div>
+                                    <div class="card-content_icons">
+                                        <i class="fas fa-envelope-open"></i>
+                                        <i class="fas fa-cog"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="board-row account__card-mini ">
+                                <div class="card-content_left">
+                                    <div class="account__title"><span>Alex</span></div>
+                                    <div>
+                                        <p class="content_numbers"><span>Задачи:</span> <span
+                                                class="content_color-green">3</span>/7</p>
+                                        <p class="content_numbers"><span>Просрочено:</span> <span
+                                                class="content_color-red">0</span></p>
+                                    </div>
+                                    <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
+                                    <div><span>Дополнительно <br> задач:</span> 3</div>
+                                </div>
+                                <div class="card-content_right">
+                                    <div>
+                                        <p><span>Ответственный:</span></p>
+                                        <p>Иванов Иван</p>
+                                    </div>
+                                    <div class="content_date">
+                                        <p><span>Дата создания:</span> 01/01/2020
+                                        </p>
+                                        <p><span>Дата завершения:</span> 01/01/2020
+                                        </p>
+                                    </div>
+                                    <div class="card-content_icons">
+                                        <i class="fas fa-envelope-open"></i>
+                                        <i class="fas fa-cog"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="board-row account__card-mini ">
+                                <div class="card-content_left">
+                                    <div class="account__title"><span>Alex</span></div>
+                                    <div>
+                                        <p class="content_numbers"><span>Задачи:</span> <span
+                                                class="content_color-green">3</span>/7</p>
+                                        <p class="content_numbers"><span>Просрочено:</span> <span
+                                                class="content_color-red">0</span></p>
+                                    </div>
+                                    <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
+                                    <div><span>Дополнительно <br> задач:</span> 3</div>
+                                </div>
+                                <div class="card-content_right">
+                                    <div>
+                                        <p><span>Ответственный:</span></p>
+                                        <p>Иванов Иван</p>
+                                    </div>
+                                    <div class="content_date">
+                                        <p><span>Дата создания:</span> 01/01/2020
+                                        </p>
+                                        <p><span>Дата завершения:</span> 01/01/2020
+                                        </p>
+                                    </div>
+                                    <div class="card-content_icons">
+                                        <i class="fas fa-envelope-open"></i>
+                                        <i class="fas fa-cog"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="board-col">
+                            <div class="board-row account__card-mini ">
+                                <div class="card-content_left">
+                                    <div class="account__title"><span>Alex</span></div>
+                                    <div>
+                                        <p class="content_numbers"><span>Задачи:</span> <span
+                                                class="content_color-green">3</span>/7</p>
+                                        <p class="content_numbers"><span>Просрочено:</span> <span
+                                                class="content_color-red">0</span></p>
+                                    </div>
+                                    <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
+                                    <div><span>Дополнительно <br> задач:</span> 3</div>
+                                </div>
+                                <div class="card-content_right">
+                                    <div>
+                                        <p><span>Ответственный:</span></p>
+                                        <p>Иванов Иван</p>
+                                    </div>
+                                    <div class="content_date">
+                                        <p><span>Дата создания:</span> 01/01/2020
+                                        </p>
+                                        <p><span>Дата завершения:</span> 01/01/2020
+                                        </p>
+                                    </div>
+                                    <div class="card-content_icons">
+                                        <i class="fas fa-envelope-open"></i>
+                                        <i class="fas fa-cog"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="board-row account__card-mini ">
+                                <div class="card-content_left">
+                                    <div class="account__title"><span>Alex</span></div>
+                                    <div>
+                                        <p class="content_numbers"><span>Задачи:</span> <span
+                                                class="content_color-green">3</span>/7</p>
+                                        <p class="content_numbers"><span>Просрочено:</span> <span
+                                                class="content_color-red">0</span></p>
+                                    </div>
+                                    <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
+                                    <div><span>Дополнительно <br> задач:</span> 3</div>
+                                </div>
+                                <div class="card-content_right">
+                                    <div>
+                                        <p><span>Ответственный:</span></p>
+                                        <p>Иванов Иван</p>
+                                    </div>
+                                    <div class="content_date">
+                                        <p><span>Дата создания:</span> 01/01/2020
+                                        </p>
+                                        <p><span>Дата завершения:</span> 01/01/2020
+                                        </p>
+                                    </div>
+                                    <div class="card-content_icons">
+                                        <i class="fas fa-envelope-open"></i>
+                                        <i class="fas fa-cog"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="board-row account__card-mini ">
+                                <div class="card-content_left">
+                                    <div class="account__title"><span>Alex</span></div>
+                                    <div>
+                                        <p class="content_numbers"><span>Задачи:</span> <span
+                                                class="content_color-green">3</span>/7</p>
+                                        <p class="content_numbers"><span>Просрочено:</span> <span
+                                                class="content_color-red">0</span></p>
+                                    </div>
+                                    <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
+                                    <div><span>Дополнительно <br> задач:</span> 3</div>
+                                </div>
+                                <div class="card-content_right">
+                                    <div>
+                                        <p><span>Ответственный:</span></p>
+                                        <p>Иванов Иван</p>
+                                    </div>
+                                    <div class="content_date">
+                                        <p><span>Дата создания:</span> 01/01/2020
+                                        </p>
+                                        <p><span>Дата завершения:</span> 01/01/2020
+                                        </p>
+                                    </div>
+                                    <div class="card-content_icons">
+                                        <i class="fas fa-envelope-open"></i>
+                                        <i class="fas fa-cog"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="board-col">
+                            <div class="board-row account__card-mini ">
+                                <div class="card-content_left">
+                                    <div class="account__title"><span>Alex</span></div>
+                                    <div>
+                                        <p class="content_numbers"><span>Задачи:</span> <span
+                                                class="content_color-green">3</span>/7</p>
+                                        <p class="content_numbers"><span>Просрочено:</span> <span
+                                                class="content_color-red">0</span></p>
+                                    </div>
+                                    <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
+                                    <div><span>Дополнительно <br> задач:</span> 3</div>
+                                </div>
+                                <div class="card-content_right">
+                                    <div>
+                                        <p><span>Ответственный:</span></p>
+                                        <p>Иванов Иван</p>
+                                    </div>
+                                    <div class="content_date">
+                                        <p><span>Дата создания:</span> 01/01/2020
+                                        </p>
+                                        <p><span>Дата завершения:</span> 01/01/2020
+                                        </p>
+                                    </div>
+                                    <div class="card-content_icons">
+                                        <i class="fas fa-envelope-open"></i>
+                                        <i class="fas fa-cog"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="board-row account__card-mini ">
+                                <div class="card-content_left">
+                                    <div class="account__title"><span>Alex</span></div>
+                                    <div>
+                                        <p class="content_numbers"><span>Задачи:</span> <span
+                                                class="content_color-green">3</span>/7</p>
+                                        <p class="content_numbers"><span>Просрочено:</span> <span
+                                                class="content_color-red">0</span></p>
+                                    </div>
+                                    <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
+                                    <div><span>Дополнительно <br> задач:</span> 3</div>
+                                </div>
+                                <div class="card-content_right">
+                                    <div>
+                                        <p><span>Ответственный:</span></p>
+                                        <p>Иванов Иван</p>
+                                    </div>
+                                    <div class="content_date">
+                                        <p><span>Дата создания:</span> 01/01/2020
+                                        </p>
+                                        <p><span>Дата завершения:</span> 01/01/2020
+                                        </p>
+                                    </div>
+                                    <div class="card-content_icons">
+                                        <i class="fas fa-envelope-open"></i>
+                                        <i class="fas fa-cog"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="board-row account__card-mini ">
+                                <div class="card-content_left">
+                                    <div class="account__title"><span>Alex</span></div>
+                                    <div>
+                                        <p class="content_numbers"><span>Задачи:</span> <span
+                                                class="content_color-green">3</span>/7</p>
+                                        <p class="content_numbers"><span>Просрочено:</span> <span
+                                                class="content_color-red">0</span></p>
+                                    </div>
+                                    <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
+                                    <div><span>Дополнительно <br> задач:</span> 3</div>
+                                </div>
+                                <div class="card-content_right">
+                                    <div>
+                                        <p><span>Ответственный:</span></p>
+                                        <p>Иванов Иван</p>
+                                    </div>
+                                    <div class="content_date">
+                                        <p><span>Дата создания:</span> 01/01/2020
+                                        </p>
+                                        <p><span>Дата завершения:</span> 01/01/2020
+                                        </p>
+                                    </div>
+                                    <div class="card-content_icons">
+                                        <i class="fas fa-envelope-open"></i>
+                                        <i class="fas fa-cog"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="board-col">
+                            <div class="board-row account__card-mini ">
+                                <div class="card-content_left">
+                                    <div class="account__title"><span>Alex</span></div>
+                                    <div>
+                                        <p class="content_numbers"><span>Задачи:</span> <span
+                                                class="content_color-green">3</span>/7</p>
+                                        <p class="content_numbers"><span>Просрочено:</span> <span
+                                                class="content_color-red">0</span></p>
+                                    </div>
+                                    <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
+                                    <div><span>Дополнительно <br> задач:</span> 3</div>
+                                </div>
+                                <div class="card-content_right">
+                                    <div>
+                                        <p><span>Ответственный:</span></p>
+                                        <p>Иванов Иван</p>
+                                    </div>
+                                    <div class="content_date">
+                                        <p><span>Дата создания:</span> 01/01/2020
+                                        </p>
+                                        <p><span>Дата завершения:</span> 01/01/2020
+                                        </p>
+                                    </div>
+                                    <div class="card-content_icons">
+                                        <i class="fas fa-envelope-open"></i>
+                                        <i class="fas fa-cog"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="board-row account__card-mini ">
+                                <div class="card-content_left">
+                                    <div class="account__title"><span>Alex</span></div>
+                                    <div>
+                                        <p class="content_numbers"><span>Задачи:</span> <span
+                                                class="content_color-green">3</span>/7</p>
+                                        <p class="content_numbers"><span>Просрочено:</span> <span
+                                                class="content_color-red">0</span></p>
+                                    </div>
+                                    <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
+                                    <div><span>Дополнительно <br> задач:</span> 3</div>
+                                </div>
+                                <div class="card-content_right">
+                                    <div>
+                                        <p><span>Ответственный:</span></p>
+                                        <p>Иванов Иван</p>
+                                    </div>
+                                    <div class="content_date">
+                                        <p><span>Дата создания:</span> 01/01/2020
+                                        </p>
+                                        <p><span>Дата завершения:</span> 01/01/2020
+                                        </p>
+                                    </div>
+                                    <div class="card-content_icons">
+                                        <i class="fas fa-envelope-open"></i>
+                                        <i class="fas fa-cog"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="board-row account__card-mini ">
+                                <div class="card-content_left">
+                                    <div class="account__title"><span>Alex</span></div>
+                                    <div>
+                                        <p class="content_numbers"><span>Задачи:</span> <span
+                                                class="content_color-green">3</span>/7</p>
+                                        <p class="content_numbers"><span>Просрочено:</span> <span
+                                                class="content_color-red">0</span></p>
+                                    </div>
+                                    <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
+                                    <div><span>Дополнительно <br> задач:</span> 3</div>
+                                </div>
+                                <div class="card-content_right">
+                                    <div>
+                                        <p><span>Ответственный:</span></p>
+                                        <p>Иванов Иван</p>
+                                    </div>
+                                    <div class="content_date">
+                                        <p><span>Дата создания:</span> 01/01/2020
+                                        </p>
+                                        <p><span>Дата завершения:</span> 01/01/2020
+                                        </p>
+                                    </div>
+                                    <div class="card-content_icons">
+                                        <i class="fas fa-envelope-open"></i>
+                                        <i class="fas fa-cog"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clear_float"></div>
+                        <!-- / END main content -->
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $(".sidebar-toggle").click(function () {
+                $('.sidebar').toggleClass("sidebarNone")
+                $(".main").toggleClass("mainfull");
+            })
+        });
+    </script>
+</body>
+
+</html>
