@@ -1,0 +1,76 @@
+
+
+/*============ STAFF head tab styles ==============*/
+
+ .staff-tabs:focus, .staff-tabs:hover {
+    color: #fff;
+    background-color: #ffffff14;
+    border-color: #e9ecef #e9ecef #dee2e6;
+}
+.nav-tabs .staff-tabs:active {
+    background-color: #fff;
+}
+.staff-tabs{
+    font-size: 14px;
+    color: #fff;
+}
+
+
+.staff-department{
+    position: absolute;
+}
+
+.staff-tab {
+    justify-content: flex-end;
+}
+.head-line-staff {
+    position: absolute;
+    left: 15px;
+    top: -20px;
+}
+.nav-tabs .nav-item {
+    margin-bottom: -1px;
+}
+
+/*========== STAFF head tab styles the end ===============*/
+
+
+/*================ select styles ===================*/
+
+.form-group {
+    width: 175px;
+    margin: 0 -3px;
+}
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 165px;
+}
+.btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle {
+    color: #54595c;
+    background-color: #fafafa;
+}
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: #17a2b8;
+}
+.bootstrap-select>.dropdown-toggle {
+    width: 100%;
+    height: calc(1.5em + .55rem + 2px);
+    margin-top: -5px;
+    padding: .275rem .55rem .275rem 0.55rem;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #f4f7fcc7;
+    background-color: #ffffff00;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    -webkit-box-shadow: 0px 5px 5px -6px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 5px 5px -6px rgba(255,255,255,1);
+    box-shadow: 0px 5px 5px -6px rgba(255,255,255,1);
+    background-clip: padding-box;
+}
+
+
+/*=================== select the end styles =======================*/
