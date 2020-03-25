@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e7e405f-ff7a-478a-846e-9923888ad031" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/css/staff-add.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/staff-add.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/staff-add.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/staff-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/staff-page.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staff-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-page.html" afterDir="false" />
     </list>
@@ -33,8 +32,8 @@
       <file leaf-file-name="staff-page.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/staff-page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="502" column="76" lean-forward="true" selection-start-line="502" selection-start-column="76" selection-end-line="502" selection-end-column="76" />
+            <state relative-caret-position="186">
+              <caret line="466" column="65" selection-start-line="466" selection-start-column="65" selection-end-line="466" selection-end-column="65" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -49,8 +48,8 @@
       <file leaf-file-name="staff-page.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/staff-page.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="188" column="1" selection-start-line="188" selection-start-column="1" selection-end-line="188" selection-end-column="1" />
+            <state relative-caret-position="314">
+              <caret line="123" column="1" lean-forward="true" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -58,8 +57,8 @@
       <file leaf-file-name="staff-add.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/staff-add.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2178">
-              <caret line="199" column="14" selection-start-line="199" selection-start-column="14" selection-end-line="199" selection-end-column="14" />
+            <state relative-caret-position="702">
+              <caret line="78" column="17" lean-forward="true" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -76,8 +75,12 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+      <find>fa fa-edit</find>
       <find>wrap-input100</find>
     </findStrings>
+    <replaceStrings>
+      <replace>far fa-edit</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -91,8 +94,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/staff-add.css" />
         <option value="$PROJECT_DIR$/css/staff-page.css" />
+        <option value="$PROJECT_DIR$/css/staff-add.css" />
         <option value="$PROJECT_DIR$/staff-page.html" />
       </list>
     </option>
@@ -172,12 +175,12 @@
       <workItem from="1584974247120" duration="1723000" />
       <workItem from="1585036540449" duration="3119000" />
       <workItem from="1585060647343" duration="8129000" />
-      <workItem from="1585123928762" duration="14288000" />
+      <workItem from="1585123928762" duration="21599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27259000" />
+    <option name="totallyTimeSpent" value="34570000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="5" width="1910" height="1075" extended-state="0" />
@@ -186,13 +189,13 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11736334" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.5021436" side_tool="true" visible="true" weight="0.07465825" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="7" sideWeight="0.5021436" side_tool="true" visible="true" weight="0.0" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49785638" visible="true" weight="0.07465825" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49785638" visible="true" weight="0.0" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -304,24 +307,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/staff-add.css">
+    <entry file="file://$PROJECT_DIR$/css/staff-page.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2178">
-          <caret line="199" column="14" selection-start-line="199" selection-start-column="14" selection-end-line="199" selection-end-column="14" />
+        <state relative-caret-position="314">
+          <caret line="123" column="1" lean-forward="true" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/staff-page.css">
+    <entry file="file://$PROJECT_DIR$/css/staff-add.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="188" column="1" selection-start-line="188" selection-start-column="1" selection-end-line="188" selection-end-column="1" />
+        <state relative-caret-position="702">
+          <caret line="78" column="17" lean-forward="true" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/staff-page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="502" column="76" lean-forward="true" selection-start-line="502" selection-start-column="76" selection-end-line="502" selection-end-column="76" />
+        <state relative-caret-position="186">
+          <caret line="466" column="65" selection-start-line="466" selection-start-column="65" selection-end-line="466" selection-end-column="65" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
