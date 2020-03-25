@@ -24,11 +24,12 @@
 
 <body>
     <div class="wrapper">
+        <!--Sidebar-->
         <nav id="mySidenav" class="sidebar">
             <div class="sidebar-content">
-                <a class="sidebar-brand" style="
+                <div class="sidebar-brand" style="
     color: white;
-"><i class="fab fa-connectdevelop"></i>FB-Lagoon</a>
+"><a><i class="fab fa-connectdevelop"></i>FB-Lagoon</a><a href="javascript:void(0)" class="closebtn"><i class="ti-arrow-circle-left"></i></a></div>
                 <div class="sidebar-user">
                     <img src="img/avatar.png" class="img-fluid rounded-circle mb-2" alt="Linda Miller">
                     <div class="font-weight-bold">Имя Фамилия</div>
@@ -98,118 +99,117 @@
 
             </div>
         </nav>
-        <div id="main" class="main">
-            <nav class="navbar-theme navbar navbar-expand" style="color: white;background-color: #28304e;">
+        <!--Sidebar END-->
+        <div class="page-container">
+            <!--Header-->
+            <nav class="navbar-theme navbar navbar-expand header">
                 <span class="sidebar-toggle d-flex mr-2 nb-f"><i class="fas fa-align-justify"></i></span>
                 <form class="form-inline"><input placeholder="Поиск..." aria-label="Search" type="text" class="form-control-lite form-control"></form>
-
                 <div class="collapse navbar-collapse">
-                    <ul class="ml-auto navbar-nav">
+                    <ul class="ml-auto navbar-nav header-menu">
+                        <li class="ml-lg-1  nav-item"><a class="nb-f">Холд <sup id="hold" style="">10</sup></a></li>
 
+                        <li class="ml-lg-1  nav-item"><a class="nb-f">Контейнер <sup id="hold" style="">10</sup></a></li>
 
+                        <li class="ml-lg-1  nav-item"><a class="nb-f">Proxy <sup id="hold" style="">10</sup></a></li>
 
-                    </ul>
-                </div>
-                <div class="collapse navbar-collapse">
-                    <ul class="ml-auto navbar-nav">
-                        <li class="ml-lg-1 active dropdown nav-item"><a class="nb-f">Холд <sup id="hold" style="">10</sup></a></li>
-                        <li class="ml-lg-1 active dropdown nav-item"><a class="nb-aer">|</a></li>
-                        <li class="ml-lg-1 dropdown nav-item"><a class="nb-f">Контейнер <sup id="hold" style="">10</sup></a></li>
-                        <li class="ml-lg-1 active dropdown nav-item"><a class="nb-aer">|</a></li>
-                        <li class="ml-lg-1 dropdown nav-item"><a class="nb-f">Proxy <sup id="hold" style="">10</sup></a></li>
-                        <li class="ml-lg-1 active dropdown nav-item"><a class="nb-aer">|</a></li>
-                        <li class="ml-lg-1 active dropdown nav-item start-work"><a class="button-start-work">начать работу <i class="far fa-play-circle"></i></a></li>
-                        <li class="ml-lg-1 active dropdown nav-item"><a class="nb-aer">|</a></li>
-                        <li class="ml-lg-1 dropdown nav-item"><a class="nb-f"><i class="dr-r fas fa-share-square"></i></a></li>
+                        <li class="start-work"><a class="button-start-work">начать работу <i class="far fa-play-circle"></i></a></li>
+
+                        <li class="exit">
+                            <a class="button-exit"></a><i class="dr-r fas fa-share-square"></i></a>
+                        </li>
                     </ul>
                 </div>
             </nav>
-            <div class="container-fluid" style="position: relative;">
-                <div class="card" style="padding: 15px;">
-                    <h6>FB аккаунты</h6>
-                    <div style="overflow-x:auto;">
-                        <table class="table table-striped">
-                            <thead>
-                                <tr>
-                                    <th>Все</th>
-                                    <th>User-ФИО</th>
-                                    <th>Fb-ФИО</th>
-                                    <th>Login</th>
-                                    <th>Pass</th>
-                                    <th>Exp-sum</th>
-                                    <th>Status</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>0.00</td>
-                                    <td>Николай Николаевич</td>
-                                    <td>Мария Нечай</td>
-                                    <td>test</td>
-                                    <td>test1</td>
-                                    <td>251.61</td>
-                                    <td><span class="badge badge-success">active</span></td>
+            <!--Header END-->
+            <main>
+                <div class="container-fluid" style="position: relative;">
+                    <div class="card" style="padding: 15px;">
+                        <h6>FB аккаунты</h6>
+                        <div style="overflow-x:auto;">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Все</th>
+                                        <th>User-ФИО</th>
+                                        <th>Fb-ФИО</th>
+                                        <th>Login</th>
+                                        <th>Pass</th>
+                                        <th>Exp-sum</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>0.00</td>
+                                        <td>Николай Николаевич</td>
+                                        <td>Мария Нечай</td>
+                                        <td>test</td>
+                                        <td>test1</td>
+                                        <td>251.61</td>
+                                        <td><span class="badge badge-success">active</span></td>
 
-                                </tr>
-                                <tr>
-                                    <td>0.00</td>
-                                    <td>Николай Николаевич</td>
-                                    <td>Мария Нечай</td>
-                                    <td>test</td>
-                                    <td>test1</td>
-                                    <td>251.61</td>
-                                    <td><span class="badge badge-success">active</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>0.00</td>
+                                        <td>Николай Николаевич</td>
+                                        <td>Мария Нечай</td>
+                                        <td>test</td>
+                                        <td>test1</td>
+                                        <td>251.61</td>
+                                        <td><span class="badge badge-success">active</span></td>
 
-                                </tr>
-                                <tr>
-                                    <td>1.00</td>
-                                    <td>Николай Николаевич</td>
-                                    <td>Мария Нечай</td>
-                                    <td>test</td>
-                                    <td>test1</td>
-                                    <td>251.61</td>
-                                    <td><span class="badge badge-danger">blocked</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>1.00</td>
+                                        <td>Николай Николаевич</td>
+                                        <td>Мария Нечай</td>
+                                        <td>test</td>
+                                        <td>test1</td>
+                                        <td>251.61</td>
+                                        <td><span class="badge badge-danger">blocked</span></td>
 
-                                </tr>
-                                <tr>
-                                    <td>0.00</td>
-                                    <td>Николай Николаевич</td>
-                                    <td>Мария Нечай</td>
-                                    <td>test</td>
-                                    <td>test1</td>
-                                    <td>251.61</td>
-                                    <td><span class="badge badge-success">active</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>0.00</td>
+                                        <td>Николай Николаевич</td>
+                                        <td>Мария Нечай</td>
+                                        <td>test</td>
+                                        <td>test1</td>
+                                        <td>251.61</td>
+                                        <td><span class="badge badge-success">active</span></td>
 
-                                </tr>
-                                <tr>
-                                    <td>0.00</td>
-                                    <td>Николай Николаевич</td>
-                                    <td>Мария Нечай</td>
-                                    <td>test</td>
-                                    <td>test1</td>
-                                    <td>251.61</td>
-                                    <td><span class="badge badge-danger">blocked</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>0.00</td>
+                                        <td>Николай Николаевич</td>
+                                        <td>Мария Нечай</td>
+                                        <td>test</td>
+                                        <td>test1</td>
+                                        <td>251.61</td>
+                                        <td><span class="badge badge-danger">blocked</span></td>
 
-                                </tr>
-                            </tbody>
-                        </table>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-
+            </main>
 
             <script>
                 $(document).ready(function() {
 
                     $(function() {
                         $(".sidebar-toggle").click(function() {
-                            $('.sidebar').toggleClass("sidebarNone")
-                            $(".main").toggleClass("mainfull");
+                            $('body').toggleClass('is-collapsed');
+
                         })
                     });
                 });
             </script>
+
 </body>
 
 </html>
