@@ -1,13 +1,23 @@
-
+:focus{
+    outline: none!important;
+}
+.btn.focus, .btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 0 rgba(0,123,255,.25);
+}
 
 /*============ STAFF head tab styles ==============*/
 
+.nav-tabs {
+     border-bottom: 0 solid #dee2e6;
+}
  .staff-tabs:focus, .staff-tabs:hover {
     color: #fff;
     background-color: #ffffff14;
     border-color: #e9ecef #e9ecef #dee2e6;
 }
-.nav-tabs .staff-tabs:active {
+ .staff-tabs:active {
+    color: #495057;
     background-color: #fff;
 }
 .staff-tabs{
@@ -15,9 +25,27 @@
     color: #fff;
 }
 
-
 .staff-department{
+    align-items: center;
+    display: flex;
     position: absolute;
+    top: -5px;
+}
+.staff-fa{
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 3px 6px;
+    outline: none;
+}
+.staff-fa:hover{
+    color: #fff;
+    border: 1px solid #ffffff45;
+    -webkit-box-shadow: 0px 0px 5px -1px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 5px -1px rgba(255,255,255,1);
+    box-shadow: 0px 0px 5px -1px rgba(255,255,255,1);
+}
+.staff-fa:focus{
+    outline: none;
 }
 
 .staff-tab {
@@ -37,6 +65,10 @@
 
 /*================ select styles ===================*/
 
+.bootstrap-select .dropdown-toggle:focus, .bootstrap-select>select.mobile-device:focus+.dropdown-toggle {
+    outline: 0 auto -webkit-focus-ring-color!important;
+    outline-offset: 0;
+}
 .form-group {
     width: 175px;
     margin: 0 -3px;
@@ -45,13 +77,13 @@
     width: 165px;
 }
 .btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle {
-    color: #54595c;
-    background-color: #fafafa;
+    color: #fff;
+    background-color: #39405c;
 }
 .dropdown-item.active, .dropdown-item:active {
     color: #fff;
     text-decoration: none;
-    background-color: #17a2b8;
+    background-color: #565c86;
 }
 .bootstrap-select>.dropdown-toggle {
     width: 100%;
@@ -71,6 +103,87 @@
     box-shadow: 0px 5px 5px -6px rgba(255,255,255,1);
     background-clip: padding-box;
 }
+.dropdown-menu {
+    background-color: #28304e;
+}
+.bootstrap-select .dropdown-menu li a {
+    color: #fff;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #fff;
+    background-color: #39405c;
+}
 
 
 /*=================== select the end styles =======================*/
+
+/*=================== select table styles =======================*/
+
+
+.staff-t{
+    padding: 15px;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: .25rem 0 0.25rem 0.25rem;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    outline: none;
+}
+.btn-mini {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid #6c757d;
+    padding: 2px 7px;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    -o-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+}
+.setting-offers button {
+    margin: 0 2px;
+}
+
+.btn-outline-edit {
+    color: #fe602e;
+    border-color: #fe602e;
+}
+.btn-outline-edit:hover {
+    color: #fff;
+    background-color: #fe602e;
+}
+.btn-outline-add {
+    color: #17a2b8;
+    border-color: #17a2b8;
+}
+.btn-outline-add:hover {
+    color: #fff;
+    background-color: #17a2b8;
+}
+/*=================== select table the end styles =======================*/
+
+.modal-header {
+    background: #28304e;
+}
+.modal-header h5 {
+    color: #fff;
+}
+.close {
+    color: #ffffff;
+    text-shadow: 0 1px 0 #fff;
+     opacity: 1;
+}
+.close:hover {
+    color: #adb5bd;
+    text-decoration: none;
+}
