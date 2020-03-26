@@ -54,7 +54,9 @@ input:-ms-input-placeholder { color: #adadad;}
     position: relative;
     border-bottom: 2px solid #d9d9d9;
 }
-
+.wrap-input-hid{
+    width: 30%;
+}
 .label-input100 {
     font-size: 14px;
     color: #333333;
@@ -136,6 +138,20 @@ input:-ms-input-placeholder { color: #adadad;}
 
 .has-val.input100 + .focus-input100::after {
     color: #a64bf4;
+}
+.input-select{
+    border: none;
+    padding: 10px 0 0 5px;
+}
+.form-control:focus {
+    /*color: #495057;*/
+    /*background-color: #fff;*/
+    /*border-color: #80bdff;*/
+    outline: none;
+    box-shadow: 0 0 0 0 rgba(0,123,255,.25);
+}
+.input-select option:hover{
+    background-color: #c80000;
 }
 
 
@@ -228,8 +244,6 @@ input:-ms-input-placeholder { color: #adadad;}
     transform: translateY(50%);
     right: 2px;
     pointer-events: none;
-
-    font-family: Poppins-Regular;
     color: #c80000;
     font-size: 13px;
     line-height: 1.4;
@@ -245,8 +259,9 @@ input:-ms-input-placeholder { color: #adadad;}
 }
 
 .alert-validate::after {
-    content: "\f06a";
-    font-family: FontAwesome;
+    font-family: 'Font Awesome 5 Free';
+    content: '\f12a';
+    font-weight: 600;
     display: block;
     position: absolute;
     color: #c80000;

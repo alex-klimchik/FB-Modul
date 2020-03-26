@@ -28,8 +28,9 @@
 .staff-department{
     align-items: center;
     display: flex;
-    position: absolute;
-    top: -5px;
+    margin-bottom: 15px;
+    /*position: absolute;*/
+    /*top: -5px;*/
 }
 .staff-fa{
     color: #fff;
@@ -77,13 +78,13 @@
     width: 165px;
 }
 .btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle {
-    color: #fff;
-    background-color: #39405c;
+    color: #212529;
+    background-color: #fff;
 }
 .dropdown-item.active, .dropdown-item:active {
-    color: #fff;
+    color: #212529;
     text-decoration: none;
-    background-color: #565c86;
+    background-color: #0000000d;
 }
 .bootstrap-select>.dropdown-toggle {
     width: 100%;
@@ -93,8 +94,8 @@
     font-size: 15px;
     font-weight: 400;
     line-height: 1.5;
-    color: #f4f7fcc7;
-    background-color: #ffffff00;
+    color: #212529;
+    background-color: #fff;
     border: none;
     border-radius: 5px;
     outline: none;
@@ -104,14 +105,14 @@
     background-clip: padding-box;
 }
 .dropdown-menu {
-    background-color: #28304e;
+    background-color: #fff;
 }
 .bootstrap-select .dropdown-menu li a {
-    color: #fff;
+    color: #212529;
 }
 .dropdown-item:focus, .dropdown-item:hover {
-    color: #fff;
-    background-color: #39405c;
+    color: #212529;
+    background-color: #cdcbd8;
 }
 
 
