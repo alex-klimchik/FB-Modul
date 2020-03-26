@@ -76,10 +76,6 @@
         text-transform: uppercase;
     }
     
-    .sidebar-item {
-        color: #495890;
-    }
-    
     .align-middle {
         vertical-align: middle !important;
     }
@@ -168,20 +164,29 @@
         height: 64px;
     }
     
-    .sidebar-link,
-    a.sidebar-link {
-        display: block;
-        padding: 8px 10px;
-        margin: 0 0.5rem;
-        color: inherit;
-        font-weight: 400;
-        background: transparent;
-        border-radius: 0.2rem;
-        -webkit-transition: background .1s ease-in-out;
-        transition: background .1s ease-in-out;
+    .icon-holder i {
+        height: 30px;
+        width: 30px;
+    }
+    
+    .icon-holder {
+        line-height: 35px;
+        text-align: center;
+        -webkit-transition: all .3s ease;
+        -o-transition: all .3s ease;
+        transition: all .3s ease;
+        padding: 0 9px;
+    }
+    
+    .title {
+        padding-top: 3px;
+    }
+    
+    .sidebar ul li a {
+        color: #495890;
+        display: flex!important;
+        font-size: 16px;
         position: relative;
-        text-decoration: none;
-        cursor: pointer;
     }
     
     .sidebar-header {
@@ -249,7 +254,7 @@
     .sidebar-badge {
         position: absolute;
         right: 30px;
-        top: 10px;
+        top: 5px;
     }
     
     table tbody tr:hover {
