@@ -30,6 +30,26 @@
 </head>
 
 <body>
+    <!-- Modal -->
+    <div class="modal fade" id="addAccount">
+        <div class="modal-dialog  modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="wrapper">
         <nav id="mySidenav" class="sidebar sidebarNone">
             <div class="sidebar-content">
@@ -83,8 +103,6 @@
             <nav class="navbar-theme navbar navbar-expand"
                 style="color: white;background-color: #28304e; height: 55px;">
                 <span class="sidebar-toggle d-flex mr-2 nb-f"><i class="fas fa-align-justify"></i></span>
-                <form class="form-inline"><input placeholder="Поиск..." aria-label="Search" type="text"
-                        class="form-control-lite form-control"></form>
                 <div class="collapse navbar-collapse">
                     <ul class="ml-auto navbar-nav">
 
@@ -115,19 +133,44 @@
                             <option value="">Владислав Ковальчук </option>
                             <option value="">Name Surname </option>
                         </select>
-                        <select class="selectpicker"  name="" id="">
+                        <select class="selectpicker" name="" id="">
                             <option value="">Пресет</option>
+                            <option value="">Пресет 2</option>
+                            <option value="">Пресет 44</option>
+                            <option value="">Пресет</option>
+                            <option value="">Пресет 2</option>
+                            <option value="">Пресет 44</option>
+                            <option value="">Пресет</option>
+                            <option value="">Пресет 2</option>
+                            <option value="">Пресет 44</option>
+                            <option value="">Пресет</option>
+                            <option value="">Пресет 2</option>
+                            <option value="">Пресет 44</option>
+                            <option value="">Пресет</option>
+                            <option value="">Пресет 2</option>
+                            <option value="">Пресет 44</option>
+                            <option value="">Пресет</option>
+                            <option value="">Пресет 2</option>
+                            <option value="">Пресет 44</option>
+                            <option value="">Пресет</option>
+                            <option value="">Пресет 2</option>
+                            <option value="">Пресет 44</option>
                         </select>
-                        <select class="selectpicker"  name="" id="">
+                        <select class="selectpicker" name="" id="">
                             <option value="">Брут</option>
+
                         </select>
                     </div>
-                    <div class="additions-modal">
-                        <i class="fas fa-plus"></i>
+                    <div class="additions-modal" data-toggle="modal" data-target="#addAccount">
+
+                        <i class="fa fa-plus"></i>
+
+
                     </div>
 
                 </div>
                 <div class="main-content_table">
+                    <!-- <span></span><span></span> -->
                     <div>
                         <div class="board-col">
                             <div class="board-header">
