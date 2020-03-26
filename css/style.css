@@ -33,13 +33,6 @@
         margin-left: -250px;
     }
     
-    .sidebar {
-        min-width: 250px;
-        max-width: 250px;
-        margin-left: 0;
-        z-index: 9999;
-    }
-    
     .page-container {
         width: 100%;
         min-height: 100vh;
@@ -54,6 +47,7 @@
         position: fixed;
         min-width: 240px;
         max-width: 240px;
+        margin-left: 0;
         color: #292828;
         z-index: 999;
         overflow: hidden;
@@ -62,14 +56,19 @@
     }
     
     .sidebar-brand {
+        display: flex;
+        justify-content: space-between;
         padding: 10px;
         background: #262f3d;
         font-size: 1.175rem;
         font-weight: 500;
         color: #fff;
         width: 100%;
-        display: block;
         text-decoration: none;
+    }
+    
+    .closebtn {
+        color: white;
     }
     
     .align-middle {
