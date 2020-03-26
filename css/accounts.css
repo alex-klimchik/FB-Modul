@@ -1,5 +1,6 @@
 .additions {
-    background-color: #ebeeef;
+    background-color: #fff;
+    box-shadow: 0 0 3px 1px #b7b7b74f;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -14,25 +15,32 @@
     font-size: 14px;
 }
 
-.additions-choice select {
+.additions-choice .dropdown-toggle {
+    background-color: #fff!important;
+    border: 1px solid #d3d3d3;
     width: 190px;
     height: 34px;
-    padding: 7px 12px;
-    color: #495057;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
-    cursor: pointer;
+    border-radius: 3px;
+    padding-top: 3px;
 }
 
-.additions-choice select:hover {
-    background-color: #f8f8f8;
+.additions-choice .dropdown-toggle, .additions-choice .dropdown-toggle:focus, .additions-choice .dropdown-toggle:active {
+    outline: none!important;
 }
-.additions-choice select option {
-    height: 34px;
-    padding: 10px;
+.additions-choice .dropdown-item:focus,.additions-choice .dropdown-item:hover{
+    background-color: #e5e5e5;
 }
+.additions-choice .dropdown-menu {
+    padding: 0;
+    min-width: 190px;
+    top: -3px!important;
+    border-radius: 0;
+}
+
+.additions-choice .dropdown-item.active, .additions-choice .dropdown-item:active {
+    background-color: #687191;
+}
+
 .additions-choice select:not(:nth-child(1)) {
     margin-left: 20px;
 }
