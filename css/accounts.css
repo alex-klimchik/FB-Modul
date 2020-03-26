@@ -93,14 +93,15 @@ main {
 .main-content_table {
     height: calc(100vh - 113px);
     overflow: auto;
-    background-color: #a1a1a152;
     margin-left: 10px;
     margin-right: 10px;
     position: relative;
+    box-shadow: 0px 4px 5px 2px #949494c2;
+    border: 1px solid #ced4da;
 }
 
 .board-main {
-    height: calc(100vh - 159px);
+    height: calc(100vh - 160px);
     overflow: auto;
 }
 
@@ -156,6 +157,10 @@ main {
     width: 300px;
     flex-shrink: 0;
     box-sizing: border-box;
+}
+
+.board-col:nth-child(even) {
+    background-color: #ebeeef;
 }
 
 .account__card-mini p {
