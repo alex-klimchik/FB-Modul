@@ -174,50 +174,17 @@ input:-ms-input-placeholder { color: #adadad;}
     z-index: 1;
     border-radius: 5px;
     overflow: hidden;
-    margin-top: 15px;
+    margin-top: 30px;
 }
-
-.login100-form-bgbtn {
-    position: absolute;
-    z-index: -1;
-    width: 300%;
-    height: 100%;
-    background: -webkit-linear-gradient(right, #00dbde, #004085, #00dbde, #004085);
-    background: -o-linear-gradient(right, #00dbde, #004085, #00dbde, #004085);
-    background: -moz-linear-gradient(right, #00dbde, #004085, #00dbde, #004085);
-    background: linear-gradient(right, #00dbde, #004085, #00dbde, #004085);
-    top: 0;
-    left: -100%;
-
-    -webkit-transition: all 0.4s;
-    -o-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    transition: all 0.4s;
-}
-.login100-form-btn:hover{
+.btn-primary{
     color: #fff;
+    background-color: #36999f;
+    border-color: #329096;
 }
-
-.login100-form-btn {
-    font-size: 14px;
+.btn-primary:hover {
     color: #fff;
-    line-height: 1.2;
-    text-transform: uppercase;
-
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 20px;
-    width: 100%;
-    height: 35px;
-}
-
-.wrap-login100-form-btn:hover .login100-form-bgbtn {
-    left: 0;
+    background-color: #39a2a9;
+    border-color: #36999f;
 }
 
 

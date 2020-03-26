@@ -5,6 +5,11 @@
     outline: none;
     box-shadow: 0 0 0 0 rgba(0,123,255,.25);
 }
+body {
+    margin: 0;
+    font-family: Nunito, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
+    font-size: .875rem;
+}
 
 /*============ STAFF head tab styles ==============*/
 
@@ -119,13 +124,32 @@
 /*=================== select the end styles =======================*/
 
 /*=================== select table styles =======================*/
+.card {
+    padding: 15px;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 0.875rem 0 rgba(53,64,82,.05);
+}
 
-.table-staff td, .table-staff th {
+.table {
+    color: #495057;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f9fa;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+.table td, .table th {
     padding: .45rem .75rem;
+    vertical-align: top;
+    border-top: 0 solid #dee2e6;
+}
+table tbody tr:hover {
+    background: #00000013!important;
 }
 
 .staff-t{
-    padding: 15px;
     border: 0 solid rgba(0,0,0,.125);
     border-radius: .25rem 0 0.25rem 0.25rem;
 }
@@ -143,7 +167,7 @@
     -ms-user-select: none;
     user-select: none;
     background-color: transparent;
-    border: 1px solid #6c757d;
+    border: 0 solid #6c757d;
     padding: 1px 5px;
     font-size: .835rem;
     line-height: 1.5;
@@ -154,40 +178,41 @@
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
 }
+.feather {
+    width: 16px;
+    height: 16px;
+}
 .setting-offers button {
     margin: 0 2px;
 }
 
-.btn-outline-edit {
-    color: #00b5c8;
-    border-color: #00b5c8;
+.btn-outline-edit,
+.btn-outline-add{
+    color: #6c757d;
 }
-.btn-outline-edit:hover {
-    color: #fff;
-    background-color: #00b5c8;
+.btn-outline-edit:hover,
+.btn-outline-add:hover{
+    color: #212529;
 }
-.btn-outline-add {
-    color: #28304e;
-    border-color: #28304e;
-}
-.btn-outline-add:hover {
-    color: #fff;
-    background-color: #28304e;
-}
+
 /*=================== select table the end styles =======================*/
 
 .modal-header {
-    background: #28304e;
+    background: #fff;
 }
 .modal-header h5 {
-    color: #fff;
+    color: #000;
 }
 .close {
-    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #000;
     text-shadow: 0 1px 0 #fff;
-     opacity: 1;
 }
-.close:hover {
-    color: #adb5bd;
-    text-decoration: none;
+.modal-staff-f{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    bottom: 0;
 }
