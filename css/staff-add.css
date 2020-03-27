@@ -176,6 +176,11 @@ input:-ms-input-placeholder { color: #adadad;}
     overflow: hidden;
     margin-top: 30px;
 }
+.btn-primary:not(:disabled):not(.disabled):active{
+    color: #fff;
+    background-color: #36999f;
+    border-color: #329096;
+}
 .btn-primary{
     color: #fff;
     background-color: #36999f;
@@ -186,6 +191,24 @@ input:-ms-input-placeholder { color: #adadad;}
     background-color: #39a2a9;
     border-color: #36999f;
 }
+.btn-secondary:not(:disabled):not(.disabled):active{
+    color: #fff;
+    background-color: #445180;
+    border-color: #445180;
+}
+.btn-secondary{
+    color: #fff;
+    background-color: #28304e;
+    border-color: #28304e;
+    margin-right: 15px;
+}
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #445180;
+    border-color: #445180
+;
+}
+
 
 
 /*------------------------------------------------------------------
