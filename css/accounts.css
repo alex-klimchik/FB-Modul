@@ -3,6 +3,10 @@ main {
     padding-top: 55px;
 }
 
+button.close:focus {
+    outline: none;
+}
+
 .additions {
     background-color: #fff;
     box-shadow: 0 0 3px 1px #b7b7b74f;
@@ -312,6 +316,10 @@ main {
     -o-overflow-scrolling: touch;
 }
 
+.modal-new_account {
+    padding: 0!important;
+}
+
 .modal-new_account .modal-content {
     min-height: calc( 100vh - 10px);
 }
@@ -327,6 +335,7 @@ main {
     justify-content: space-between;
     align-content: flex-start;
     flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .modal-new_account .modal-header {
@@ -344,6 +353,7 @@ main {
     border: 0 solid transparent;
     border-radius: .25rem;
     width: 100%;
+    font-weight: 600;
 }
 
 .modal_account-stage span {
@@ -363,8 +373,92 @@ main {
     margin: 15px 0;
 }
 
-..modal_account-content {
+.modal_account-content {
     margin-left: 10px;
+}
+
+.modal_account-content>div {
+    background-color: #fff;
+    box-shadow: 0 0 0.875rem 0 rgba(53, 64, 82, .05);
+    background-clip: border-box;
+    border: 1px solid #eee;
+    border-radius: .25rem;
+    margin-bottom: 7px;
+    padding: 10px;
+}
+
+.modal_account-content .content-tasks p {
+    margin-bottom: 10px;
+}
+
+.modal_account-content .content-tasks label, .modal_account-content .content-tasks input {
+    cursor: pointer;
+}
+
+.modal_account-content .content-tasks #checkOne+label {
+    color: red;
+}
+
+.modal_account-content .content-tasks #checkTwo+label {
+    color: green;
+}
+
+.modal_account-content .content-tabs .nav-tabs {
+    border-bottom: 0;
+    font-weight: 600;
+}
+
+.modal_account-content .content-tabs {
+    background-color: unset;
+    box-shadow: unset;
+    background-clip: border-box;
+    border: 0;
+    padding: 0;
+}
+
+.modal_account-content .content-tabs .tab-content {
+    padding: 12px 15px;
+    background: #fff;
+    border: 1px solid #eee;
+    box-shadow: 0 0 0.875rem 0 rgba(53, 64, 82, .05);
+}
+
+.modal_account-content .content-tabs .tab-content input {
+    border: unset;
+    outline: none;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    color: #495057;
+}
+
+.modal_account-content .content-tabs .tab-content .tab-pane>div {
+    padding: 10px 0 5px 0px;
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal_account-content .content-tabs .tab-content .tab-pane>div input {
+    width: 200px;
+    margin-left: 5px;
+}
+
+.modal_account-content .content-tabs .tab-content input::placeholder {
+    color: rgb(226, 226, 226);
+}
+
+.modal_account-content .content-tabs .nav-tabs .nav-link {
+    padding: 5px 15px;
+    color: #3e4676;
+}
+
+.modal_account-content .content-tabs .nav-tabs .nav-link.active {
+    background-color: #fff;
+    border-color: #eee #eee #fff;
+}
+
+.modal_account-content .content-tabs .nav-tabs .nav-link:hover {
+    border-bottom: 1px solid transparent;
 }
 
 .modal_account-collapse {
@@ -382,10 +476,9 @@ main {
     margin-top: -1px;
     padding: 12px;
     background-color: white;
-}
-
-.modal_account-collapse .item-collapse>div:first-child {
     position: relative;
+    padding-right: 20px;
+    font-weight: 600;
 }
 
 .modal_account-collapse .item-collapse>div:first-child i {
