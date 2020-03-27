@@ -320,3 +320,82 @@ main {
     margin: 5px;
     max-width: calc(100% - 10px);
 }
+
+.modal-new_account .modal-body {
+    background-color: #f7f9fc;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.modal-new_account .modal-header {
+    padding-top: 5px;
+    padding-bottom: 7px;
+}
+
+.modal-new_account .modal_account-stage {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #fff;
+    box-shadow: 0 0 0.875rem 0 rgba(53, 64, 82, .05);
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: .25rem;
+    width: 100%;
+}
+
+.modal_account-stage span {
+    color: #495057;
+    padding: 5px 10px;
+    margin: 10px 5px;
+}
+
+.modal_account-stage span.active {
+    color: #fff;
+    background-color: #3a89ff;
+    border-radius: 4px;
+}
+
+.modal_account-collapse, .modal_account-content {
+    width: calc(50% - 10px);
+    margin: 15px 0;
+}
+
+..modal_account-content {
+    margin-left: 10px;
+}
+
+.modal_account-collapse {
+    margin-right: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 0.875rem 0 rgba(53, 64, 82, .05);
+    background-clip: border-box;
+    border: 1px solid #eee;
+    border-radius: .25rem;
+}
+
+.modal_account-collapse .item-collapse>div:first-child {
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    margin-top: -1px;
+    padding: 12px;
+    background-color: white;
+}
+
+.modal_account-collapse .item-collapse>div:first-child {
+    position: relative;
+}
+
+.modal_account-collapse .item-collapse>div:first-child i {
+    position: absolute;
+    right: 7px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: .2s ease-out;
+}
+
+.modal_account-collapse .item-collapse>div:first-child[aria-expanded="true"] i {
+    transform: translateY(-50%) rotate(90deg);
+}
