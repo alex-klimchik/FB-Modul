@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <title>Сотрудники</title>
+    <title>Этапы</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
@@ -19,11 +19,15 @@
     <meta charset="utf-8">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
+    <!--bootstrap-material-design-->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+
+
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/staff-page.css">
     <link rel="stylesheet" type="text/css" href="css/staff-add.css">
-    <link rel="stylesheet" type="text/css" href="css/stages-page.csss">
+    <link rel="stylesheet" type="text/css" href="css/stages-page.css">
 
     <!--feather-icons-->
     <script src="https://unpkg.com/feather-icons"></script>
@@ -98,11 +102,158 @@
 
         <!----------------------   stages  CONTENT -- ------------------------->
 
+        <div class="container-fluid py-4">
+            <div class="row">
+
+                <div class="col-12">
+                    <div class="staff-department">
+                        <div class="form-group">
+                            <span class="">Тип аккаунтов:</span>
+                            <select class="input-select form-control" id="typeAllAccount">
+                                <option>Брут</option>
+                                <option>Арендованные</option>
+                                <option>Фармер</option>
+                                <option>Фармер 2</option>
+                            </select>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row row-flex stage-mr">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12 pr-0  ">
+                        <div class="thumb bg-stages-bl">
+                          <div class="stages-headline access-bg">
+                            <h5>Доступные этапы</h5>
+                          </div>
+                          <div class="stages-contant-bl">
+                            <ol>
+                                <li><a>Регистрация</a></li>
+                            </ol>
+                          </div>
+                        </div>
+                    </div>
+
+                <div class=" col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12 pr-lg-0 pr-xl-0 pr-md-3">
+                    <div class="thumb bg-stages-bl">
+                      <div class="stages-headline access-bg">
+                        <h5>Добавить этап</h5>
+                      </div>
+                      <div class="stages-contant-bl">
+
+                          <form class="stage-add">
+                              <div class="stage-bl-wrap">
+                                  <div class="stage-icon">
+                                    <i data-feather="edit-2"></i>
+                                  </div>
+                                 <div class="stage-s mb-0 form-group">
+                                   <label for="example2" class="bmd-label-floating">Введите этап</label>
+                                   <input type="text" class="form-control" id="example2">
+                                 </div>
+                              </div>
+
+                              <div class="stage-bl-wrap">
+                                <div class="stage-icon">
+                                  <i data-feather="list"></i>
+                                </div>
+                                <div class="stage-s mb-0 form-group ">
+                                      <select class="input-select form-control" id="stageS">
+                                          <option>Добавить после</option>
+                                          <option>Регистрация</option>
+                                      </select>
+                                </div>
+                              </div>
+
+                              <div class="mt-3 mr-2 stage-btn">
+                                  <a href="#" title="Добавить этап">
+                                      <i data-feather="plus-circle"></i>
+                                  </a>
+                              </div>
+                          </form>
+                      </div>
+                    </div>
+                </div>
+
+                <div class=" col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12 pr-0">
+                    <div class="thumb bg-stages-bl">
+                      <div class="stages-headline access-bg">
+                        <h5>Доступные задачи</h5>
+                      </div>
+                      <div class="stages-contant-bl">
+                        <!--<ol>-->
+                            <!--<li><a>Регистрация</a></li>-->
+                        <!--</ol>-->
+                      </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                    <div class="thumb  bg-stages-bl">
+                      <div class="stages-headline access-bg">
+                        <h5>Добавить задачу</h5>
+                      </div>
+                        <div class="stages-contant-bl">
+
+                            <form class="stage-add">
+                                <div class="stage-bl-wrap">
+                                    <div class="stage-icon">
+                                        <i data-feather="edit-2"></i>
+                                    </div>
+                                    <div class="stage-s mb-0 form-group">
+                                        <label for="exampleTask" class="bmd-label-floating">Введите задачу</label>
+                                        <input type="text" class="form-control" id="exampleTask">
+                                    </div>
+                                </div>
+
+                                <div class="stage-bl-wrap">
+                                    <div class="stage-icon">
+                                        <i data-feather="list"></i>
+                                    </div>
+                                    <div class="stage-s mb-0 form-group ">
+                                        <select class="input-select form-control" id="stageS2">
+                                            <option>Добавить после</option>
+                                            <option>Регистрация</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="mt-3 mr-2 stage-btn">
+                                    <a href="#" title="Добавить этап">
+                                        <i data-feather="plus-circle"></i>
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
 
     </div>
 </div>
 
+<script>
+    $(document).ready(function() {
 
+        $(function() {
+            $(".sidebar-toggle").click(function() {
+                $('.sidebar').toggleClass("sidebarNone")
+                $(".main").toggleClass("mainfull");
+            })
+        });
+    });
+</script>
+<!--feather-icons-->
+<script>
+    feather.replace()
+</script>
+
+<!--bootstrap-material-design-->
+<script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
 
 </body>
 </html>
