@@ -284,7 +284,14 @@
         box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.05)
     }
     
+    .closebtn {
+        display: none;
+    }
+    
     @media (max-width: 1000px) {
+        .closebtn {
+            display: block;
+        }
         .header {
             position: relative;
             width: 100%;
