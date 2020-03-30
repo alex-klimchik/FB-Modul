@@ -1,0 +1,24 @@
+/*styles modal*/
+ul{
+    list-style-type: none;
+}
+.task-direction{
+    display: flex;
+}
+.modal-border .completed-tasks:not(:last-child){
+    border-bottom: 1px solid #ebeef1;
+    margin-bottom: 20px;
+}
+.task-name{
+    padding: 10px 0 0;
+}
+.task-headline{
+    align-items: center;
+    display: flex;
+}
+.task-headline h5{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #495057;
+    margin-bottom: 0;
+}

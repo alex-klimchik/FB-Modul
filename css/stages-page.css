@@ -1,3 +1,10 @@
+input {outline:none;}
+:focus{
+    outline: none;
+}
+.form-control:focus {
+    box-shadow: 0 0 0 0 rgba(0,123,255,.25);
+}
 .row-flex {
     display: flex;
     display: -webkit-flex;
@@ -19,9 +26,9 @@
 .stages-headline{
     margin: 10px 0 15px;
 }
-.stage-add{
-    margin-top: -20px;
-}
+/*.stage-add{*/
+    /*margin-top: -20px;*/
+/*}*/
 .stage-pd{
     padding-right: 0!important;
 }
@@ -37,7 +44,6 @@
     border-bottom: 1px solid #ccc;
 }
 .stage-bl-wrap{
-    margin-top: -10px;
     display: flex;
     align-items: flex-end;
 }

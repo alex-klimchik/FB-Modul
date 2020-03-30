@@ -1,96 +1,119 @@
-:focus{
+:focus {
     outline: none!important;
 }
-.btn.focus, .btn:focus {
+
+.btn.focus,
+.btn:focus {
     outline: none;
-    box-shadow: 0 0 0 0 rgba(0,123,255,.25);
+    box-shadow: 0 0 0 0 rgba(0, 123, 255, .25);
 }
+
 body {
     margin: 0;
     font-family: Nunito, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
     font-size: .875rem;
 }
 
+
 /*============ STAFF head tab styles ==============*/
 
 .nav-tabs {
-     border-bottom: 0 solid #dee2e6;
+    border-bottom: 0 solid #dee2e6;
 }
- .staff-tabs:focus, .staff-tabs:hover {
-    color: #fff;
+
+.staff-tabs:focus,
+.staff-tabs:hover {
+    color: #495057;
     background-color: #ffffff14;
     border-color: #e9ecef #e9ecef #dee2e6;
 }
- .staff-tabs:active {
+
+.staff-tabs:active {
     color: #495057;
     background-color: #fff;
 }
-.staff-tabs{
+
+.staff-tabs {
     font-size: 14px;
-    color: #fff;
+    color: #495057;
 }
 
-.staff-department{
+.staff-department {
     align-items: center;
     display: flex;
     margin-bottom: 15px;
     /*position: absolute;*/
     /*top: -5px;*/
 }
-.staff-fa{
-    color: #fff;
+
+.staff-fa {
+    color: #262f3d;
     border: 1px solid transparent;
     padding: 3px 6px;
     outline: none;
 }
-.staff-fa:hover{
-    color: #fff;
+
+.staff-fa:hover {
+    color: #007bff;
     border: 1px solid #ffffff45;
-    -webkit-box-shadow: 0px 0px 5px -1px rgba(255,255,255,1);
-    -moz-box-shadow: 0px 0px 5px -1px rgba(255,255,255,1);
-    box-shadow: 0px 0px 5px -1px rgba(255,255,255,1);
+    -webkit-box-shadow: 0px 0px 5px -1px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0px 0px 5px -1px rgba(255, 255, 255, 1);
+    box-shadow: 0px 0px 5px -1px rgba(255, 255, 255, 1);
 }
-.staff-fa:focus{
+
+.staff-fa:focus {
     outline: none;
 }
 
 .staff-tab {
     justify-content: flex-end;
 }
+
 .head-line-staff {
     position: absolute;
     left: 15px;
     top: -20px;
 }
+
 .nav-tabs .nav-item {
     margin-bottom: -1px;
 }
+
 
 /*========== STAFF head tab styles the end ===============*/
 
 
 /*================ select styles ===================*/
 
-.bootstrap-select .dropdown-toggle:focus, .bootstrap-select>select.mobile-device:focus+.dropdown-toggle {
+.bootstrap-select .dropdown-toggle:focus,
+.bootstrap-select>select.mobile-device:focus+.dropdown-toggle {
     outline: 0 auto -webkit-focus-ring-color!important;
     outline-offset: 0;
 }
+
 .form-group {
     width: 175px;
     margin: 0 -3px;
 }
+
 .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
     width: 165px;
 }
-.btn-light:not(:disabled):not(.disabled).active, .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle {
+
+.btn-light:not(:disabled):not(.disabled).active,
+.btn-light:not(:disabled):not(.disabled):active,
+.show>.btn-light.dropdown-toggle {
     color: #212529;
     background-color: #fff;
 }
-.dropdown-item.active, .dropdown-item:active {
+
+.dropdown-item.active,
+.dropdown-item:active {
     color: #212529;
     text-decoration: none;
     background-color: #0000000d;
 }
+
 .bootstrap-select>.dropdown-toggle {
     width: 100%;
     height: calc(1.5em + .55rem + 2px);
@@ -104,18 +127,22 @@ body {
     border: none;
     border-radius: 5px;
     outline: none;
-    -webkit-box-shadow: 0px 5px 5px -6px rgba(255,255,255,1);
-    -moz-box-shadow: 0px 5px 5px -6px rgba(255,255,255,1);
-    box-shadow: 0px 5px 5px -6px rgba(255,255,255,1);
+    -webkit-box-shadow: 0px 5px 5px -6px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 0px 5px 5px -6px rgba(255, 255, 255, 1);
+    box-shadow: 0px 5px 5px -6px rgba(255, 255, 255, 1);
     background-clip: padding-box;
 }
+
 .dropdown-menu {
     background-color: #fff;
 }
+
 .bootstrap-select .dropdown-menu li a {
     color: #212529;
 }
-.dropdown-item:focus, .dropdown-item:hover {
+
+.dropdown-item:focus,
+.dropdown-item:hover {
     color: #212529;
     background-color: #cdcbd8;
 }
@@ -123,40 +150,51 @@ body {
 
 /*=================== select the end styles =======================*/
 
+
 /*=================== select table styles =======================*/
+
 .card {
     padding: 15px;
     margin-bottom: 2rem;
-    box-shadow: 0 0 0.875rem 0 rgba(53,64,82,.05);
+    box-shadow: 0 0 0.875rem 0 rgba(53, 64, 82, .05);
 }
 
 .table {
     color: #495057;
 }
+
 .table-striped tbody tr:nth-of-type(odd) {
     background-color: #f8f9fa;
 }
+
 .table thead th {
     vertical-align: bottom;
     border-bottom: 2px solid #dee2e6;
 }
-.table td, .table th {
+
+.table td,
+.table th {
     padding: .45rem .75rem;
     vertical-align: top;
     border-top: 0 solid #dee2e6;
 }
+
 table tbody tr:hover {
     background: #00000013!important;
 }
 
-.staff-t{
-    border: 0 solid rgba(0,0,0,.125);
+.staff-t {
+    border: 0 solid rgba(0, 0, 0, .125);
     border-radius: .25rem 0 0.25rem 0.25rem;
 }
 
-[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled),
+button:not(:disabled) {
     outline: none;
 }
+
 .btn-mini {
     display: inline-block;
     font-weight: 400;
@@ -178,31 +216,37 @@ table tbody tr:hover {
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
 }
+
 .feather {
     width: 16px;
     height: 16px;
 }
+
 .setting-offers button {
     margin: 0 2px;
 }
 
 .btn-outline-edit,
-.btn-outline-add{
+.btn-outline-add {
     color: #6c757d;
 }
+
 .btn-outline-edit:hover,
-.btn-outline-add:hover{
+.btn-outline-add:hover {
     color: #212529;
 }
+
 
 /*=================== select table the end styles =======================*/
 
 .modal-header {
     background: #fff;
 }
+
 .modal-header h5 {
     color: #000;
 }
+
 .close {
     font-size: 1.5rem;
     font-weight: 400;
@@ -210,7 +254,8 @@ table tbody tr:hover {
     color: #000;
     text-shadow: 0 1px 0 #fff;
 }
-.modal-staff-f{
+
+.modal-staff-f {
     position: absolute;
     width: 100%;
     height: 70px;
