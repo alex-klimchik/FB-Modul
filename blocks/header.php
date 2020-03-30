@@ -9,7 +9,7 @@
 
                         <li class="ml-lg-1  nav-item"><a class="nb-f">Proxy <sup id="hold" >10</sup></a></li>
 
-                        <li class="start-work"><a class="button-start-work">начать работу <i class="far fa-play-circle"></i></a></li>
+                        <li class="start-work"><a class="button-start-work"><span class="title-start-work">начать работу </span><i class="far fa-play-circle"></i></a></li>
 
                         <li class="exit">
                             <a class="button-exit"></a><i class="dr-r fas fa-share-square"></i></a>

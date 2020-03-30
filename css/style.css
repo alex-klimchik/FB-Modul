@@ -201,8 +201,9 @@
     }
     
     .header {
+        width: 100%;
         background-color: #fff!important;
-        min-height: 48px;
+        min-height: 50px;
         color: #354052!important;
         border-bottom: 0;
         box-shadow: 0 0 2rem 0 rgba(53, 64, 82, .1);
@@ -289,18 +290,88 @@
         display: none;
     }
     
+    .table {
+        color: #495057;
+    }
+    
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: #f8f9fa;
+    }
+    
+    .table thead th {
+        vertical-align: bottom;
+        border-bottom: 2px solid #dee2e6;
+    }
+    
+    .table td,
+    .table th {
+        padding: .45rem .75rem;
+        vertical-align: top;
+        border-top: 0 solid #dee2e6;
+    }
+    
+    table tbody tr:hover {
+        background: #00000013!important;
+    }
+    
+    .btn-mini {
+        color: #888888;
+        display: inline-block;
+        font-weight: 400;
+        text-align: center;
+        vertical-align: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-color: transparent;
+        border: 0 solid #6c757d;
+        padding: 1px 5px;
+        font-size: .835rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+        -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+        -o-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    }
+    
+    .status-active {
+        font-size: 13px;
+        background: #44c744;
+        padding: 2px 5px;
+        border-radius: 4px;
+        color: white;
+        font-weight: 600;
+    }
+    
+    .status-no-active {
+        font-size: 13px;
+        font-weight: 600;
+        background: #ec6868;
+        padding: 2px 5px;
+        border-radius: 4px;
+        color: white;
+    }
+    
     @media (max-width: 1000px) {
         .closebtn {
             display: block;
         }
         .header {
-            position: relative;
             width: 100%;
-            align-items: start;
-            height: 70px;
-            flex-flow: wrap;
         }
         .page-container {
             padding-left: 0px;
+        }
+    }
+    
+    @media (max-width: 550px) {
+        .title-start-work {
+            display: none;
+        }
+        .header-menu .nav-item {
+            padding: 0px 2px;
         }
     }

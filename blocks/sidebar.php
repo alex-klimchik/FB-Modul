@@ -1,4 +1,4 @@
-<nav id="mySidenav" class="sidebar">
+<nav class="sidebar">
             <div class="sidebar-content">
                 <div class="sidebar-brand"><a><i class="fab fa-connectdevelop"></i>FB-Lagoon</a><a href="javascript:void(0)" class="closebtn"><i class="fas fa-times"></i></a></div>
                 <!-- <div class="sidebar-user">
