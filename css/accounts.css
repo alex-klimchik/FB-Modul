@@ -508,7 +508,7 @@ button.close:focus {
 
 .modal_account-collapse .item-collapse .item-collapse_container>div {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -516,4 +516,16 @@ button.close:focus {
     padding: 0;
     list-style: none;
     width: max-content;
+    border: 1px solid #eee;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.modal_account-collapse .item-collapse_box li {
+    border-bottom: 1px dashed #dcdcdc;
+    margin: 2px 5px;
+}
+
+.modal_account-collapse .item-collapse_box li:last-child {
+    border-bottom: unset;
 }
