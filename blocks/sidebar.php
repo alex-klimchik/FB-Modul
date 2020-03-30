@@ -60,7 +60,7 @@
 
                     <li class="sidebar-header">Расширение для админа</li>
                     <li class="sidebar-item">
-                        <a class="sidebar-link" href="index.php">
+                        <a class="sidebar-link" href="settings.php">
                             <span class="icon-holder"><i class=" fas fa-cog"></i> </span>
                             <span class="title">Настройки</span>
                         </a>
