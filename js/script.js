@@ -1,7 +1,11 @@
-$(document).ready(function () {
+$(document).ready(function() {
 
-    $(".sidebar-toggle").click(function () {
-        $('body').toggleClass('is-collapsed');
-    })
+    $(function() {
+        $(".sidebar-toggle, .closebtn").click(function() {
+            $('body').toggleClass('is-collapsed');
+
+        })
+
+    });
 
 });
