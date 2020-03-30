@@ -60,7 +60,15 @@
                                     <ul class="item-collapse_box">
                                         <li class="box-title">Интерес 1</li>
                                         <li class="box-theme">Доберманы</li>
-                                        <li>www.website.com www.website.com www.website.com www.website.com www.website.com www.website.com www.website.com</li>
+                                        <li>www.website.com </li>
+                                        <li>www.domain.website.com</li>
+                                        <li>www.website.com</li>
+                                        <li>www.website.com</li>
+                                    </ul>
+                                    <ul class="item-collapse_box">
+                                        <li class="box-title">Интерес 1</li>
+                                        <li class="box-theme">Доберманы</li>
+                                        <li>www.website.com </li>
                                         <li>www.website.com</li>
                                         <li>www.website.com</li>
                                         <li>www.website.com</li>
