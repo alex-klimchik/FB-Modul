@@ -387,6 +387,14 @@ button.close:focus {
     padding: 10px;
 }
 
+.modal_account-content .content-history>div {
+    color: #3e3e3e;
+}
+
+.modal_account-content .content-history>div p {
+    margin-bottom: 0;
+}
+
 .modal_account-content .content-tasks p {
     margin-bottom: 10px;
 }
@@ -395,11 +403,11 @@ button.close:focus {
     cursor: pointer;
 }
 
-.modal_account-content .content-tasks #checkOne+label {
+.modal_account-content .content-tasks .task-red {
     color: red;
 }
 
-.modal_account-content .content-tasks #checkTwo+label {
+.modal_account-content .content-tasks .task-green {
     color: green;
 }
 
@@ -479,6 +487,7 @@ button.close:focus {
     position: relative;
     padding-right: 20px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .modal_account-collapse .item-collapse>div:first-child i {
@@ -491,4 +500,20 @@ button.close:focus {
 
 .modal_account-collapse .item-collapse>div:first-child[aria-expanded="true"] i {
     transform: translateY(-50%) rotate(90deg);
+}
+
+.modal_account-collapse .item-collapse .item-collapse_container {
+    padding: 12px;
+}
+
+.modal_account-collapse .item-collapse .item-collapse_container>div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.modal_account-collapse .item-collapse_box {
+    padding: 0;
+    list-style: none;
+    width: max-content;
 }

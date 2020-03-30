@@ -55,8 +55,33 @@
                                 <span>Основные 1</span>
                                 <i class="fas fa-chevron-right"></i>
                             </div>
-                            <div id="collapseOne" data-parent="#accordion" class="collapse">
-                                Test 1
+                            <div id="collapseOne" data-parent="#accordion" class="collapse item-collapse_container">
+                                <div>
+                                    <ul class="item-collapse_box">
+                                        <li class="box-title">Интерес 1</li>
+                                        <li class="box-theme">Доберманы</li>
+                                        <li>www.website.com www.website.com www.website.com www.website.com www.website.com www.website.com www.website.com</li>
+                                        <li>www.website.com</li>
+                                        <li>www.website.com</li>
+                                        <li>www.website.com</li>
+                                    </ul>
+                                    <ul class="item-collapse_box">
+                                        <li class="box-title">Интерес 1</li>
+                                        <li class="box-theme">Доберманы</li>
+                                        <li>www.website.com</li>
+                                        <li>www.website.com</li>
+                                        <li>www.website.com</li>
+                                        <li>www.website.com</li>
+                                    </ul>
+                                    <ul class="item-collapse_box">
+                                        <li class="box-title">Интерес 1</li>
+                                        <li class="box-theme">Доберманы</li>
+                                        <li>www.website.com</li>
+                                        <li>www.website.com</li>
+                                        <li>www.website.com</li>
+                                        <li>www.website.com</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                         <div class="item-collapse">
@@ -64,7 +89,7 @@
                                 <span>Основные 2</span>
                                 <i class="fas fa-chevron-right"></i>
                             </div>
-                            <div id="collapseTwo" data-parent="#accordion" class="collapse">
+                            <div id="collapseTwo" data-parent="#accordion" class="collapse item-collapse_container">
                                 Test 2
                             </div>
                         </div>
@@ -73,7 +98,7 @@
                                 <span>Основные 3</span>
                                 <i class="fas fa-chevron-right"></i>
                             </div>
-                            <div id="collapseTree" data-parent="#accordion" class="collapse">
+                            <div id="collapseTree" data-parent="#accordion" class="collapse item-collapse_container">
                                 Test 3
                             </div>
                         </div>
@@ -92,7 +117,7 @@
                             </ul>
                             <div class="tab-content">
                                 <div class="tab-pane fade show active" id="comment">
-                                    <input type="text" placeholder="Задача" />
+                                    <input type="text" placeholder="Комментарий" />
                                     <div>
                                         <span>Срок:</span>
                                         <input type="text" placeholder="01.01.2020 12:00" />
@@ -103,7 +128,7 @@
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="task">
-                                    <input type="text" placeholder="Комментарий" />
+                                    <input type="text" placeholder="Задача" />
                                     <div>
                                         <span>Срок:</span>
                                         <input type="text" placeholder="01.01.2020 12:00" />
@@ -120,13 +145,13 @@
                             <p>Задачи</p>
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="checkOne">
-                                <label class="form-check-label" for="checkOne">
+                                <label class="form-check-label task-red" for="checkOne">
                                     31.03.2020 15:00 Отредактировать фото
                                 </label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="checkTwo">
-                                <label class="form-check-label" for="checkTwo">
+                                <label class="form-check-label task-green" for="checkTwo">
                                     31.03.2020 15:00 Отредактировать фото
                                 </label>
                             </div>
@@ -140,6 +165,11 @@
 
                         <div class="content-history">
                             <p>История</p>
+                            <div>
+                                <p>01.01.2020 12:00 Добавить аватарку</p>
+                                <p>02.01.2020 12:00 Добавить аватарку</p>
+                                <p>03.01.2020 12:00 Добавить аватарку</p>
+                            </div>
                         </div>
 
                     </div>
