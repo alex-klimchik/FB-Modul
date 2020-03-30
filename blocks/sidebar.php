@@ -16,17 +16,17 @@
                             <span class="title">Главная</span></a>
                     </li>
                     <li class="sidebar-item">
-                        <a class="sidebar-link" href="index.php">
+                        <a class="sidebar-link" href="accounts.php">
                             <span class="icon-holder"><i class="fas fa-user"></i> </span>
                             <span class="title">Аккаунты</span></a>
                     </li>
                     <li class="sidebar-item">
-                        <a class="sidebar-link" href="index.php">
+                        <a class="sidebar-link" href="staff-page.php">
                             <span class="icon-holder"><i class="fas fa-users"></i></i> </span>
                             <span class="title">Сотрудники</span></a>
                     </li>
                     <li class="sidebar-item">
-                        <a class="sidebar-link" href="index.php">
+                        <a class="sidebar-link" href="presets.php">
                             <span class="icon-holder"><i class="fas fa-chart-bar"></i> </span>
                             <span class="title">Пресеты</span></a>
                     </li>

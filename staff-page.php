@@ -30,76 +30,30 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/bootstrap-select.min.js"></script>
 
-    <!--Charts-->
-    <link type="text/css" rel="StyleSheet" href="http://bootstraptema.ru/plugins/2016/shieldui/style.css" />
-    <script src="http://bootstraptema.ru/plugins/jquery/jquery-1.11.3.min.js"></script>
-    <script src="http://bootstraptema.ru/plugins/2016/shieldui/script.js"></script>
-
+  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
 <body>
 
-<!-------------------  SIDEBAR -------------------------->
 
 <div class="wrapper">
-    <nav id="mySidenav" class="sidebar">
-        <div class="sidebar-content">
-            <a class="sidebar-brand" style="
-    color: white;
-"><i class="fab fa-connectdevelop"></i>FB-Lagoon</a>
-            <div class="sidebar-user">
-                <img src="img/avatar.png" class="img-fluid rounded-circle mb-2" alt="Linda Miller">
-                <div class="font-weight-bold">Юра Антисимит</div>
-                <small>Админ FB-3</small>
-                <br>
-                <p style="font-size: 10px;"> <i class="fas fa-circle text-success"></i> Online</p>
-            </div>
-            <ul class="sidebar-nav">
-                <li class="sidebar-header">Меню</li>
-                <li class="sidebar-item "><a class="sidebar-link"  href="index.html"><i class="dr-r fas fa-home"></i> Главное<i class="fas fa-angle-right dx-r"></i></a></li>
-                <li class="sidebar-item "><a class="sidebar-link" href="staff-page.html"><i class="dr-r fas fa-file"></i> Cотрудники<i class="fas fa-angle-right dx-r"></i></a></li>
-                <li class="sidebar-item "><a class="sidebar-link" href="stages-page.html"><i class="dr-r fas fa-file"></i> Этапы<i class="fas fa-angle-right dx-r"></i></a></li>
-                <li class="sidebar-item "><a class="sidebar-link"><i class="dr-r fas fa-share-square"></i> Соц. Аккаунты<i class="fas fa-angle-right dx-r"></i></a></li>
-                <li class="sidebar-item "><a class="sidebar-link"><i class="dr-r fas fa-user-cog"></i> Рекл. Аккаунты<i class="fas fa-angle-right dx-r"></i></a></li>
-                <li class="sidebar-item "><a class="sidebar-link"><i class="dr-r far fa-id-card"></i> Группа обьявлений<i class="fas fa-angle-right dx-r"></i></a></li>
-                <li class="sidebar-item "><a class="sidebar-link"><i class="dr-r far fa-calendar-alt"></i> Обьявления<span size="18" class="sidebar-badge badge badge-primary badge-pill">New</span><i class="fas fa-angle-right dx-r"></i></a></li>
-                <li class="sidebar-item "><a class="sidebar-link"><i class="dr-r fas fa-file"></i> Proxy<i class="fas fa-angle-right dx-r"></i></a></li>
-                <li class="sidebar-header">Расширение для админа</li>
-                <li class="sidebar-item "><a class="sidebar-link"><i class="dr-r fas fa-share-square"></i> Настройки<i class="fas fa-angle-right dx-r"></i></a></li>
-            </ul>
 
-        </div>
-    </nav>
-    <div id="main" class="main">
-        <nav class="navbar-theme navbar navbar-expand" style="color: white;background-color: #28304e;">
-            <span class="sidebar-toggle d-flex mr-2 nb-f"><i class="fas fa-align-justify"></i></span>
-            <form class="form-inline"><input placeholder="Поиск..." aria-label="Search" type="text" class="form-control-lite form-control"></form>
-            <div class="collapse navbar-collapse">
-                <ul class="ml-auto navbar-nav">
+       <!--Sidebar-->
+       <?php require_once('blocks/sidebar.php'); ?>
+        <!--Sidebar END-->
 
-                    <a class="nb-aer">
-                        <p id="demo">5 час 15 мин 45 сек </p>
-                    </a>
+    <div class="page-container">
 
-                </ul>
-            </div>
-            <div class="collapse navbar-collapse">
-                <ul class="ml-auto navbar-nav">
+            <!--Header-->
+            <?php require_once('blocks/header.php'); ?>
+            <!--Header END-->
 
-                    <li class="ml-lg-1 active dropdown nav-item"><a class="nb-aer">ВТ 20.11.2019р</a></li>
-                    <li class="ml-lg-1 active dropdown nav-item"><a class="nb-aer">|</a></li>
-                    <li class="ml-lg-1 active dropdown nav-item"><a class="nb-f"><i class="fas fa-envelope-open"></i></a></li>
-                    <li class="ml-lg-1 dropdown nav-item"><a class="nb-f"><i class="fas fa-bell"></i><span class="indicator"></span></a></li>
-                    <li class="ml-lg-1 dropdown nav-item"><a class="nb-f"><i class="fas fa-cog"></i></a></li>
-                </ul>
-            </div>
-        </nav>
-
-        <!----------------------    STAFF CONTENT -- ------------------------->
+     <main>
 
         <div class="container-fluid py-4">
             <div class="row">
-
+<!-- 
                 <div class="col-12">
                     <div class="staff-department">
                         <div class="form-group">
@@ -114,7 +68,7 @@
                                 <i class="fa fa-plus staff-fa" aria-hidden="true"></i></button>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <div class="col-md-12">
 
@@ -574,7 +528,7 @@
     </div>
 </div>
 
-
+        </main>
 
 
 </body>
