@@ -19,10 +19,7 @@
 
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!--Charts-->
-    <link type="text/css" rel="StyleSheet" href="http://bootstraptema.ru/plugins/2016/shieldui/style.css" />
-    <script src="http://bootstraptema.ru/plugins/jquery/jquery-1.11.3.min.js"></script>
-    <script src="http://bootstraptema.ru/plugins/2016/shieldui/script.js"></script>
+
 </head>
 
 <body>
@@ -34,22 +31,69 @@
 "><i class="fab fa-connectdevelop"></i>FB-Lagoon</a>
                 <div class="sidebar-user">
                     <img src="img/avatar.png" class="img-fluid rounded-circle mb-2" alt="Linda Miller">
-                    <div class="font-weight-bold">Юра Антисимит</div>
+                    <div class="font-weight-bold">Имя Фамилия</div>
                     <small>Админ FB-3</small>
                     <br>
-                    <p style="font-size: 10px;"> <i class="fas fa-circle text-success"></i> Online</p>
+                    <p style="margin:0;font-size: 10px;"> <i class="fas fa-circle text-success"></i> Online</p>
                 </div>
                 <ul class="sidebar-nav">
                     <li class="sidebar-header">Меню</li>
-                    <li class="sidebar-item "><a class="sidebar-link"><i class="dr-r fas fa-home"></i> Главное<i class="fas fa-angle-right dx-r"></i></a></li>
-                    <li class="sidebar-item "><a class="sidebar-link"><i class="dr-r fas fa-file"></i> Cотрудники<i class="fas fa-angle-right dx-r"></i></a></li>
-                    <li class="sidebar-item "><a class="sidebar-link"><i class="dr-r fas fa-share-square"></i> Соц. Аккаунты<i class="fas fa-angle-right dx-r"></i></a></li>
-                    <li class="sidebar-item "><a class="sidebar-link"><i class="dr-r fas fa-user-cog"></i> Рекл. Аккаунты<i class="fas fa-angle-right dx-r"></i></a></li>
-                    <li class="sidebar-item "><a class="sidebar-link"><i class="dr-r far fa-id-card"></i> Группа обьявлений<i class="fas fa-angle-right dx-r"></i></a></li>
-                    <li class="sidebar-item "><a class="sidebar-link"><i class="dr-r far fa-calendar-alt"></i> Обьявления<span size="18" class="sidebar-badge badge badge-primary badge-pill">New</span><i class="fas fa-angle-right dx-r"></i></a></li>
-                    <li class="sidebar-item "><a class="sidebar-link"><i class="dr-r fas fa-file"></i> Proxy<i class="fas fa-angle-right dx-r"></i></a></li>
+                    <li class="sidebar-item">
+                        <a class="sidebar-link" href="index.php">
+                            <span class="icon-holder"><i class="dr-r fas fa-home"></i> </span>
+                            <span class="title">Главная</span></a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a class="sidebar-link" href="index.php">
+                            <span class="icon-holder"><i class="dr-r fas fa-user"></i> </span>
+                            <span class="title">Аккаунты</span></a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a class="sidebar-link" href="index.php">
+                            <span class="icon-holder"><i class="dr-r fas fa-users"></i></i> </span>
+                            <span class="title">Сотрудники</span></a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a class="sidebar-link" href="index.php">
+                            <span class="icon-holder"><i class="dr-r fas fa-chart-bar"></i> </span>
+                            <span class="title">Пресеты</span></a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a class="sidebar-link" href="index.php">
+                            <span class="icon-holder"><i class="dr-r fas fa-list-ul"></i> </span>
+                            <span class="title">Этапы</span></a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a class="sidebar-link" href="index.php">
+                            <span class="icon-holder"><i class="dr-r fas fa-chart-line"></i> </span>
+                            <span class="title">Статистика</span></a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a class="sidebar-link" href="index.php">
+                            <span class="icon-holder"><i class="dr-r fas fa-folder-open"></i> </span>
+                            <span class="title">Общая воронка</span></a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a class="sidebar-link" href="index.php">
+                            <span class="icon-holder"><i class="dr-r fas fa-archive"></i></span>
+                            <span class="title">Вайты</span></a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a class="sidebar-link" href="index.php">
+                            <span class="icon-holder"><i class="dr-r fas fa-box"></i></span>
+                            <span class="title">Задачи</span>
+                            <span size="18" class="sidebar-badge badge badge-primary badge-pill">New</span></a>
+                    </li>
+
+
                     <li class="sidebar-header">Расширение для админа</li>
-                    <li class="sidebar-item "><a class="sidebar-link"><i class="dr-r fas fa-share-square"></i> Настройки<i class="fas fa-angle-right dx-r"></i></a></li>
+                    <li class="sidebar-item">
+                        <a class="sidebar-link" href="index.php">
+                            <span class="icon-holder"><i class="dr-r fas fa-cog"></i> </span>
+                            <span class="title">Настройки</span>
+                        </a>
+                    </li>
+
                 </ul>
 
             </div>
@@ -58,23 +102,25 @@
             <nav class="navbar-theme navbar navbar-expand" style="color: white;background-color: #28304e;">
                 <span class="sidebar-toggle d-flex mr-2 nb-f"><i class="fas fa-align-justify"></i></span>
                 <form class="form-inline"><input placeholder="Поиск..." aria-label="Search" type="text" class="form-control-lite form-control"></form>
+
                 <div class="collapse navbar-collapse">
                     <ul class="ml-auto navbar-nav">
 
-                        <a class="nb-aer">
-                            <p id="demo"></p>
-                        </a>
+
 
                     </ul>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="ml-auto navbar-nav">
-
-                        <li class="ml-lg-1 active dropdown nav-item"><a class="nb-aer">ВТ 20.11.2019р</a></li>
+                        <li class="ml-lg-1 active dropdown nav-item"><a class="nb-f">Холд <sup id="hold" style="">10</sup></a></li>
                         <li class="ml-lg-1 active dropdown nav-item"><a class="nb-aer">|</a></li>
-                        <li class="ml-lg-1 active dropdown nav-item"><a class="nb-f"><i class="fas fa-envelope-open"></i></a></li>
-                        <li class="ml-lg-1 dropdown nav-item"><a class="nb-f"><i class="fas fa-bell"></i><span class="indicator"></span></a></li>
-                        <li class="ml-lg-1 dropdown nav-item"><a class="nb-f"><i class="fas fa-cog"></i></a></li>
+                        <li class="ml-lg-1 dropdown nav-item"><a class="nb-f">Контейнер <sup id="hold" style="">10</sup></a></li>
+                        <li class="ml-lg-1 active dropdown nav-item"><a class="nb-aer">|</a></li>
+                        <li class="ml-lg-1 dropdown nav-item"><a class="nb-f">Proxy <sup id="hold" style="">10</sup></a></li>
+                        <li class="ml-lg-1 active dropdown nav-item"><a class="nb-aer">|</a></li>
+                        <li class="ml-lg-1 active dropdown nav-item start-work"><a class="button-start-work">начать работу <i class="far fa-play-circle"></i></a></li>
+                        <li class="ml-lg-1 active dropdown nav-item"><a class="nb-aer">|</a></li>
+                        <li class="ml-lg-1 dropdown nav-item"><a class="nb-f"><i class="dr-r fas fa-share-square"></i></a></li>
                     </ul>
                 </div>
             </nav>
@@ -147,141 +193,10 @@
                                 </tr>
                             </tbody>
                         </table>
-
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm-6 ">
-
-                            <div class="container card">
-                                <!-- График -->
-                                <div id="chart">
-
-                                    <script>
-                                        // Set the date we're counting down to
-                                        var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
-
-                                        // Update the count down every 1 second
-                                        var x = setInterval(function() {
-
-                                            // Get today's date and time
-                                            var now = new Date().getTime();
-
-                                            // Find the distance between now and the count down date
-                                            var distance = countDownDate - now;
-
-                                            // Time calculations for days, hours, minutes and seconds
-                                            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                                            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                                            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                                            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-                                            // Display the result in the element with id="demo"
-                                            document.getElementById("demo").innerHTML = hours + " час " +
-                                                minutes + " мин " + seconds + " сек ";
-
-                                            // If the count down is finished, write some text
-                                            if (distance < 0) {
-                                                clearInterval(x);
-                                                document.getElementById("demo").innerHTML = "EXPIRED";
-                                            }
-                                        }, 1000);
-                                        $(document).ready(function() {
-                                            $("#chart").shieldChart({
-                                                theme: "bootstrap",
-                                                primaryHeader: {
-                                                    text: "Количество cозданых фб аккаунтов"
-                                                },
-                                                seriesSettings: {
-                                                    area: {
-                                                        pointMark: {
-                                                            enabled: true
-                                                        }
-                                                    }
-                                                },
-                                                axisX: {
-                                                    categoricalValues: ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"]
-                                                },
-                                                dataSeries: [{
-                                                    seriesType: "area",
-                                                    collectionAlias: "Активные",
-                                                    data: [48, 50, 55, 64, 73, 79, 82, 83, 80, 70, 61, 53]
-                                                }, {
-                                                    seriesType: "area",
-                                                    collectionAlias: "Заблоченые",
-                                                    data: [3.907, 7.943, 7.848, 9.284, 9.263, 9.819, 3.894, 8.287, 9.552, 6.855, 2.865, 1.341]
-                                                }],
-                                                events: {
-                                                    legendSeriesClick: function(e) {
-                                                        // остановить событие щелчка элемента серии, так что
-                                                        // пользователь нажимает не переключить видимость серии
-                                                        e.preventDefault();
-                                                    }
-                                                }
-                                            });
-                                        });
-                                    </script>
-                                    <!-- /.График -->
-
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 ">
-                            <div class="container card">
-                                <div class="" style="padding: 15px;">
-                                    <h6>FB аккаунты</h6>
-                                    <div style="overflow-x:auto;">
-                                        <table class="table table-striped">
-                                            <thead>
-                                                <tr>
-                                                    <th>Все</th>
-                                                    <th>User-ФИО</th>
-                                                    <th>Fb-ФИО</th>
-                                                    <th>Login</th>
-
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>0.00</td>
-                                                    <td>Николай Николаевич</td>
-                                                    <td>Мария Нечай</td>
-                                                    <td>test</td>
-
-                                                </tr>
-                                                <tr>
-                                                    <td>0.00</td>
-                                                    <td>Николай Николаевич</td>
-                                                    <td>Мария Нечай</td>
-                                                    <td>test</td>
-
-                                                </tr>
-                                                <tr>
-                                                    <td>0.00</td>
-                                                    <td>Николай Николаевич</td>
-                                                    <td>Мария Нечай</td>
-                                                    <td>test</td>
-
-
-                                                </tr>
-
-                                            </tbody>
-                                        </table>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class=" card container">
-
-
-
-
                     </div>
                 </div>
             </div>
+
 
 
             <script>
