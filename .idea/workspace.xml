@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dc85d68-fb21-4cff-916f-c89daa524c9c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/accounts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blocks/sidebar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/accounts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/presets.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/accounts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presets.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/staff-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/staff-page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/stages-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stages-page.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/staff-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/staff-page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stages-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/stages-page.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,57 +15,26 @@
     <favorites_list name="FB-Modul" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.85088253">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="stages-page.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/stages-page.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="494">
-                  <caret line="142" column="42" lean-forward="true" selection-start-line="142" selection-start-column="42" selection-end-line="142" selection-end-column="42" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file leaf-file-name="stages-page.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/stages-page.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="162">
-                  <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="presets.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/presets.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="234">
-                  <caret line="265" column="59" lean-forward="true" selection-start-line="265" selection-start-column="59" selection-end-line="265" selection-end-column="71" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="presets.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/css/presets.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="288">
-                  <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="stages-page.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stages-page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="142" column="42" lean-forward="true" selection-start-line="142" selection-start-column="42" selection-end-line="142" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="205" column="25" lean-forward="true" selection-start-line="205" selection-start-column="25" selection-end-line="205" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -111,12 +64,13 @@
       <list>
         <option value="$PROJECT_DIR$/staff-page.php" />
         <option value="$PROJECT_DIR$/css/staff-page.css" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/blocks/sidebar.php" />
         <option value="$PROJECT_DIR$/presets.php" />
         <option value="$PROJECT_DIR$/css/presets.css" />
         <option value="$PROJECT_DIR$/css/stages-page.css" />
         <option value="$PROJECT_DIR$/stages-page.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -207,12 +161,12 @@
       <workItem from="1585297243782" duration="17668000" />
       <workItem from="1585557902089" duration="1330000" />
       <workItem from="1585559256767" duration="5014000" />
-      <workItem from="1585565035297" duration="8669000" />
+      <workItem from="1585565035297" duration="8968000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10678000" />
+    <option name="totallyTimeSpent" value="10977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1040" extended-state="0" />
@@ -221,13 +175,13 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49947423" visible="true" weight="0.124200426" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.42430705" side_tool="true" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.42430705" side_tool="true" visible="true" weight="0.540393" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49946696" weight="0.32969433" />
       <window_info id="Structure" order="1" sideWeight="0.5005258" side_tool="true" weight="0.11736334" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.57569295" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.57569295" visible="true" weight="0.540393" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" sideWeight="0.5005258" side_tool="true" weight="0.11736334" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -293,13 +247,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="692">
-          <caret line="346" column="30" selection-start-line="346" selection-start-column="30" selection-end-line="346" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blocks/header.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -307,13 +254,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="32" column="45" lean-forward="true" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/presets.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="265" column="59" lean-forward="true" selection-start-line="265" selection-start-column="59" selection-end-line="265" selection-end-column="71" />
         </state>
       </provider>
     </entry>
@@ -348,15 +288,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stages-page.php">
+    <entry file="file://$PROJECT_DIR$/presets.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="142" column="42" lean-forward="true" selection-start-line="142" selection-start-column="42" selection-end-line="142" selection-end-column="42" />
+        <state relative-caret-position="234">
+          <caret line="265" column="59" lean-forward="true" selection-start-line="265" selection-start-column="59" selection-end-line="265" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stages-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="142" column="42" lean-forward="true" selection-start-line="142" selection-start-column="42" selection-end-line="142" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="205" column="25" lean-forward="true" selection-start-line="205" selection-start-column="25" selection-end-line="205" selection-end-column="25" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
