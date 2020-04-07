@@ -8,6 +8,16 @@
     padding: 10px;
 }
 
+.btn-primary {
+    background-color: #47bac1;
+    border-color: #47bac1;
+}
+
+.btn-primary:hover {
+    background-color: #39a2a9;
+    border-color: #36999f;
+}
+
 .card.content-box {
     box-shadow: 0 0 0.875rem 0 rgba(53, 64, 82, .05);
     background-color: #fff;

@@ -82,14 +82,6 @@
 
     <script src="js/script.js"></script>
 
-    <script>
-        $(document).ready(() => {
-            setTimeout(() => {
-                $('.sidebar-toggle')[0].click();
-            }, 0)
-        })
-    </script>
-
 </body>
 
 </html>
