@@ -28,9 +28,10 @@
 </head>
 
 <body>
+
     <!-- Modal Add Account-->
     <div class="modal fade modal-add_account" id="addAccount">
-        <div class="modal-dialog  modal-lg" role="document">
+        <div class="modal-dialog  modal-sm" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLongTitle">Добавить аккаунт</h5>
@@ -39,8 +40,17 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                        qwfqwf
+                    <div>
+                        <div class="form-group">
+                            <label for="staff">Сотрудники</label>
+                            <input type="text" class="form-control" id="staff">
+                        </div>
+                        <div class="form-group">
+                            <label for="presets">Пресеты</label>
+                            <input type="text" class="form-control" id="presets">
+                        </div>
 
+                    </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>

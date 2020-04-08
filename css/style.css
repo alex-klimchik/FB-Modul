@@ -213,7 +213,6 @@ input {outline:none;}
     }
     
     .header {
-        width: 100%!important;
         background-color: #fff!important;
         min-height: 50px;
         color: #354052!important;

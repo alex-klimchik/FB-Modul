@@ -73,21 +73,25 @@ button.close:focus {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    background-color: #17a2b8;
+    background-color: #deebff;
     border-width: 1px;
     border-style: solid;
-    border-color: #17a2b8;
+    border-color: #deebff;
     border-radius: 3px;
 }
 
 .additions-modal i {
-    color: white;
+    color: #999;
     font-size: 16px;
 }
 
+.additions-modal:hover i {
+    color: #212529;
+}
+
 .additions-modal:hover {
-    background-color: #01889c;
-    border-color: #008296;
+    background-color: #8dc7d0;
+    border-color: #8dc7d0;
 }
 
 .main-content {
