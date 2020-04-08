@@ -1,0 +1,224 @@
+main {
+    padding: 0;
+    padding-top: 55px;
+}
+
+.additions {
+    background-color: #fff;
+    box-shadow: 0 0 3px 1px #b7b7b74f;
+    margin-bottom: 5px;
+    padding: 0 15px;
+    border-radius: 3px;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    font-size: 14px;
+}
+
+/* Selects */
+
+.additions-choice {
+    display: flex;
+}
+
+.additions-choice .datepicker {
+    color: #999;
+    background-color: #fff!important;
+    border: 1px solid #d3d3d3;
+    width: 190px;
+    height: 34px;
+    border-radius: 6px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding-top: 4px;
+    margin-right: 30px;
+}
+
+.additions-choice .datepicker::placeholder {
+    color: #999;
+}
+
+.dropdown-toggle {
+    background-color: #fff!important;
+    border: 1px solid #d3d3d3;
+    width: 190px!important;
+    height: 34px;
+    border-radius: 6px;
+    padding-top: 3px;
+}
+
+.dropdown-toggle, .dropdown-toggle:focus, .dropdown-toggle:active {
+    outline: none!important;
+}
+
+.dropdown-menu.show~.dropdown-toggle, .dropdown-toggle:focus, .dropdown-toggle:active {
+    box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, .5)!important;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: #f4f8ff96;
+}
+
+.dropdown-menu {
+    padding: 0;
+    min-width: 190px!important;
+    border-radius: 5px;
+    box-shadow: 0 0 4px 1px #00000030;
+    border: 1px solid #d3d9df;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #deebff;
+    color: #333;
+}
+
+.bootstrap-select .dropdown-toggle:focus, .bootstrap-select>select.mobile-device:focus+.dropdown-toggle {
+    outline: none!important;
+}
+
+.custom-checkbox>label {
+    cursor: pointer;
+}
+
+/* Table */
+
+.symbol-token {
+    font-size: 30px;
+    color: #03921b;
+    font-weight: 900;
+}
+
+.symbol-proxy {
+    font-size: 30px;
+    color: #adadad;
+    font-weight: 900;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    border-color: #47BAC1;
+    background-color: #47BAC1;
+}
+
+table#container-table {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+table#container-table thead th, table#container-table tbody td {
+    vertical-align: middle;
+}
+
+.select-all {
+    cursor: pointer;
+}
+
+table#container-table tbody tr.colorize {
+    background: #00000013!important;
+}
+
+.calc-spend {
+    cursor: pointer;
+    color: #3bb6f1;
+    position: relative;
+    top: -9px;
+    font-size: 12px;
+    left: 2px;
+}
+
+/* Footer */
+
+.is-collapsed footer {
+    width: 100%;
+}
+
+footer {
+    width: calc(100% - 240px);
+    background-color: #fff!important;
+    height: 50px;
+    color: #354052!important;
+    box-shadow: 0px 0px 2rem 0 rgba(53, 64, 82, .1);
+    position: fixed;
+    bottom: -50px;
+    right: 0;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    z-index: 800;
+    display: none;
+}
+
+footer .btns-wrap {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+footer .btns-wrap>button {
+    background-color: #47BAC1;
+    border-color: #47BAC1;
+    margin-left: 15px;
+    padding: .175rem .75rem;
+}
+
+footer .btns-wrap>.btn-primary:not(:disabled):not(.disabled).active, footer .btns-wrap>.btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #36999f;
+    border-color: #329096;
+}
+
+footer .btns-wrap>button:hover {
+    background-color: #39a2a9;
+    border-color: #36999f;
+}
+
+footer .btns-wrap .count {
+    padding-left: 15px;
+}
+
+footer .btns-wrap .count span {
+    padding-bottom: 2px;
+    padding-top: 1px;
+    padding-right: 4px;
+    padding-left: 3px;
+    background-color: #3a89ff;
+    border-radius: 4px;
+    color: white;
+}
+
+/* footer .dropup .dropdown-toggle::after {
+    border-bottom: .3em solid #47bac1;
+}
+
+footer .dropdown-toggle::after {
+    border-top: .3em solid #47bac1;
+}
+
+footer .dropdown-toggle {
+    border: 1px solid #47bac1;
+} */
+
+footer .dropup .dropdown-toggle::after {
+    border-bottom: .3em solid #ffffff;
+}
+
+footer .dropdown-toggle::after {
+    border-top: .3em solid #ffffff;
+}
+
+footer .dropdown-toggle {
+    border: 1px solid #47bac1;
+    background-color: #47bac1!important;
+    color: white!important;
+}
+
+footer .dropdown-toggle:hover {
+    background-color: #39a2a9!important;
+    border-color: #36999f;
+}
+
+footer .dropdown {
+    margin-left: 15px!important;
+}

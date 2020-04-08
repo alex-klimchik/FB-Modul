@@ -1,0 +1,55 @@
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-box {
+    width: 32.5%;
+    padding: 10px;
+}
+
+.btn-primary {
+    background-color: #47bac1;
+    border-color: #47bac1;
+}
+
+.btn-primary:hover {
+    background-color: #39a2a9;
+    border-color: #36999f;
+}
+
+.card.content-box {
+    box-shadow: 0 0 0.875rem 0 rgba(53, 64, 82, .05);
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: .25rem;
+}
+
+.content-box>p {
+    text-align: center;
+    font-weight: 600;
+}
+
+.content-box>input {
+    border: unset;
+    outline: none;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    color: #495057;
+    margin-bottom: 1rem;
+}
+
+.content-box>input::placeholder {
+    color: rgb(226, 226, 226);
+}
+
+.content-box>button {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.content-box>ul {
+    color: #5d5454;
+}
