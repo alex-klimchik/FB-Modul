@@ -21,13 +21,35 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
+
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/accounts.css">
 
 </head>
 
 <body>
+    <!-- Modal Add Account-->
+    <div class="modal fade modal-add_account" id="addAccount">
+        <div class="modal-dialog  modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Добавить аккаунт</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                        qwfqwf
 
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                    <button type="submit" class="btn btn-primary">Добавить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal Add Account -->
     <!-- Modal New Account-->
     <div class="modal fade modal-new_account" id="newAccount">
         <div class="modal-dialog  modal-lg" role="document">
@@ -235,7 +257,12 @@
 
                             </select>
                         </div>
+                        <div class="additions-modal" data-toggle="modal" data-target="#addAccount">
 
+                            <i class="fa fa-plus"></i>
+
+
+                        </div>
 
                     </div>
                     <div class="main-content_table">
