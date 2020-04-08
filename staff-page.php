@@ -56,15 +56,15 @@
 
                 <div class="col-12">
                     <div class="staff-department">
-<!--                        <div class="form-group">-->
-<!--                            <select class="form-style selectpicker" id="allStaff" data-live-search="false">-->
-<!--                                <option>Отдел</option>-->
-<!--                                <option>ФМ1</option>-->
-<!--                                <option>Фарм</option>-->
-<!--                            </select>-->
-<!--                        </div>-->
+                        <div class="form-group">
+                            <select class="form-style selectpicker" id="allStaff" data-live-search="false">
+                                <option>Отдел</option>
+                                <option>ФМ1</option>
+                                <option>Фарм</option>
+                            </select>
+                        </div>
                         <div class="staff-add">
-                            <button type="button" class="btn-new-ticket btn" data-toggle="modal" data-target="#exampleModalStaff"  data-placement="top" title="Добавить сотрудника">
+                            <button type="button" class="add-btn btn" data-toggle="modal" data-target="#exampleModalStaff"  data-placement="top" title="Добавить сотрудника">
                                 <i class="fa fa-plus staff-fa" aria-hidden="true"></i></button>
                         </div>
                     </div>

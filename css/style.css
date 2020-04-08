@@ -5,10 +5,10 @@ input {outline:none;}
 .btn.focus,
 .btn:focus {
     outline: none;
-    box-shadow: 0 0 0 0 rgba(0, 123, 255, .25);
+    box-shadow: 0 0 0 0 rgba(0, 123, 255, .25)!important;
 }
 .form-control:focus {
-    box-shadow: 0 0 0 0 rgba(0,123,255,.25);
+    box-shadow: 0 0 0 0 rgba(0,123,255,.25)!important;
 }
 .sidebar-content {
         background: #fff;

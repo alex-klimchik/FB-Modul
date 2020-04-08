@@ -15,13 +15,11 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/bootstrap-select.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/accounts.css">
@@ -193,13 +191,13 @@
         <?php require_once('blocks/sidebar.php'); ?>
         <!--Sidebar END-->
 
-    <div class="page-container">
+        <div class="page-container">
 
             <!--Header-->
             <?php require_once('blocks/header.php'); ?>
             <!--Header END-->
 
-     <main>
+            <main>
 
                 <div class="main-content">
                     <div class="additions">
@@ -251,10 +249,8 @@
                                         <div class="card-content_left">
                                             <div class="account__title"><span>Test Modal</span></div>
                                             <div>
-                                                <p class="content_numbers"><span>Задачи:</span> <span
-                                                        class="content_color-green">3</span>/7</p>
-                                                <p class="content_numbers"><span>Просрочено:</span> <span
-                                                        class="content_color-red">0</span></p>
+                                                <p class="content_numbers"><span>Задачи:</span> <span class="content_color-green">3</span>/7</p>
+                                                <p class="content_numbers"><span>Просрочено:</span> <span class="content_color-red">0</span></p>
                                             </div>
                                             <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
                                             <div><span>Дополнительно <br> задач:</span> 3</div>
@@ -281,10 +277,8 @@
                                         <div class="card-content_left">
                                             <div class="account__title"><span>Alex</span></div>
                                             <div>
-                                                <p class="content_numbers"><span>Задачи:</span> <span
-                                                        class="content_color-green">3</span>/7</p>
-                                                <p class="content_numbers"><span>Просрочено:</span> <span
-                                                        class="content_color-red">0</span></p>
+                                                <p class="content_numbers"><span>Задачи:</span> <span class="content_color-green">3</span>/7</p>
+                                                <p class="content_numbers"><span>Просрочено:</span> <span class="content_color-red">0</span></p>
                                             </div>
                                             <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
                                             <div><span>Дополнительно <br> задач:</span> 3</div>
@@ -310,10 +304,8 @@
                                         <div class="card-content_left">
                                             <div class="account__title"><span>Alex</span></div>
                                             <div>
-                                                <p class="content_numbers"><span>Задачи:</span> <span
-                                                        class="content_color-green">3</span>/7</p>
-                                                <p class="content_numbers"><span>Просрочено:</span> <span
-                                                        class="content_color-red">0</span></p>
+                                                <p class="content_numbers"><span>Задачи:</span> <span class="content_color-green">3</span>/7</p>
+                                                <p class="content_numbers"><span>Просрочено:</span> <span class="content_color-red">0</span></p>
                                             </div>
                                             <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
                                             <div><span>Дополнительно <br> задач:</span> 3</div>
@@ -339,10 +331,8 @@
                                         <div class="card-content_left">
                                             <div class="account__title"><span>Alex</span></div>
                                             <div>
-                                                <p class="content_numbers"><span>Задачи:</span> <span
-                                                        class="content_color-green">3</span>/7</p>
-                                                <p class="content_numbers"><span>Просрочено:</span> <span
-                                                        class="content_color-red">0</span></p>
+                                                <p class="content_numbers"><span>Задачи:</span> <span class="content_color-green">3</span>/7</p>
+                                                <p class="content_numbers"><span>Просрочено:</span> <span class="content_color-red">0</span></p>
                                             </div>
                                             <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
                                             <div><span>Дополнительно <br> задач:</span> 3</div>
@@ -375,10 +365,8 @@
                                         <div class="card-content_left">
                                             <div class="account__title"><span>Test Modal</span></div>
                                             <div>
-                                                <p class="content_numbers"><span>Задачи:</span> <span
-                                                        class="content_color-green">3</span>/7</p>
-                                                <p class="content_numbers"><span>Просрочено:</span> <span
-                                                        class="content_color-red">0</span></p>
+                                                <p class="content_numbers"><span>Задачи:</span> <span class="content_color-green">3</span>/7</p>
+                                                <p class="content_numbers"><span>Просрочено:</span> <span class="content_color-red">0</span></p>
                                             </div>
                                             <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
                                             <div><span>Дополнительно <br> задач:</span> 3</div>
@@ -411,10 +399,8 @@
                                         <div class="card-content_left">
                                             <div class="account__title"><span>Test Modal</span></div>
                                             <div>
-                                                <p class="content_numbers"><span>Задачи:</span> <span
-                                                        class="content_color-green">!!!</span>/!!!!</p>
-                                                <p class="content_numbers"><span>Просрочено:</span> <span
-                                                        class="content_color-red">!!!</span></p>
+                                                <p class="content_numbers"><span>Задачи:</span> <span class="content_color-green">!!!</span>/!!!!</p>
+                                                <p class="content_numbers"><span>Просрочено:</span> <span class="content_color-red">!!!</span></p>
                                             </div>
                                             <div><span>Переход на след <br> этап:</span> кликни </div>
                                             <div><span>Дополнительно <br> задач:</span> сюда</div>
@@ -440,10 +426,8 @@
                                         <div class="card-content_left">
                                             <div class="account__title"><span>Alex</span></div>
                                             <div>
-                                                <p class="content_numbers"><span>Задачи:</span> <span
-                                                        class="content_color-green">3</span>/7</p>
-                                                <p class="content_numbers"><span>Просрочено:</span> <span
-                                                        class="content_color-red">0</span></p>
+                                                <p class="content_numbers"><span>Задачи:</span> <span class="content_color-green">3</span>/7</p>
+                                                <p class="content_numbers"><span>Просрочено:</span> <span class="content_color-red">0</span></p>
                                             </div>
                                             <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
                                             <div><span>Дополнительно <br> задач:</span> 3</div>
@@ -469,10 +453,8 @@
                                         <div class="card-content_left">
                                             <div class="account__title"><span>Alex</span></div>
                                             <div>
-                                                <p class="content_numbers"><span>Задачи:</span> <span
-                                                        class="content_color-green">3</span>/7</p>
-                                                <p class="content_numbers"><span>Просрочено:</span> <span
-                                                        class="content_color-red">0</span></p>
+                                                <p class="content_numbers"><span>Задачи:</span> <span class="content_color-green">3</span>/7</p>
+                                                <p class="content_numbers"><span>Просрочено:</span> <span class="content_color-red">0</span></p>
                                             </div>
                                             <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
                                             <div><span>Дополнительно <br> задач:</span> 3</div>
@@ -505,10 +487,8 @@
                                         <div class="card-content_left">
                                             <div class="account__title"><span>Alex</span></div>
                                             <div>
-                                                <p class="content_numbers"><span>Задачи:</span> <span
-                                                        class="content_color-green">3</span>/7</p>
-                                                <p class="content_numbers"><span>Просрочено:</span> <span
-                                                        class="content_color-red">0</span></p>
+                                                <p class="content_numbers"><span>Задачи:</span> <span class="content_color-green">3</span>/7</p>
+                                                <p class="content_numbers"><span>Просрочено:</span> <span class="content_color-red">0</span></p>
                                             </div>
                                             <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
                                             <div><span>Дополнительно <br> задач:</span> 3</div>
@@ -534,10 +514,8 @@
                                         <div class="card-content_left">
                                             <div class="account__title"><span>Alex</span></div>
                                             <div>
-                                                <p class="content_numbers"><span>Задачи:</span> <span
-                                                        class="content_color-green">3</span>/7</p>
-                                                <p class="content_numbers"><span>Просрочено:</span> <span
-                                                        class="content_color-red">0</span></p>
+                                                <p class="content_numbers"><span>Задачи:</span> <span class="content_color-green">3</span>/7</p>
+                                                <p class="content_numbers"><span>Просрочено:</span> <span class="content_color-red">0</span></p>
                                             </div>
                                             <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
                                             <div><span>Дополнительно <br> задач:</span> 3</div>
@@ -563,10 +541,8 @@
                                         <div class="card-content_left">
                                             <div class="account__title"><span>Alex</span></div>
                                             <div>
-                                                <p class="content_numbers"><span>Задачи:</span> <span
-                                                        class="content_color-green">3</span>/7</p>
-                                                <p class="content_numbers"><span>Просрочено:</span> <span
-                                                        class="content_color-red">0</span></p>
+                                                <p class="content_numbers"><span>Задачи:</span> <span class="content_color-green">3</span>/7</p>
+                                                <p class="content_numbers"><span>Просрочено:</span> <span class="content_color-red">0</span></p>
                                             </div>
                                             <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
                                             <div><span>Дополнительно <br> задач:</span> 3</div>
@@ -599,10 +575,8 @@
                                         <div class="card-content_left">
                                             <div class="account__title"><span>Alex</span></div>
                                             <div>
-                                                <p class="content_numbers"><span>Задачи:</span> <span
-                                                        class="content_color-green">3</span>/7</p>
-                                                <p class="content_numbers"><span>Просрочено:</span> <span
-                                                        class="content_color-red">0</span></p>
+                                                <p class="content_numbers"><span>Задачи:</span> <span class="content_color-green">3</span>/7</p>
+                                                <p class="content_numbers"><span>Просрочено:</span> <span class="content_color-red">0</span></p>
                                             </div>
                                             <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
                                             <div><span>Дополнительно <br> задач:</span> 3</div>
@@ -628,10 +602,8 @@
                                         <div class="card-content_left">
                                             <div class="account__title"><span>Alex</span></div>
                                             <div>
-                                                <p class="content_numbers"><span>Задачи:</span> <span
-                                                        class="content_color-green">3</span>/7</p>
-                                                <p class="content_numbers"><span>Просрочено:</span> <span
-                                                        class="content_color-red">0</span></p>
+                                                <p class="content_numbers"><span>Задачи:</span> <span class="content_color-green">3</span>/7</p>
+                                                <p class="content_numbers"><span>Просрочено:</span> <span class="content_color-red">0</span></p>
                                             </div>
                                             <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
                                             <div><span>Дополнительно <br> задач:</span> 3</div>
@@ -657,10 +629,8 @@
                                         <div class="card-content_left">
                                             <div class="account__title"><span>Alex</span></div>
                                             <div>
-                                                <p class="content_numbers"><span>Задачи:</span> <span
-                                                        class="content_color-green">3</span>/7</p>
-                                                <p class="content_numbers"><span>Просрочено:</span> <span
-                                                        class="content_color-red">0</span></p>
+                                                <p class="content_numbers"><span>Задачи:</span> <span class="content_color-green">3</span>/7</p>
+                                                <p class="content_numbers"><span>Просрочено:</span> <span class="content_color-red">0</span></p>
                                             </div>
                                             <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
                                             <div><span>Дополнительно <br> задач:</span> 3</div>
@@ -693,10 +663,8 @@
                                         <div class="card-content_left">
                                             <div class="account__title"><span>Alex</span></div>
                                             <div>
-                                                <p class="content_numbers"><span>Задачи:</span> <span
-                                                        class="content_color-green">3</span>/7</p>
-                                                <p class="content_numbers"><span>Просрочено:</span> <span
-                                                        class="content_color-red">0</span></p>
+                                                <p class="content_numbers"><span>Задачи:</span> <span class="content_color-green">3</span>/7</p>
+                                                <p class="content_numbers"><span>Просрочено:</span> <span class="content_color-red">0</span></p>
                                             </div>
                                             <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
                                             <div><span>Дополнительно <br> задач:</span> 3</div>
@@ -722,10 +690,8 @@
                                         <div class="card-content_left">
                                             <div class="account__title"><span>Alex</span></div>
                                             <div>
-                                                <p class="content_numbers"><span>Задачи:</span> <span
-                                                        class="content_color-green">3</span>/7</p>
-                                                <p class="content_numbers"><span>Просрочено:</span> <span
-                                                        class="content_color-red">0</span></p>
+                                                <p class="content_numbers"><span>Задачи:</span> <span class="content_color-green">3</span>/7</p>
+                                                <p class="content_numbers"><span>Просрочено:</span> <span class="content_color-red">0</span></p>
                                             </div>
                                             <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
                                             <div><span>Дополнительно <br> задач:</span> 3</div>
@@ -751,10 +717,8 @@
                                         <div class="card-content_left">
                                             <div class="account__title"><span>Alex</span></div>
                                             <div>
-                                                <p class="content_numbers"><span>Задачи:</span> <span
-                                                        class="content_color-green">3</span>/7</p>
-                                                <p class="content_numbers"><span>Просрочено:</span> <span
-                                                        class="content_color-red">0</span></p>
+                                                <p class="content_numbers"><span>Задачи:</span> <span class="content_color-green">3</span>/7</p>
+                                                <p class="content_numbers"><span>Просрочено:</span> <span class="content_color-red">0</span></p>
                                             </div>
                                             <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
                                             <div><span>Дополнительно <br> задач:</span> 3</div>
@@ -787,10 +751,8 @@
                                         <div class="card-content_left">
                                             <div class="account__title"><span>Alex</span></div>
                                             <div>
-                                                <p class="content_numbers"><span>Задачи:</span> <span
-                                                        class="content_color-green">3</span>/7</p>
-                                                <p class="content_numbers"><span>Просрочено:</span> <span
-                                                        class="content_color-red">0</span></p>
+                                                <p class="content_numbers"><span>Задачи:</span> <span class="content_color-green">3</span>/7</p>
+                                                <p class="content_numbers"><span>Просрочено:</span> <span class="content_color-red">0</span></p>
                                             </div>
                                             <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
                                             <div><span>Дополнительно <br> задач:</span> 3</div>
@@ -816,10 +778,8 @@
                                         <div class="card-content_left">
                                             <div class="account__title"><span>Alex</span></div>
                                             <div>
-                                                <p class="content_numbers"><span>Задачи:</span> <span
-                                                        class="content_color-green">3</span>/7</p>
-                                                <p class="content_numbers"><span>Просрочено:</span> <span
-                                                        class="content_color-red">0</span></p>
+                                                <p class="content_numbers"><span>Задачи:</span> <span class="content_color-green">3</span>/7</p>
+                                                <p class="content_numbers"><span>Просрочено:</span> <span class="content_color-red">0</span></p>
                                             </div>
                                             <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
                                             <div><span>Дополнительно <br> задач:</span> 3</div>
@@ -845,10 +805,8 @@
                                         <div class="card-content_left">
                                             <div class="account__title"><span>Alex</span></div>
                                             <div>
-                                                <p class="content_numbers"><span>Задачи:</span> <span
-                                                        class="content_color-green">3</span>/7</p>
-                                                <p class="content_numbers"><span>Просрочено:</span> <span
-                                                        class="content_color-red">0</span></p>
+                                                <p class="content_numbers"><span>Задачи:</span> <span class="content_color-green">3</span>/7</p>
+                                                <p class="content_numbers"><span>Просрочено:</span> <span class="content_color-red">0</span></p>
                                             </div>
                                             <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
                                             <div><span>Дополнительно <br> задач:</span> 3</div>
@@ -881,10 +839,8 @@
                                         <div class="card-content_left">
                                             <div class="account__title"><span>Alex</span></div>
                                             <div>
-                                                <p class="content_numbers"><span>Задачи:</span> <span
-                                                        class="content_color-green">3</span>/7</p>
-                                                <p class="content_numbers"><span>Просрочено:</span> <span
-                                                        class="content_color-red">0</span></p>
+                                                <p class="content_numbers"><span>Задачи:</span> <span class="content_color-green">3</span>/7</p>
+                                                <p class="content_numbers"><span>Просрочено:</span> <span class="content_color-red">0</span></p>
                                             </div>
                                             <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
                                             <div><span>Дополнительно <br> задач:</span> 3</div>
@@ -910,10 +866,8 @@
                                         <div class="card-content_left">
                                             <div class="account__title"><span>Alex</span></div>
                                             <div>
-                                                <p class="content_numbers"><span>Задачи:</span> <span
-                                                        class="content_color-green">3</span>/7</p>
-                                                <p class="content_numbers"><span>Просрочено:</span> <span
-                                                        class="content_color-red">0</span></p>
+                                                <p class="content_numbers"><span>Задачи:</span> <span class="content_color-green">3</span>/7</p>
+                                                <p class="content_numbers"><span>Просрочено:</span> <span class="content_color-red">0</span></p>
                                             </div>
                                             <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
                                             <div><span>Дополнительно <br> задач:</span> 3</div>
@@ -939,10 +893,8 @@
                                         <div class="card-content_left">
                                             <div class="account__title"><span>Alex</span></div>
                                             <div>
-                                                <p class="content_numbers"><span>Задачи:</span> <span
-                                                        class="content_color-green">3</span>/7</p>
-                                                <p class="content_numbers"><span>Просрочено:</span> <span
-                                                        class="content_color-red">0</span></p>
+                                                <p class="content_numbers"><span>Задачи:</span> <span class="content_color-green">3</span>/7</p>
+                                                <p class="content_numbers"><span>Просрочено:</span> <span class="content_color-red">0</span></p>
                                             </div>
                                             <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
                                             <div><span>Дополнительно <br> задач:</span> 3</div>
@@ -975,10 +927,8 @@
                                         <div class="card-content_left">
                                             <div class="account__title"><span>Alex</span></div>
                                             <div>
-                                                <p class="content_numbers"><span>Задачи:</span> <span
-                                                        class="content_color-green">3</span>/7</p>
-                                                <p class="content_numbers"><span>Просрочено:</span> <span
-                                                        class="content_color-red">0</span></p>
+                                                <p class="content_numbers"><span>Задачи:</span> <span class="content_color-green">3</span>/7</p>
+                                                <p class="content_numbers"><span>Просрочено:</span> <span class="content_color-red">0</span></p>
                                             </div>
                                             <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
                                             <div><span>Дополнительно <br> задач:</span> 3</div>
@@ -1004,10 +954,8 @@
                                         <div class="card-content_left">
                                             <div class="account__title"><span>Alex</span></div>
                                             <div>
-                                                <p class="content_numbers"><span>Задачи:</span> <span
-                                                        class="content_color-green">3</span>/7</p>
-                                                <p class="content_numbers"><span>Просрочено:</span> <span
-                                                        class="content_color-red">0</span></p>
+                                                <p class="content_numbers"><span>Задачи:</span> <span class="content_color-green">3</span>/7</p>
+                                                <p class="content_numbers"><span>Просрочено:</span> <span class="content_color-red">0</span></p>
                                             </div>
                                             <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
                                             <div><span>Дополнительно <br> задач:</span> 3</div>
@@ -1033,10 +981,8 @@
                                         <div class="card-content_left">
                                             <div class="account__title"><span>Alex</span></div>
                                             <div>
-                                                <p class="content_numbers"><span>Задачи:</span> <span
-                                                        class="content_color-green">3</span>/7</p>
-                                                <p class="content_numbers"><span>Просрочено:</span> <span
-                                                        class="content_color-red">0</span></p>
+                                                <p class="content_numbers"><span>Задачи:</span> <span class="content_color-green">3</span>/7</p>
+                                                <p class="content_numbers"><span>Просрочено:</span> <span class="content_color-red">0</span></p>
                                             </div>
                                             <div><span>Переход на след <br> этап:</span> 01/02/2020 </div>
                                             <div><span>Дополнительно <br> задач:</span> 3</div>
@@ -1073,12 +1019,6 @@
     <script src="js/script.js"></script>
     <script src="js/accounts.js"></script>
 
-    <script>
-        $(document).ready(() => {
-            $(".sidebar-toggle")[0].click();
-        })
-
-    </script>
 </body>
 
 </html>

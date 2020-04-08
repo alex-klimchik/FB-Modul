@@ -5,7 +5,7 @@
                     <ul class="ml-auto navbar-nav header-menu">
                         <li class="ml-lg-1  nav-item"><a class="nb-f">Холд <sup id="hold" >10</sup></a></li>
 
-                        <li class="ml-lg-1  nav-item"><a class="nb-f">Контейнер <sup id="hold" >10</sup></a></li>
+                        <li class="ml-lg-1  nav-item"><a href="container.php" class="nb-f">Контейнер <sup id="hold" >10</sup></a></li>
 
                         <li class="ml-lg-1  nav-item"><a href="proxy.php" class="nb-f">Proxy <sup id="hold" >10</sup></a></li>
 

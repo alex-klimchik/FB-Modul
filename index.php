@@ -36,15 +36,16 @@
                     <div class="card" style="padding: 15px;">
                         <h6>Главная</h6>
                         <div style="border-top: 1px solid #e7e9ea;overflow-x:auto;">
-                          
+
                         </div>
                     </div>
                 </div>
 
             </main>
 
-
-            <script src="js/script.js"></script>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

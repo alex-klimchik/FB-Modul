@@ -18,6 +18,11 @@
     <!--feather-icons-->
     <script src="https://unpkg.com/feather-icons"></script>
 
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/bootstrap-select.min.js"></script>
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
@@ -40,18 +45,16 @@
 
             <div class="container-fluid py-4">
                 <div class="row">
-
                     <div class="col-12">
                         <div class="staff-department">
                             <div class="form-group">
-                                <span class="">Тип аккаунтов:</span>
-                                <select class="input-select form-control" id="typeAllAccount">
+                                <select class="form-style selectpicker" id="typeAllAccount" data-live-search="false">
+                                    <option>Тип аккаунтов</option>
                                     <option>Брут</option>
                                     <option>Арендованные</option>
                                     <option>Фармер</option>
                                     <option>Фармер 2</option>
                                 </select>
-
                             </div>
                         </div>
                     </div>
@@ -79,13 +82,17 @@
                             <div class="stages-contant-bl">
 
                                 <form class="stage-add">
+
+
+
+
                                     <div class="stage-bl-wrap mb-2">
                                         <div class="stage-icon">
                                             <i data-feather="edit-2"></i>
                                         </div>
                                         <div class="stage-s mb-0 form-group">
 <!--                                            <label for="example2" class="bmd-label-floating">Введите этап</label>-->
-                                            <input type="text" class="form-control" id="example2" placeholder="Введите этап">
+                                            <input type="text" class="form-br form-control" id="example2" placeholder="Введите этап">
                                         </div>
                                     </div>
 
@@ -93,8 +100,8 @@
                                         <div class="stage-icon">
                                             <i data-feather="list"></i>
                                         </div>
-                                        <div class="stage-s mb-0 form-group ">
-                                            <select class="input-select form-control" id="stageS">
+                                        <div class="stage-s mb-0 form-group stages-btn">
+                                            <select class="form-control selectpicker" id="stageS">
                                                 <option>Добавить после</option>
                                                 <option>Регистрация</option>
                                             </select>
@@ -138,7 +145,7 @@
                                         </div>
                                         <div class="stage-s mb-0 form-group">
 <!--                                            <label for="exampleTask" class="bmd-label-floating">Введите задачу</label>-->
-                                            <input type="text" class="form-control" id="exampleTask" placeholder="Введите задачу">
+                                            <input type="text" class="form-br form-control" id="exampleTask" placeholder="Введите задачу">
                                         </div>
                                     </div>
 
@@ -146,8 +153,8 @@
                                         <div class="stage-icon">
                                             <i data-feather="list"></i>
                                         </div>
-                                        <div class="stage-s mb-0 form-group ">
-                                            <select class="input-select form-control" id="stageS2">
+                                        <div class="stage-s mb-0 form-group stages-btn">
+                                            <select class="form-control selectpicker" id="stageS2">
                                                 <option>Добавить после</option>
                                                 <option>Регистрация</option>
                                             </select>
@@ -173,8 +180,6 @@
 </div>
         <script src="js/script.js"></script>
 
-        <!--bootstrap-material-design-->
-        <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
         <!--feather-icons-->
         <script>
             feather.replace()
