@@ -51,13 +51,15 @@
 
      <main>
 
-        <div class="container-fluid py-4">
+        <div class="container-fluid">
+            <h6 style="color: #000; font-size: 21px; margin-bottom: 1rem">Сотрудники</h6>
             <div class="row">
 
                 <div class="col-12">
-                    <div class="staff-department">
-                        <div class="form-group">
-                            <select class="form-style selectpicker" id="allStaff" data-live-search="false">
+
+                    <div class="additions proxy-account">
+                        <div class="additions-choice">
+                            <select class="selectpicker" id="allStaff" >
                                 <option>Отдел</option>
                                 <option>ФМ1</option>
                                 <option>Фарм</option>
@@ -70,7 +72,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-12">
+                <div class="col-md-12 mt-3">
 
                     <ul id="tabs" class="staff-tab nav nav-tabs">
                         <li class="nav-item">
@@ -623,17 +625,7 @@
 
         <!-------------------  STAFF CONTENT THE END-------------------------->
 
-        <script>
-            $(document).ready(function() {
-
-                $(function() {
-                    $(".sidebar-toggle").click(function() {
-                        $('.sidebar').toggleClass("sidebarNone")
-                        $(".main").toggleClass("mainfull");
-                    })
-                });
-            });
-        </script>
+         <script src="js/script.js"></script>
         <!--feather-icons-->
         <script>
             feather.replace()

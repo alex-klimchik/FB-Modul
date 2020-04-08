@@ -56,10 +56,11 @@
 
         <main>
             <div class="container-fluid" style="position: relative;">
+                <h6 style="color: #000; font-size: 21px; margin-bottom: 1rem">Proxy</h6>
                 <div class="row">
                     <div class="col-12">
-                        <div class="proxy-account">
-                            <div class="form-group ">
+                        <div class="additions proxy-account">
+                            <div class="additions-choice">
                                 <select class="selectpicker" name="" id="proxyAllAccount">
                                     <option>FB account</option>
                                     <option>???</option>
@@ -75,7 +76,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12">
+                    <div class="col-12 mt-3">
                         <div class="staff-t card">
                             <div style="overflow-x:auto;">
                                 <table id="container-table" class="table table-striped ">
@@ -172,6 +173,24 @@
                                             <div class="custom-control custom-checkbox ">
                                                 <input type="checkbox" class="custom-control-input" id="checkboxId5">
                                                 <label class="custom-control-label" for="checkboxId5"></label>
+                                            </div>
+                                        </td>
+                                        <td>Прокси 1</td>
+                                        <td>12.12.12</td>
+                                        <td>socks5</td>
+                                        <td>1</td>
+                                        <td>proxy_teamlead</td>
+                                        <td>proxy</td>
+                                        <td>2019-11-21</td>
+                                        <td>2019-11-23</td>
+                                        <td>Помощник Тимлида</td>
+                                        <td>te123123</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="custom-control custom-checkbox ">
+                                                <input type="checkbox" class="custom-control-input" id="checkboxId6">
+                                                <label class="custom-control-label" for="checkboxId6"></label>
                                             </div>
                                         </td>
                                         <td>Прокси 1</td>
@@ -526,7 +545,7 @@
 
         </main>
 
-
+        <script src="js/script.js"></script>
         <script src="js/container.js"></script>
 
         <script>
@@ -538,7 +557,6 @@
             });
         </script>
 
-        <script src="js/script.js"></script>
         <!--feather-icons-->
         <script>
             feather.replace()

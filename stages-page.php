@@ -43,12 +43,14 @@
         <!--Header END-->
         <main>
 
-            <div class="container-fluid py-4">
+            <div class="container-fluid ">
+                <h6 style="color: #000; font-size: 21px; margin-bottom: 1rem">Этапы</h6>
                 <div class="row">
                     <div class="col-12">
-                        <div class="staff-department">
-                            <div class="form-group">
-                                <select class="form-style selectpicker" id="typeAllAccount" data-live-search="false">
+
+                        <div class="additions proxy-account">
+                            <div class="additions-choice">
+                                <select class="selectpicker" id="typeAllAccount">
                                     <option>Тип аккаунтов</option>
                                     <option>Брут</option>
                                     <option>Арендованные</option>
@@ -60,7 +62,7 @@
                     </div>
                 </div>
 
-                <div class="row row-flex stage-mr">
+                <div class="row row-flex mt-3">
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12 pr-0  ">
                         <div class="thumb bg-stages-bl">
                             <div class="stages-headline access-bg">
@@ -69,6 +71,13 @@
                             <div class="stages-contant-bl">
                                 <ol>
                                     <li><a>Регистрация</a></li>
+                                    <li><a>Прогрев куки</a></li>
+                                    <li><a>Перенос в MLA</a></li>
+                                    <li><a>100 друзей</a></li>
+                                    <li><a>Фан-Пейдж</a></li>
+                                    <li><a>Бизней-Менеджер</a></li>
+                                    <li><a>Поднятие</a></li>
+                                    <li><a>Конец Фарма</a></li>
                                 </ol>
                             </div>
                         </div>
@@ -82,9 +91,6 @@
                             <div class="stages-contant-bl">
 
                                 <form class="stage-add">
-
-
-
 
                                     <div class="stage-bl-wrap mb-2">
                                         <div class="stage-icon">

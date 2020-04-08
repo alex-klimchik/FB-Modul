@@ -82,9 +82,26 @@ body {
 
 /*================ select styles header===================*/
 
+.additions{
+    background-color: #fff;
+    box-shadow: 0 0 3px 1px #b7b7b74f;
+    margin-bottom: 5px;
+    padding: 0 15px;
+    border-radius: 3px;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    font-size: 14px;
+}
+.bootstrap-select>.dropdown-toggle {
+    color: #999;
+}
 
 .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle {
-    color: #212529;
+    color: #999;
     background-color: #fefefe;
     border: 1px solid #d0d6db;
     outline: none;
@@ -104,7 +121,7 @@ body {
     background-color: #f4f8ff96;
 }
 .btn-light {
-    color: #212529;
+    color: #999;
     background-color: #fefefe;
     border: 1px solid #d0d6db;
 }

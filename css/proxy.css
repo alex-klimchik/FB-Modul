@@ -4,9 +4,39 @@
     justify-content: space-between;
     align-items: center;
 }
+.card {
+    padding: 15px;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 0.875rem 0 rgba(53, 64, 82, .05);
+    border: 0;
+}
+.custom-control {
+    min-height: 1.3rem;
+}
+.additions{
+    background-color: #fff;
+    box-shadow: 0 0 3px 1px #b7b7b74f;
+    margin-bottom: 5px;
+    padding: 0 15px;
+    border-radius: 3px;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    font-size: 14px;
+}
+
 /*select header*/
+
+
+.bootstrap-select>.dropdown-toggle {
+    color: #999;
+}
+
 .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle {
-    color: #212529;
+    color: #999;
     background-color: #fefefe;
     border: 1px solid #d0d6db;
     outline: none;
@@ -14,7 +44,7 @@
 .bootstrap-select .dropdown-toggle:focus, .bootstrap-select>select.mobile-device:focus+.dropdown-toggle {
     outline: 0 auto -webkit-focus-ring-color!important;
     outline-offset: -2px;
-    color: #212529;
+    color: #999;
     background-color: #fefefe;
     border: 1px solid #d0d6db;
 }
@@ -24,6 +54,9 @@
 }
 .dropdown-item:focus, .dropdown-item:hover {
     background-color: #f4f8ff96;
+}
+.dropdown-menu{
+    padding: 0;
 }
 .btn-light {
     color: #212529;

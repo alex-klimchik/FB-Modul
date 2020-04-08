@@ -37,9 +37,10 @@
             <!--Header END-->
             <main>
                 <div class="container-fluid" style="position: relative;">
+                    <h6 style="color: #000; font-size: 21px; margin-bottom: 1rem">Пресеты</h6>
                     <div class="card" style="padding: 15px;">
-                        <h6>Пресеты</h6>
-                        <div style="border-top: 1px solid #e7e9ea;overflow-x:auto;">
+<!--                        <h6>Пресеты</h6>-->
+                        <div style="overflow-x:auto;">
                             <table class="table-staff table table-striped">
                                 <thead>
                                     <tr>
