@@ -1,7 +1,8 @@
 .card {
     padding: 15px;
     margin-bottom: 2rem;
-    box-shadow: 0 0 0.875rem 0 rgba(53, 64, 82, .05);
+    box-shadow: 0 0 3px 1px #b7b7b74f;
+    /*box-shadow: 0 0 0.875rem 0 rgba(53, 64, 82, .05);*/
     border: 0;
 }
 /*styles modal*/
