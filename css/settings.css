@@ -13,13 +13,13 @@
     border-color: #47bac1;
 }
 
-.btn-primary:hover {
-    background-color: #39a2a9;
-    border-color: #36999f;
+.btn-primary:hover, .btn-primary:active {
+    background-color: #39a2a9!important;
+    border-color: #36999f!important;
 }
 
 .card.content-box {
-    box-shadow: 0 0 0.875rem 0 rgba(53, 64, 82, .05);
+    box-shadow: 0 0 0.875rem 0 rgba(53, 64, 82, .1);
     background-color: #fff;
     background-clip: border-box;
     border: 0 solid transparent;
@@ -29,6 +29,7 @@
 .content-box>p {
     text-align: center;
     font-weight: 600;
+    font-size: 18px;
 }
 
 .content-box>input {
@@ -53,3 +54,79 @@
 .content-box>ul {
     color: #5d5454;
 }
+
+.form-group>input {
+    height: 34px;
+    padding-bottom: 9px;
+}
+
+.form-group>input::placeholder {
+    color: rgb(214, 214, 214);
+}
+
+.btns {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+    align-items: flex-end;
+}
+
+.btns .btn-primary {
+    margin-left: 10px;
+}
+
+.card label {
+    font-weight: 600;
+}
+
+/* Selects */
+
+.bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 100%;
+}
+
+.bootstrap-select .dropdown-toggle:focus, .bootstrap-select>select.mobile-device:focus+.dropdown-toggle {
+    outline: none!important;
+}
+
+.dropdown-toggle {
+    background-color: #fff!important;
+    border: 1px solid #d3d3d3;
+    width: 190px;
+    height: 34px;
+    border-radius: 6px;
+    padding-top: 3px;
+    color: #495057!important;
+}
+
+.dropdown-toggle, .dropdown-toggle:focus, .dropdown-toggle:active {
+    outline: none!important;
+}
+
+.dropdown-menu.show~.dropdown-toggle, .dropdown-toggle:focus, .dropdown-toggle:active {
+    box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, .5)!important;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: #f4f8ff96;
+}
+
+.dropdown-menu {
+    padding: 0;
+    width: 100%;
+    min-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 4px 1px #00000030;
+    border: 1px solid #d3d9df;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #deebff;
+    color: #333;
+}
+
+select:not(:nth-child(1)) {
+    margin-left: 20px;
+}
+
+/* End Selects */
