@@ -44,18 +44,16 @@ body {
 }
 
 .staff-fa {
-    color: #262f3d;
-    border: 1px solid transparent;
-    padding: 3px 6px;
+    background-color: #dce9fd;
+    color: #999;
+    border-radius: 3px;
+    padding: 10px 12px;
     outline: none;
 }
 
 .staff-fa:hover {
-    color: #007bff;
-    border: 1px solid #ffffff45;
-    -webkit-box-shadow: 0px 0px 5px -1px rgba(255, 255, 255, 1);
-    -moz-box-shadow: 0px 0px 5px -1px rgba(255, 255, 255, 1);
-    box-shadow: 0px 0px 5px -1px rgba(255, 255, 255, 1);
+    background-color: #dce9fd;
+    color: #999;
 }
 
 .staff-fa:focus {
@@ -63,7 +61,7 @@ body {
 }
 
 .staff-tab {
-    justify-content: flex-end;
+    justify-content: start;
 }
 
 .head-line-staff {
@@ -129,9 +127,7 @@ body {
     border: 1px solid #d0d6db;
     background-color: #fefefe;
 }
-.staff-fa:hover {
-    color: #47bac1;
-}
+
 
 /*=================== select the end styles =======================*/
 
