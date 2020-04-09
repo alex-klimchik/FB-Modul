@@ -23,7 +23,6 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/staff-page.css">
     <link rel="stylesheet" type="text/css" href="css/staff-add.css">
-    <link rel="stylesheet" type="text/css" href="css/stages-page.css">
 
     <!--feather-icons-->
     <script src="https://unpkg.com/feather-icons"></script>
@@ -77,7 +76,7 @@
                     <ul id="tabs" class="staff-tab nav nav-tabs">
                         <li class="nav-item">
                             <a href="" data-target="#open-tickets" data-toggle="tab"
-                               class="nav-link staff-tabs text-uppercase active">Сотрудники</a></li>
+                               class="staff-tabs nav-link text-uppercase active">Сотрудники</a></li>
                         <li class="nav-item">
                             <a href="" data-target="#exit-tickets" data-toggle="tab" class="staff-tabs nav-link small text-uppercase">Заблокированные</a>
                         </li>

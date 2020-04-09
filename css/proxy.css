@@ -7,7 +7,8 @@
 .card {
     padding: 15px;
     margin-bottom: 2rem;
-    box-shadow: 0 0 0.875rem 0 rgba(53, 64, 82, .05);
+    box-shadow: 0 0 3px 1px #b7b7b74f;
+    /*box-shadow: 0 0 0.875rem 0 rgba(53, 64, 82, .05);*/
     border: 0;
 }
 .custom-control {
@@ -20,7 +21,6 @@
     padding: 0 15px;
     border-radius: 3px;
     background-clip: padding-box;
-    border: 1px solid #ced4da;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,7 +38,7 @@
 .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle {
     color: #999;
     background-color: #fefefe;
-    border: 1px solid #d0d6db;
+    border: 1px solid #ededee;
     outline: none;
 }
 .bootstrap-select .dropdown-toggle:focus, .bootstrap-select>select.mobile-device:focus+.dropdown-toggle {
@@ -48,6 +48,7 @@
     background-color: #fefefe;
     border: 1px solid #d0d6db;
 }
+
 .dropdown-item.active, .dropdown-item:active {
     background-color: #deebff;
     color: #333;
@@ -58,26 +59,29 @@
 .dropdown-menu{
     padding: 0;
 }
+.bootstrap-select .dropdown-menu {
+    border-color: #ededee;
+}
 .btn-light {
-    color: #212529;
+    color: #999;
     background-color: #fefefe;
-    border: 1px solid #d0d6db;
+    border: 1px solid #ededee;
 }
 .btn-light:hover{
-    border: 1px solid #d0d6db;
+    border: 1px solid #ededee;
     background-color: #fefefe;
 }
 .staff-fa {
-    background-color: #dce9fd;
-    color: #999;
-    border-radius: 3px;
-    padding: 10px 12px;
+    background-color: #babcbf;
+    color: #fff;
+    border-radius: 4px;
+    padding: 5px 9px;
     outline: none;
 }
 
 .staff-fa:hover {
-    background-color: #dce9fd;
-    color: #999;
+    background-color: #babcbf;
+    color: #fff;
 }
 
 .add-btn {

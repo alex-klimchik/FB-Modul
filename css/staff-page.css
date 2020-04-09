@@ -25,7 +25,8 @@ body {
 .staff-tabs:hover {
     color: #495057;
     background-color: #ffffff14;
-    border-color: #e9ecef #e9ecef #dee2e6;
+    border-color: transparent;
+    box-shadow: 3px -1px 3px -1px #b7b7b74f, -3px -1px 3px -1px #b7b7b74f
 }
 
 .staff-tabs:active {
@@ -44,18 +45,17 @@ body {
 }
 
 .staff-fa {
-    background-color: #dce9fd;
-    color: #999;
-    border-radius: 3px;
-    padding: 10px 12px;
+    background-color: #babcbf;
+    color: #fff;
+    border-radius: 4px;
+    padding: 5px 9px;
     outline: none;
 }
 
 .staff-fa:hover {
-    background-color: #dce9fd;
-    color: #999;
+    background-color: #babcbf;
+    color: #fff;
 }
-
 .staff-fa:focus {
     outline: none;
 }
@@ -72,6 +72,7 @@ body {
 
 .nav-tabs .nav-item {
     margin-bottom: -1px;
+    z-index: 100;
 }
 
 
@@ -87,7 +88,6 @@ body {
     padding: 0 15px;
     border-radius: 3px;
     background-clip: padding-box;
-    border: 1px solid #ced4da;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -101,7 +101,7 @@ body {
 .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle {
     color: #999;
     background-color: #fefefe;
-    border: 1px solid #d0d6db;
+    border: 1px solid #ededee;
     outline: none;
 }
 .bootstrap-select .dropdown-toggle:focus, .bootstrap-select>select.mobile-device:focus+.dropdown-toggle {
@@ -109,7 +109,7 @@ body {
     outline-offset: -2px;
     color: #212529;
     background-color: #fefefe;
-    border: 1px solid #d0d6db;
+    border: 1px solid #ededee;
 }
 .dropdown-item.active, .dropdown-item:active {
     background-color: #deebff;
@@ -118,13 +118,16 @@ body {
 .dropdown-item:focus, .dropdown-item:hover {
     background-color: #f4f8ff96;
 }
+.bootstrap-select .dropdown-menu {
+    border-color: #ededee;
+}
 .btn-light {
     color: #999;
     background-color: #fefefe;
-    border: 1px solid #d0d6db;
+    border: 1px solid #ededee;
 }
 .btn-light:hover{
-    border: 1px solid #d0d6db;
+    border: 1px solid #ededee;
     background-color: #fefefe;
 }
 
@@ -163,8 +166,18 @@ body {
 table tbody tr:hover {
     background: #00000013!important;
 }
+.staff-tab .staff-tabs.active {
+    color: #495057;
+    background-color: #fff;
+    border-color: transparent;
+    box-shadow: 3px -1px 3px -1px #b7b7b74f, -3px -1px 3px -1px #b7b7b74f
+}
+.staff-tab  .staff-tabs:hover {
+    border-color: transparent;
+}
 
 .staff-t {
+    box-shadow: 0 0 3px 1px #b7b7b74f;
     border: 0 solid rgba(0, 0, 0, .125);
     border-radius: .25rem 0 0.25rem 0.25rem;
 }
