@@ -20,6 +20,14 @@ main {
 
 /* Selects */
 
+.modal .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 100%;
+}
+
+.modal .dropdown-toggle {
+    width: 100%!important;
+}
+
 .additions-choice {
     display: flex;
 }
@@ -86,21 +94,19 @@ main {
 
 /* Table */
 
-.symbol-token {
-    font-size: 23px;
-    color: #03921ba1;
-    font-weight: 900;
+.addPreset_modal i {
+    color: #888;
+    cursor: pointer;
 }
 
-.symbol-proxy {
-    font-size: 23px;
-    color: #adadad9e;
-    font-weight: 900;
+.type_registr i {
+    font-size: 20px;
+    color: #FF9800;
 }
 
 .custom-control-input:checked~.custom-control-label::before {
-    border-color: #47BAC1;
-    background-color: #47BAC1;
+    border-color: #3a89ff;
+    background-color: #3a89ff;
 }
 
 table#container-table {
@@ -159,8 +165,8 @@ footer .btns-wrap {
 }
 
 footer .btns-wrap>button {
-    background-color: #47BAC1;
-    border-color: #47BAC1;
+    background-color: #3a89ff;
+    border-color: #3a89ff;
     margin-left: 15px;
     padding: .175rem .75rem;
 }
@@ -171,8 +177,8 @@ footer .btns-wrap>.btn-primary:not(:disabled):not(.disabled).active, footer .btn
 }
 
 footer .btns-wrap>button:hover {
-    background-color: #39a2a9;
-    border-color: #36999f;
+    background-color: #027bdc;
+    border-color: #027bdc;
 }
 
 footer .btns-wrap .count {
@@ -189,18 +195,6 @@ footer .btns-wrap .count span {
     color: white;
 }
 
-/* footer .dropup .dropdown-toggle::after {
-    border-bottom: .3em solid #47bac1;
-}
-
-footer .dropdown-toggle::after {
-    border-top: .3em solid #47bac1;
-}
-
-footer .dropdown-toggle {
-    border: 1px solid #47bac1;
-} */
-
 footer .dropup .dropdown-toggle::after {
     border-bottom: .3em solid #ffffff;
 }
@@ -210,14 +204,14 @@ footer .dropdown-toggle::after {
 }
 
 footer .dropdown-toggle {
-    border: 1px solid #47bac1;
-    background-color: #47bac1!important;
+    border: 1px solid #3a89ff;
+    background-color: #3a89ff!important;
     color: white!important;
 }
 
 footer .dropdown-toggle:hover {
-    background-color: #39a2a9!important;
-    border-color: #36999f;
+    background-color: #027bdc!important;
+    border-color: #027bdc;
 }
 
 footer .dropdown {

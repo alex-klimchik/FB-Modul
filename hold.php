@@ -4,7 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>Контейнер (new)</title>
+    <title>Холд (new)</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
@@ -30,12 +30,52 @@
 
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/container.css">
+    <link rel="stylesheet" type="text/css" href="css/hold.css">
     <!--feather-icons-->
     <script src="https://unpkg.com/feather-icons"></script>
 </head>
 
 <body>
+    <!-- Modal Add Account-->
+    <div class="modal fade modal-add_account" id="addPreset">
+        <div class="modal-dialog  modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Добавить пресет</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <label for="preset">Выберите пресет</label>
+
+                        <select class="selectpicker" name="" id="preset">
+                            <option value="">Выберите пресет</option>
+                            <option value="">Выберите пресет</option>
+                            <option value="">Выберите пресет</option>
+                            <option value="">Выберите пресет</option>
+                            <option value="">Выберите пресет</option>
+                            <option value="">Выберите пресет</option>
+                            <option value="">Выберите пресет</option>
+                            <option value="">Выберите пресет</option>
+                            <option value="">Выберите пресет</option>
+                            <option value="">Выберите пресет</option>
+                            <option value="">Выберите пресет</option>
+                            <option value="">Выберите пресет</option>
+
+                        </select>
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                    <button type="submit" class="btn btn-primary">Добавить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal Add Account -->
     <div class="wrapper">
         <!--Sidebar-->
         <?php require_once('blocks/sidebar.php'); ?>
@@ -50,39 +90,38 @@
                 <div class="container-fluid" style="position: relative;">
 
                     <div class="main-content">
-                        <!-- <div class="additions">
+                        <div class="additions">
                             <div class="additions-choice">
                                 <input class="datepicker" data-provide="datepicker" placeholder="Дата регистрации">
                                 <select class="selectpicker" name="" id="">
-                                    <option value="">Этап</option>
-                                </select>
-                                <select class="selectpicker" name="" id="">
-                                    <option value="">Статус</option>
+                                    <option value="" disabled selected>Статус</option>
+                                    <option value="">Статус 5</option>
+                                    <option value="">Статус 10</option>
                                 </select>
                                 <select class="selectpicker" name="" id="">
                                     <option value="">Сотрудник</option>
+                                    <option value="">Сотрудник 1</option>
+                                    <option value="">Сотрудник 2</option>
                                 </select>
                             </div>
-                        </div> -->
+                        </div>
 
 
 
                         <div class="card" style="padding: 15px;">
-                            <h6>Контейнер</h6>
+                            <h6>Холд</h6>
                             <div style="border-top: 1px solid #e7e9ea;overflow-x:auto;overflow-y: hidden;">
                                 <table id="container-table" class="table-staff table table-striped">
                                     <thead>
                                         <tr>
                                             <th class="select-all">Все</th>
                                             <th>Название MLA</th>
-                                            <th>Дата создания</th>
-                                            <th>Дата завершения</th>
+                                            <th>Тип рег.</th>
+                                            <th>Дата рег.</th>
                                             <th>Логин</th>
                                             <th>Пароль</th>
-                                            <th>Токен</th>
-                                            <th>Прокси</th>
-                                            <th>Расход аккаунта</th>
                                             <th>Сотрудник</th>
+                                            <th>Добавить пресет</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -94,14 +133,17 @@
                                                 </div>
                                             </td>
                                             <td>Lorena1</td>
-                                            <td>-</td>
-                                            <td>-</td>
+                                            <td class="type_registr"><i class="fa fa-envelope"></i></td>
+                                            <td>2020-03-11</td>
                                             <td>test</td>
                                             <td>test1</td>
-                                            <td class="symbol-token">T</td>
-                                            <td class="symbol-proxy">P</td>
-                                            <td>0<i class="fa fa-sync-alt calc-spend" title="Пересчитать"></i></td>
                                             <td>Дмитрий Фомин</td>
+                                            <td>
+                                                <div class="addPreset_modal">
+                                                    <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
+                                                </div>
+                                            </td>
+
                                         </tr>
                                         <tr>
                                             <td>
@@ -111,14 +153,16 @@
                                                 </div>
                                             </td>
                                             <td>Maryse1</td>
-                                            <td>-</td>
-                                            <td>-</td>
+                                            <td class="type_registr"><i class="fa fa-envelope"></i></td>
+                                            <td>2020-03-11</td>
                                             <td>test</td>
                                             <td>test1</td>
-                                            <td class="symbol-token">T</td>
-                                            <td class="symbol-proxy">P</td>
-                                            <td>251.61<i class="fa fa-sync-alt calc-spend" title="Пересчитать"></i></td>
                                             <td>Аня Новикова</td>
+                                            <td>
+                                                <div class="addPreset_modal" >
+                                                    <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
+                                                </div>
+                                            </td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -140,15 +184,11 @@
                 Выбрано: <span></span>
             </div>
             <button class="btn btn-primary cansel">Отмена <i data-feather="x-circle"></i></button>
-            <button class="btn btn-primary ">Отправить <i style="transform: rotate(45deg);" data-feather="send"></i></button>
+            <button class="btn btn-primary ">Передать <i style="transform: rotate(45deg)" data-feather="send"></i></button>
             <select class="selectpicker" name="" id="">
                 <option value="">Фб 1</option>
                 <option value="">ФБ 2</option>
             </select>
-            <div class="custom-control custom-checkbox ">
-                <input type="checkbox" class="custom-control-input" id="checkboxId3">
-                <label class="custom-control-label" for="checkboxId3">Передать в Lagoon</label>
-            </div>
         </div>
     </footer>
     <script src="js/script.js"></script>
