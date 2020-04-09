@@ -52,7 +52,6 @@
      <main>
 
         <div class="container-fluid">
-            <h6 style="color: #000; font-size: 21px; margin-bottom: 1rem">Сотрудники</h6>
             <div class="row">
 
                 <div class="col-12">
@@ -66,6 +65,7 @@
                             </select>
                         </div>
                         <div class="staff-add">
+
                             <button type="button" class="add-btn btn" data-toggle="modal" data-target="#exampleModalStaff"  data-placement="top" title="Добавить сотрудника">
                                 <i class="fa fa-plus staff-fa" aria-hidden="true"></i></button>
                         </div>

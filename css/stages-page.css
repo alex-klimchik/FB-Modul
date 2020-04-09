@@ -142,8 +142,17 @@ input {outline:none;}
     border: 1px solid #d0d6db;
     background-color: #fefefe;
 }
+.staff-fa {
+    background-color: #dce9fd;
+    color: #999;
+    border-radius: 3px;
+    padding: 10px 12px;
+    outline: none;
+}
+
 .staff-fa:hover {
-    color: #47bac1;
+    background-color: #dce9fd;
+    color: #999;
 }
 
 /*Input modal*/
