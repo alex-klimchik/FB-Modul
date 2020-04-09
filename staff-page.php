@@ -418,11 +418,13 @@
                                     </div>
 
                                     <div class="wrap-input100 validate-input">
-                                        <span class="label-input100">Отдел:</span>
-                                        <select class="input-select form-control" id="exampleFormControlSelect1">
+                                        <div class="stages-btn ">
+                                         <span class="label-input100">Отдел:</span>
+                                         <select class="selectpicker input-select form-control" id="exampleFormControlSelect1">
                                             <option>ФМ1</option>
                                             <option>Фарм</option>
-                                        </select>
+                                         </select>
+                                        </div>
 
                                     </div>
 
@@ -452,14 +454,16 @@
                                     </div>
 
                                     <div class="wrap-input100 validate-input">
-                                        <span class="label-input100">Должность:</span>
-                                        <select class="input-select form-control" id="exampleFormControlSelect2">
+                                        <div class="stages-btn ">
+                                         <span class="label-input100">Должность:</span>
+                                         <select class="selectpicker input-select form-control" id="exampleFormControlSelect2">
                                             <option>Фармер (трастовый)</option>
                                             <option>Фармер (не трастовый)</option>
                                             <option>Помощник Тим-лида</option>
                                             <option>Ответственный за вайты</option>
                                             <option>Тим-лид</option>
-                                        </select>
+                                         </select>
+                                        </div>
 
                                     </div>
 
@@ -537,11 +541,14 @@
                                         </div>
 
                                         <div class="wrap-input100 validate-input">
-                                            <span class="label-input100">Отдел:</span>
-                                            <select class="input-select form-control" id="exampleFormControlSelect1">
-                                                <option>ФМ1</option>
-                                                <option>Фарм</option>
-                                            </select>
+                                            <div class="stages-btn ">
+                                                <span class="label-input100">Отдел:</span>
+                                                <select class="selectpicker input-select form-control" id="allStaff">
+                                                    <option>ФМ1</option>
+                                                    <option>Фарм</option>
+                                                </select>
+                                            </div>
+
 
                                         </div>
 
@@ -571,15 +578,16 @@
                                         </div>
 
                                         <div class="wrap-input100 validate-input">
+                                            <div class="stages-btn ">
                                             <span class="label-input100">Должность:</span>
-                                            <select class="input-select form-control" id="exampleFormControlSelect2">
+                                              <select class="selectpicker input-select form-control" id="exampleFormControlSelect2">
                                                 <option>Фармер (трастовый)</option>
                                                 <option>Фармер (не трастовый)</option>
                                                 <option>Помощник Тим-лида</option>
                                                 <option>Ответственный за вайты</option>
                                                 <option>Тим-лид</option>
-                                            </select>
-
+                                              </select>
+                                            </div>
                                         </div>
 
                                         <div class="wrap-input100 validate-input" data-validate = "Укажите Логин">

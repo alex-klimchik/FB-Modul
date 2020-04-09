@@ -37,9 +37,8 @@
             <!--Header END-->
             <main>
                 <div class="container-fluid" style="position: relative;">
-                    <h6 style="color: #000; font-size: 21px; margin-bottom: 1rem">Пресеты</h6>
                     <div class="card" style="padding: 15px;">
-<!--                        <h6>Пресеты</h6>-->
+                        <h6 class="table-headline">Пресеты</h6>
                         <div style="overflow-x:auto;">
                             <table class="table-staff table table-striped">
                                 <thead>
@@ -330,7 +329,7 @@
 
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-modal" data-dismiss="modal">Закрыть</button>
+                                        <button type="button" class="btn  btn-secondary" data-dismiss="modal">Закрыть</button>
                                     </div>
                                 </div>
                             </div>

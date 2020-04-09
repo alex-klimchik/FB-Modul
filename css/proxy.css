@@ -11,6 +11,12 @@
     /*box-shadow: 0 0 0.875rem 0 rgba(53, 64, 82, .05);*/
     border: 0;
 }
+.table-headline{
+    color: #3e4676;;
+    font-size: 17px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e7e9ea;
+}
 .custom-control {
     min-height: 1.3rem;
 }
@@ -27,6 +33,16 @@
     height: 48px;
     font-size: 14px;
 }
+.close {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+}
+.modal-header h5 {
+    color: #000;
+}
 
 /*select header*/
 
@@ -37,16 +53,17 @@
 
 .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle {
     color: #999;
-    background-color: #fefefe;
-    border: 1px solid #ededee;
+    border-color: transparent;
+    background-color: transparent;
+    border-bottom: 1px solid #cccccc;
     outline: none;
 }
 .bootstrap-select .dropdown-toggle:focus, .bootstrap-select>select.mobile-device:focus+.dropdown-toggle {
     outline: 0 auto -webkit-focus-ring-color!important;
-    outline-offset: -2px;
+    outline-offset: 0;
     color: #999;
     background-color: #fefefe;
-    border: 1px solid #d0d6db;
+    border-bottom: 1px solid #cccccc;
 }
 
 .dropdown-item.active, .dropdown-item:active {
@@ -62,13 +79,18 @@
 .bootstrap-select .dropdown-menu {
     border-color: #ededee;
 }
+
 .btn-light {
     color: #999;
-    background-color: #fefefe;
-    border: 1px solid #ededee;
+    border-color: transparent;
+    background-color: transparent;
+    border-bottom: 1px solid #cccccc;
 }
-.btn-light:hover{
-    border: 1px solid #ededee;
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active{
+    border-color: transparent;
+    border-bottom: 1px solid #47bac1;
     background-color: #fefefe;
 }
 .staff-fa {
@@ -86,15 +108,15 @@
 
 .add-btn {
     color: #fff;
-    background-color: #47bac1;
-    border-color: #47bac1;
+    background-color: #36999f;
+    border-color: #36999f;
 }
 .add-btn:not(:disabled):not(.disabled):active,
 .add-btn:focus,
 .add-btn:hover {
     color: #fff;
-    background-color: #47bac1;
-    border-color: #47bac1;
+    background-color: #39a2a9;
+    border-color: #39a2a9;
 }
 .proxy-add{
     display: flex;
@@ -108,8 +130,8 @@
     align-items: flex-end;
     padding: 0 0 10px;
 }
-.pro-ico{
-    margin-bottom: 15px!important;
+.modal-ic{
+    width: 20px;
 }
 .stage-icon{
     color: #6c757d;
@@ -136,19 +158,33 @@
 /*Input modal*/
  .form-br {
      border: 0;
-    background-image: linear-gradient(0deg,#ccc 2px,rgba(0,0,0,0) 0),linear-gradient(0deg,rgba(0,0,0,.26) 1px,transparent 0);
+    background-image: linear-gradient(0deg,#ccc 1px,rgba(0,0,0,0) 0),linear-gradient(0deg,rgba(0,0,0,.26) 1px,transparent 0);
 }
 
 .form-br:hover,
  .form-br:focus {
-    background-image: linear-gradient(0deg,#47bac1 2px,rgba(0,150,136,0) 0),linear-gradient(0deg,rgba(0,0,0,.26) 1px,transparent 0);
+    background-image: linear-gradient(0deg,#47bac1 1px,rgba(0,150,136,0) 0),linear-gradient(0deg,rgba(0,0,0,.26) 1px,transparent 0);
     background-size: 100% 100%,100% 100%;
     transition-duration: .3s;
+    box-shadow: 0 0 0 0 rgba(0,123,255,0);
 }
 .form-br:hover,
 .form-br:focus {
     box-shadow: 0 0 0 0 rgba(0,123,255,.25);
 }
+
+/*.stages-btn button {*/
+    /*border: 1px solid transparent;*/
+/*}*/
+/*.stages-btn .btn-light:hover {*/
+    /*border: 1px solid transparent;*/
+
+/*}*/
+/*.stages-btn .btn-light:hover,*/
+/*.stages-btn.btn-light:focus {*/
+    /*border: 1px solid transparent;*/
+    /*box-shadow: 0 0 0 0 rgba(0,123,255,0);*/
+/*}*/
 
 
 
@@ -158,6 +194,7 @@
 label {
     position: relative;
     display: block;
+    margin-bottom: 0;
 }
 label > input {
     height: 38px;

@@ -52,14 +52,15 @@ input:-ms-input-placeholder { color: #adadad;}
     margin-bottom: 15px;
     width: 30%;
     position: relative;
-    border-bottom: 2px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
 }
 .wrap-input-hid{
     width: 30%;
 }
 .label-input100 {
-    font-size: 14px;
-    color: #333333;
+    font-size: 12px;
+    color: #6c757d;
+    font-weight: 600;
     line-height: 1.5;
     padding-left: 7px;
 }
@@ -115,8 +116,8 @@ input:-ms-input-placeholder { color: #adadad;}
     bottom: -2px;
     left: 0;
     width: 0;
-    height: 2px;
-    background: #7f7f7f;
+    height: 1px;
+    background: #47bac1;
     -webkit-transition: all 0.4s;
     -o-transition: all 0.4s;
     -moz-transition: all 0.4s;
@@ -193,21 +194,13 @@ input:-ms-input-placeholder { color: #adadad;}
 }
 .btn-secondary:not(:disabled):not(.disabled):active{
     color: #fff;
-    background-color: #445180;
-    border-color: #445180;
+    background-color:#aaadb1;
+    border-color: #aaadb1;
 }
 .btn-secondary{
-    color: #fff;
-    background-color: #28304e;
-    border-color: #28304e;
     margin-right: 15px;
 }
-.btn-secondary:hover {
-    color: #fff;
-    background-color: #445180;
-    border-color: #445180
-;
-}
+
 
 
 
