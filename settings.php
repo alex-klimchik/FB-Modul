@@ -43,73 +43,57 @@
 
                     <div class="main-content">
                         <div class="card content-box">
-                            <p>Отделы</p>
+                            <p>Антидетект</p>
                             <div class="form-group">
-                                <label for="subdivision">Подразделение</label>
-                                <input type="text" class="form-control" id="subdivision" placeholder="Введите название">
+                                <!-- <label for="ant">Добавить</label> -->
+                                <input type="text" class="form-control" id="ant" placeholder="Добавить">
                             </div>
-                            <div class="form-group">
-                                <label for="department">Отдел</label>
-                                <select class="selectpicker" name="" id="department">
-                                    <option value="" disabled selected>Выберите отдел</option>
-                                    <option value="">Фб1 </option>
-                                    <option value="">Фармеры </option>
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="role">Роли</label>
-                                <select class="selectpicker" name="" id="role">
-                                    <option value="" disabled selected>Выберите роли</option>
-                                    <option value="">Веб </option>
-                                    <option value="">Фармер </option>
-                                </select>
-                            </div>
+                            <ul>
+                                <li>MLA</li>
+                            </ul>
                             <div class="btns">
-                                <button type="button" class="btn btn-danger">
+                                <!-- <button type="button" class="btn btn-danger">
                                     Удалить
-                                </button>
+                                </button> -->
                                 <button type="button" class="btn btn-primary">
                                     Добавить
                                 </button>
                             </div>
                         </div>
                         <div class="card content-box">
-                            <p>Отделы и роли</p>
+                            <p>Тип регистрации</p>
                             <div class="form-group">
-                                <label for="department2">Отдел</label>
-                                <select class="selectpicker" name="" id="department2">
-                                    <option value="" disabled selected>Выберите подразделение</option>
-                                    <option value="">Фб1 </option>
-                                    <option value="">Фармеры </option>
-                                </select>
+                                <!-- <label for="registr">Добавить</label> -->
+                                <input type="text" class="form-control" id="registr" placeholder="Добавить">
                             </div>
-                            <div class="form-group">
-                                <label for="role2">Роли</label>
-                                <select class="selectpicker" name="" id="role2">
-                                    <option value="" disabled selected>Выберите роли</option>
-                                    <option value="">Веб </option>
-                                    <option value="">Фармер </option>
-                                </select>
-                            </div>
+                            <ul>
+                                <li>E-mail</li>
+                                <li>Телефон</li>
+                                <li>MLA</li>
+                            </ul>
                             <div class="btns">
-                                <button type="button" class="btn btn-danger">
+                                <!-- <button type="button" class="btn btn-danger">
                                     Удалить
-                                </button>
+                                </button> -->
                                 <button type="button" class="btn btn-primary">
                                     Добавить
                                 </button>
                             </div>
                         </div>
                         <div class="card content-box">
-                            <p>Роли</p>
+                            <p>Тип прокси</p>
                             <div class="form-group">
-                                <label for="role3">Роль</label>
-                                <input type="text" class="form-control" id="role3" placeholder="Введите название">
+                                <!-- <label for="proxy">Добавить</label> -->
+                                <input type="text" class="form-control" id="proxy" placeholder="Добавить">
                             </div>
+                            <ul>
+                                <li>static</li>
+                                <li>3g/4g</li>
+                            </ul>
                             <div class="btns">
-                                <button type="button" class="btn btn-danger">
+                                <!-- <button type="button" class="btn btn-danger">
                                     Удалить
-                                </button>
+                                </button> -->
                                 <button type="button" class="btn btn-primary">
                                     Добавить
                                 </button>
