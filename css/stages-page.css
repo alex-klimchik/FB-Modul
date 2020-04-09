@@ -68,6 +68,33 @@ input {outline:none;}
     width: 25px!important;
     height: 25px!important;
 }
+.task-list{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+.task-list span{
+    color: #495061;
+    font-size: 12px;
+    width: 100%;
+    display: block;
+}
+.task-ic{
+    color: #495061;
+}
+.task-wrap{
+    list-style: none;
+    padding: 0 15px;
+}
+.task-add{
+    background-color: #17a1b7;
+    padding: 1px 7px;
+    color: #fff;
+}
+.task-add:hover{
+    background-color: #262f3d;
+    color: #fff;
+}
 /*================ select styles header===================*/
 
 .additions{

@@ -115,9 +115,8 @@
                                     </div>
 
                                     <div class="mt-3 mr-2 stage-btn">
-                                        <a href="#" title="Добавить этап">
-                                            <i data-feather="plus-circle"></i>
-                                        </a>
+                                        <button type="button" class="task-add btn" data-placement="top" title="Добавить этап">
+                                            <i class="fa fa-plus" aria-hidden="true"></i></button>
                                     </div>
                                 </form>
                             </div>
@@ -130,9 +129,44 @@
                                 <h5>Доступные задачи</h5>
                             </div>
                             <div class="stages-contant-bl">
-                                <!--<ol>-->
-                                <!--<li><a>Регистрация</a></li>-->
-                                <!--</ol>-->
+                                <ul class="task-wrap">
+                                    <li><a>Регистрация</a>
+                                        <div class="task-list">
+                                          <span> <i class="mr-2 task-ic" data-feather="more-horizontal"></i>Перенести и переименовать аккаунт</span>
+                                          <span> <i class="mr-2 task-ic" data-feather="more-horizontal"></i>Уникализировать фото</span>
+                                          <span> <i class="mr-2 task-ic" data-feather="more-horizontal"></i>Заполнить информацию</span>
+                                        </div>
+                                    </li>
+
+                                    <li><a>Прогрев куки</a>
+                                        <div class="task-list">
+                                            <span> <i class="mr-2 task-ic" data-feather="more-horizontal"></i>Смотреть видео</span>
+                                            <span> <i class="mr-2 task-ic" data-feather="more-horizontal"></i>Играть игру</span>
+                                            <span> <i class="mr-2 task-ic" data-feather="more-horizontal"></i>Сделать репост</span>
+                                        </div>
+                                    </li>
+                                    <li><a>Перенос в MLA</a>
+                                        <div class="task-list">
+                                          <span> <i class="mr-2 task-ic" data-feather="more-horizontal"></i>Создать фан-пейдж</span>
+                                        </div>
+                                    </li>
+                                    <li><a>100 друзей</a>
+                                        <div class="task-list">
+                                          <span> <i class="mr-2 task-ic" data-feather="more-horizontal"></i>Создать БМ</span>
+                                        </div>
+                                    </li>
+                                    <li><a>Поднятие</a>
+                                        <div class="task-list">
+                                          <span> <i class="mr-2 task-ic" data-feather="more-horizontal"></i>Тестовая</span>
+                                          <span> <i class="mr-2 task-ic" data-feather="more-horizontal"></i>Есть или нет3</span>
+                                        </div>
+                                    </li>
+                                    <li><a>Конец Фарма</a>
+                                        <div class="task-list">
+                                           <span> <i class="mr-2 task-ic" data-feather="more-horizontal"></i>Финальная задача</span>
+                                        </div>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -168,9 +202,8 @@
                                     </div>
 
                                     <div class="mt-3 mr-2 stage-btn">
-                                        <a href="#" title="Добавить этап">
-                                            <i data-feather="plus-circle"></i>
-                                        </a>
+                                        <button type="button" class="task-add btn" data-placement="top" title="Добавить этап">
+                                            <i class="fa fa-plus" aria-hidden="true"></i></button>
                                     </div>
                                 </form>
                             </div>
