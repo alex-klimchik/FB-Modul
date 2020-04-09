@@ -67,7 +67,7 @@
 
 
 
-                        <div class="card" style="padding: 15px;">
+                        <div class="card card-bloks-shadow " style="padding: 15px;">
                             <h6>Контейнер</h6>
                             <div style="border-top: 1px solid #e7e9ea;overflow-x:auto;overflow-y: hidden;">
                                 <table id="container-table" class="table-staff table table-striped">
@@ -94,13 +94,13 @@
                                                 </div>
                                             </td>
                                             <td>Lorena1</td>
-                                            <td>-</td>
-                                            <td>-</td>
+                                            <td>00.00.00</td>
+                                            <td>00.00.00</td>
                                             <td>test</td>
                                             <td>test1</td>
                                             <td class="symbol-token">T</td>
                                             <td class="symbol-proxy">P</td>
-                                            <td>0<i class="fa fa-sync-alt calc-spend" title="Пересчитать"></i></td>
+                                            <td>303.0<i class="fa fa-sync-alt calc-spend" title="Пересчитать"></i></td>
                                             <td>Дмитрий Фомин</td>
                                         </tr>
                                         <tr>
@@ -111,8 +111,127 @@
                                                 </div>
                                             </td>
                                             <td>Maryse1</td>
-                                            <td>-</td>
-                                            <td>-</td>
+                                            <td>00.00.00</td>
+                                            <td>00.00.00</td>
+                                            <td>test</td>
+                                            <td>test1</td>
+                                            <td class="symbol-token">T</td>
+                                            <td class="symbol-proxy">P</td>
+                                            <td>251.61<i class="fa fa-sync-alt calc-spend" title="Пересчитать"></i></td>
+                                            <td>Аня Новикова</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="custom-control custom-checkbox ">
+                                                    <input type="checkbox" class="custom-control-input" id="checkboxId2">
+                                                    <label class="custom-control-label" for="checkboxId2"></label>
+                                                </div>
+                                            </td>
+                                            <td>Maryse1</td>
+                                            <td>00.00.00</td>
+                                            <td>00.00.00</td>
+                                            <td>test</td>
+                                            <td>test1</td>
+                                            <td class="symbol-token">T</td>
+                                            <td class="symbol-proxy">P</td>
+                                            <td>251.61<i class="fa fa-sync-alt calc-spend" title="Пересчитать"></i></td>
+                                            <td>Аня Новикова</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="custom-control custom-checkbox ">
+                                                    <input type="checkbox" class="custom-control-input" id="checkboxId2">
+                                                    <label class="custom-control-label" for="checkboxId2"></label>
+                                                </div>
+                                            </td>
+                                            <td>Maryse1</td>
+                                            <td>00.00.00</td>
+                                            <td>00.00.00</td>
+                                            <td>test</td>
+                                            <td>test1</td>
+                                            <td class="symbol-token">T</td>
+                                            <td class="symbol-proxy">P</td>
+                                            <td>251.61<i class="fa fa-sync-alt calc-spend" title="Пересчитать"></i></td>
+                                            <td>Аня Новикова</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="custom-control custom-checkbox ">
+                                                    <input type="checkbox" class="custom-control-input" id="checkboxId2">
+                                                    <label class="custom-control-label" for="checkboxId2"></label>
+                                                </div>
+                                            </td>
+                                            <td>Maryse1</td>
+                                            <td>00.00.00</td>
+                                            <td>00.00.00</td>
+                                            <td>test</td>
+                                            <td>test1</td>
+                                            <td class="symbol-token">T</td>
+                                            <td class="symbol-proxy">P</td>
+                                            <td>251.61<i class="fa fa-sync-alt calc-spend" title="Пересчитать"></i></td>
+                                            <td>Аня Новикова</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="custom-control custom-checkbox ">
+                                                    <input type="checkbox" class="custom-control-input" id="checkboxId2">
+                                                    <label class="custom-control-label" for="checkboxId2"></label>
+                                                </div>
+                                            </td>
+                                            <td>Maryse1</td>
+                                            <td>00.00.00</td>
+                                            <td>00.00.00</td>
+                                            <td>test</td>
+                                            <td>test1</td>
+                                            <td class="symbol-token">T</td>
+                                            <td class="symbol-proxy">P</td>
+                                            <td>251.61<i class="fa fa-sync-alt calc-spend" title="Пересчитать"></i></td>
+                                            <td>Аня Новикова</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="custom-control custom-checkbox ">
+                                                    <input type="checkbox" class="custom-control-input" id="checkboxId2">
+                                                    <label class="custom-control-label" for="checkboxId2"></label>
+                                                </div>
+                                            </td>
+                                            <td>Maryse1</td>
+                                            <td>00.00.00</td>
+                                            <td>00.00.00</td>
+                                            <td>test</td>
+                                            <td>test1</td>
+                                            <td class="symbol-token">T</td>
+                                            <td class="symbol-proxy">P</td>
+                                            <td>251.61<i class="fa fa-sync-alt calc-spend" title="Пересчитать"></i></td>
+                                            <td>Аня Новикова</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="custom-control custom-checkbox ">
+                                                    <input type="checkbox" class="custom-control-input" id="checkboxId2">
+                                                    <label class="custom-control-label" for="checkboxId2"></label>
+                                                </div>
+                                            </td>
+                                            <td>Maryse1</td>
+                                            <td>00.00.00</td>
+                                            <td>00.00.00</td>
+                                            <td>test</td>
+                                            <td>test1</td>
+                                            <td class="symbol-token">T</td>
+                                            <td class="symbol-proxy">P</td>
+                                            <td>251.61<i class="fa fa-sync-alt calc-spend" title="Пересчитать"></i></td>
+                                            <td>Аня Новикова</td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <div class="custom-control custom-checkbox ">
+                                                    <input type="checkbox" class="custom-control-input" id="checkboxId2">
+                                                    <label class="custom-control-label" for="checkboxId2"></label>
+                                                </div>
+                                            </td>
+                                            <td>Maryse1</td>
+                                            <td>00.00.00</td>
+                                            <td>00.00.00</td>
                                             <td>test</td>
                                             <td>test1</td>
                                             <td class="symbol-token">T</td>

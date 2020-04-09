@@ -35,21 +35,8 @@
                             <span class="icon-holder"><i class="fas fa-list-ul"></i> </span>
                             <span class="title">Этапы</span></a>
                     </li>
-                    <li class="sidebar-item">
-                        <a class="sidebar-link" href="index.php">
-                            <span class="icon-holder"><i class="fas fa-chart-line"></i> </span>
-                            <span class="title">Статистика</span></a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a class="sidebar-link" href="index.php">
-                            <span class="icon-holder"><i class="fas fa-folder-open"></i> </span>
-                            <span class="title">Общая воронка</span></a>
-                    </li>
-                    <li class="sidebar-item">
-                        <a class="sidebar-link" href="index.php">
-                            <span class="icon-holder"><i class="fas fa-archive"></i></span>
-                            <span class="title">Вайты</span></a>
-                    </li>
+                   
+                
                     <li class="sidebar-item">
                         <a class="sidebar-link" href="index.php">
                             <span class="icon-holder"><i class="fas fa-box"></i></span>
