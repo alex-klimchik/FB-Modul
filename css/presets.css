@@ -9,6 +9,12 @@
 ul{
     list-style-type: none;
 }
+.table-headline{
+    color: #3e4676;;
+    font-size: 17px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e7e9ea;
+}
 .task-direction{
     display: flex;
 }
@@ -28,4 +34,26 @@ ul{
     font-weight: 600;
     color: #495057;
     margin-bottom: 0;
+}
+.btn-secondary{
+    color: #fff;
+    background-color: #babcbf;
+    border-color: #babcbf;
+    margin-right: 15px;
+}
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #aaadb1;
+    border-color: #aaadb1;
+}
+.modal-header h5 {
+    color: #000;
+}
+
+.close {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
 }

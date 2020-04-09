@@ -56,7 +56,6 @@
 
         <main>
             <div class="container-fluid" style="position: relative;">
-                <h6 style="color: #000; font-size: 21px; margin-bottom: 1rem">Proxy</h6>
                 <div class="row">
                     <div class="col-12">
                         <div class="additions proxy-account">
@@ -78,6 +77,7 @@
 
                     <div class="col-12 mt-3">
                         <div class="staff-t card">
+                            <h6 class="table-headline">Proxy</h6>
                             <div style="overflow-x:auto;">
                                 <table id="container-table" class="table table-striped ">
                                     <thead>
@@ -249,7 +249,7 @@
                                         <div class="proxy-fr-wrap">
                                             <div class="stage-bl-wrap mb-2">
                                                 <div class="stage-icon">
-                                                    <i data-feather="clipboard"></i>
+                                                    <i class="modal-ic" data-feather="clipboard"></i>
                                                 </div>
                                                 <div class="stage-s mb-0 form-group">
                                                     <!-- <label for="example2" class="bmd-label-floating">Введите этап</label>-->
@@ -258,27 +258,29 @@
                                                 </div>
                                             </div>
 
-                                            <div class="stage-bl-wrap">
+                                            <div class="stage-bl-wrap mb-2">
                                                 <div class="stage-icon">
-                                                    <i data-feather="list"></i>
+                                                    <i class="modal-ic" data-feather="list"></i>
                                                 </div>
                                                 <div class="stage-s mb-0 form-group ">
-                                                    <select class="form-br input-select form-control" id="proxy-account">
+                                                    <div class="stages-btn ">
+                                                      <select class="selectpicker form-br input-select form-control" id="proxy-account">
                                                         <option>FB аккаунт</option>
                                                         <option>.....</option>
                                                         <option>.....</option>
-                                                    </select>
+                                                      </select>
+                                                    </div>
                                                 </div>
                                             </div>
 
                                             <div class="stage-bl-wrap mb-2">
                                                 <div class="pro-ico stage-icon">
-                                                    <i data-feather="clock"></i>
+                                                    <i class="modal-ic" data-feather="clock"></i>
                                                 </div>
                                                 <div class="stage-s mb-0 form-group">
-                                                     <label for="example2" class="bmd-label-floating">Дата регистрации</label>
+<!--                                                     <label for="example2" class="bmd-label-floating">Дата регистрации</label>-->
                                                     <label>
-                                                        <input type="text" class="form-br dateselect" required="required" placeholder="дд.мм.гг"/>
+                                                        <input type="text" class="form-br dateselect" required="required" placeholder="Дата регистрации"/>
                                                     </label>
 
 
@@ -287,7 +289,7 @@
 
                                             <div class="stage-bl-wrap mb-2">
                                                 <div class="stage-icon">
-                                                    <i data-feather="monitor"></i>
+                                                    <i class="modal-ic" data-feather="monitor"></i>
                                                 </div>
                                                 <div class="stage-s mb-0 form-group">
                                                     <input type="text" class="form-br form-control" id="example2"
@@ -297,7 +299,7 @@
 
                                             <div class="stage-bl-wrap mb-2">
                                                 <div class="stage-icon">
-                                                    <i data-feather="key"></i>
+                                                    <i class="modal-ic" data-feather="key"></i>
                                                 </div>
                                                 <div class="stage-s mb-0 form-group">
                                                     <input type="text" class="form-br form-control" id="example2"
@@ -310,7 +312,7 @@
 
                                             <div class="stage-bl-wrap mb-2">
                                                 <div class="stage-icon">
-                                                    <i data-feather="server"></i>
+                                                    <i class="modal-ic"  data-feather="server"></i>
                                                 </div>
                                                 <div class="stage-s mb-0 form-group">
                                                     <input type="text" class="form-br form-control" id="example2"
@@ -318,34 +320,36 @@
                                                 </div>
                                             </div>
 
-                                            <div class="stage-bl-wrap">
+                                            <div class="stage-bl-wrap mb-2">
                                                 <div class="stage-icon">
-                                                    <i data-feather="more-horizontal"></i>
+                                                    <i class="modal-ic" data-feather="more-horizontal"></i>
                                                 </div>
                                                 <div class="stage-s mb-0 form-group ">
-                                                    <select class="form-br input-select form-control" id="stageS">
+                                                    <div class="stages-btn ">
+                                                    <select class="selectpicker form-br input-select form-control" id="stageS">
                                                         <option>Порт</option>
                                                         <option>......</option>
                                                         <option>......</option>
                                                     </select>
+                                                    </div>
                                                 </div>
                                             </div>
 
                                             <div class="stage-bl-wrap mb-2">
                                                 <div class="pro-ico stage-icon">
-                                                    <i data-feather="clock"></i>
+                                                    <i class="modal-ic" data-feather="clock"></i>
                                                 </div>
                                                 <div class="stage-s mb-0 form-group">
-                                                    <label for="example2" class="bmd-label-floating">Дата окончания</label>
+<!--                                                    <label for="example2" class="bmd-label-floating">Дата окончания</label>-->
                                                     <label>
-                                                        <input type="text" class="form-br dateselect" required="required" placeholder="дд.мм.гг"/>
+                                                        <input type="text" class="form-br dateselect" required="required" placeholder="Дата окончания"/>
                                                     </label>
                                                 </div>
                                             </div>
 
                                             <div class="stage-bl-wrap mb-2">
                                                 <div class="stage-icon">
-                                                    <i data-feather="user"></i>
+                                                    <i class="modal-ic" data-feather="user"></i>
                                                 </div>
                                                 <div class="stage-s mb-0 form-group">
                                                     <input type="text" class="form-br form-control" id="example2"
@@ -355,7 +359,7 @@
 
                                             <div class="stage-bl-wrap mb-2">
                                                 <div class="stage-icon">
-                                                    <i data-feather="rotate-ccw"></i>
+                                                    <i class="modal-ic" data-feather="rotate-ccw"></i>
                                                 </div>
                                                 <div class="stage-s mb-0 form-group">
                                                     <input type="text" class="form-br form-control" id="example2"
@@ -366,7 +370,10 @@
                                     </form>
 
                                 </div>
-                                <div class="modal-footer mt-2 mb-2">
+                                <div class="modal-footer mt-2">
+                                    <div class="wrap-login100-form-btn">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                                    </div>
                                     <div class="wrap-login100-form-btn">
                                         <button type="submit" class="add-btn btn btn-primary ">
                                             Добавить
@@ -399,7 +406,7 @@
                                         <div class="proxy-fr-wrap">
                                             <div class="stage-bl-wrap mb-2">
                                                 <div class="stage-icon">
-                                                    <i data-feather="clipboard"></i>
+                                                    <i class="modal-ic" data-feather="clipboard"></i>
                                                 </div>
                                                 <div class="stage-s mb-0 form-group">
                                                     <!-- <label for="example2" class="bmd-label-floating">Введите этап</label>-->
@@ -408,27 +415,29 @@
                                                 </div>
                                             </div>
 
-                                            <div class="stage-bl-wrap">
+                                            <div class="stage-bl-wrap mb-2">
                                                 <div class="stage-icon">
-                                                    <i data-feather="list"></i>
+                                                    <i class="modal-ic" data-feather="list"></i>
                                                 </div>
                                                 <div class="stage-s mb-0 form-group ">
-                                                    <select class="form-br input-select form-control" id="proxy-account">
+                                                    <div class="stages-btn ">
+                                                    <select class="form-br selectpicker input-select form-control" id="proxy-account">
                                                         <option>FB аккаунт</option>
                                                         <option>.....</option>
                                                         <option>.....</option>
                                                     </select>
                                                 </div>
+                                                </div>
                                             </div>
 
                                             <div class="stage-bl-wrap mb-2">
                                                 <div class="pro-ico stage-icon">
-                                                    <i data-feather="clock"></i>
+                                                    <i class="modal-ic" data-feather="clock"></i>
                                                 </div>
                                                 <div class="stage-s mb-0 form-group">
-                                                    <label for="example2" class="bmd-label-floating">Дата регистрации</label>
+<!--                                                    <label for="example2" class="bmd-label-floating">Дата регистрации</label>-->
                                                     <label>
-                                                        <input type="text" class="form-br dateselect" required="required" placeholder="дд.мм.гг"/>
+                                                        <input type="text" class="form-br dateselect" required="required" placeholder="Дата регистрации"/>
                                                     </label>
 
 
@@ -437,7 +446,7 @@
 
                                             <div class="stage-bl-wrap mb-2">
                                                 <div class="stage-icon">
-                                                    <i data-feather="monitor"></i>
+                                                    <i class="modal-ic" data-feather="monitor"></i>
                                                 </div>
                                                 <div class="stage-s mb-0 form-group">
                                                     <input type="text" class="form-br form-control" id="example2"
@@ -447,7 +456,7 @@
 
                                             <div class="stage-bl-wrap mb-2">
                                                 <div class="stage-icon">
-                                                    <i data-feather="key"></i>
+                                                    <i class="modal-ic" data-feather="key"></i>
                                                 </div>
                                                 <div class="stage-s mb-0 form-group">
                                                     <input type="text" class="form-br form-control" id="example2"
@@ -460,7 +469,7 @@
 
                                             <div class="stage-bl-wrap mb-2">
                                                 <div class="stage-icon">
-                                                    <i data-feather="server"></i>
+                                                    <i class="modal-ic" data-feather="server"></i>
                                                 </div>
                                                 <div class="stage-s mb-0 form-group">
                                                     <input type="text" class="form-br form-control" id="example2"
@@ -468,34 +477,36 @@
                                                 </div>
                                             </div>
 
-                                            <div class="stage-bl-wrap">
+                                            <div class="stage-bl-wrap mb-2">
                                                 <div class="stage-icon">
-                                                    <i data-feather="more-horizontal"></i>
+                                                    <i class="modal-ic" data-feather="more-horizontal"></i>
                                                 </div>
                                                 <div class="stage-s mb-0 form-group ">
-                                                    <select class="form-br input-select form-control" id="stageS">
+                                                    <div class="stages-btn ">
+                                                    <select class="selectpicker form-br input-select form-control" id="stageS">
                                                         <option>Порт</option>
                                                         <option>......</option>
                                                         <option>......</option>
                                                     </select>
+                                                    </div>
                                                 </div>
                                             </div>
 
                                             <div class="stage-bl-wrap mb-2">
                                                 <div class="pro-ico stage-icon">
-                                                    <i data-feather="clock"></i>
+                                                    <i class="modal-ic" data-feather="clock"></i>
                                                 </div>
                                                 <div class="stage-s mb-0 form-group">
-                                                    <label for="example2" class="bmd-label-floating">Дата окончания</label>
+<!--                                                    <label for="example2" class="bmd-label-floating">Дата окончания</label>-->
                                                     <label>
-                                                        <input type="text" class="form-br dateselect" required="required" placeholder="дд.мм.гг"/>
+                                                        <input type="text" class="form-br dateselect" required="required" placeholder="Дата окончания"/>
                                                     </label>
                                                 </div>
                                             </div>
 
                                             <div class="stage-bl-wrap mb-2">
                                                 <div class="stage-icon">
-                                                    <i data-feather="user"></i>
+                                                    <i class="modal-ic" data-feather="user"></i>
                                                 </div>
                                                 <div class="stage-s mb-0 form-group">
                                                     <input type="text" class="form-br form-control" id="example2"
@@ -505,7 +516,7 @@
 
                                             <div class="stage-bl-wrap mb-2">
                                                 <div class="stage-icon">
-                                                    <i data-feather="rotate-ccw"></i>
+                                                    <i class="modal-ic" data-feather="rotate-ccw"></i>
                                                 </div>
                                                 <div class="stage-s mb-0 form-group">
                                                     <input type="text" class="form-br form-control" id="example2"
@@ -516,7 +527,10 @@
                                     </form>
 
                                 </div>
-                                <div class="modal-footer mt-2 mb-2">
+                                <div class="modal-footer mt-2">
+                                    <div class="wrap-login100-form-btn">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                                    </div>
                                     <div class="wrap-login100-form-btn">
                                         <button type="submit" class="add-btn btn btn-primary ">
                                             Сохранить
