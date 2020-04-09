@@ -1,3 +1,8 @@
+.card-bloks-shadow {
+    box-shadow: 0 0 3px 1px #5d5d5d4f;
+    border: 0!important;
+}
+
 .main-content {
     display: flex;
     justify-content: space-between;
@@ -13,7 +18,8 @@
     border-color: #47bac1;
 }
 
-.btn-primary:hover, .btn-primary:active {
+.btn-primary:hover,
+.btn-primary:active {
     background-color: #39a2a9!important;
     border-color: #36999f!important;
 }
@@ -79,13 +85,15 @@
     font-weight: 600;
 }
 
+
 /* Selects */
 
 .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
     width: 100%;
 }
 
-.bootstrap-select .dropdown-toggle:focus, .bootstrap-select>select.mobile-device:focus+.dropdown-toggle {
+.bootstrap-select .dropdown-toggle:focus,
+.bootstrap-select>select.mobile-device:focus+.dropdown-toggle {
     outline: none!important;
 }
 
@@ -99,15 +107,20 @@
     color: #495057!important;
 }
 
-.dropdown-toggle, .dropdown-toggle:focus, .dropdown-toggle:active {
+.dropdown-toggle,
+.dropdown-toggle:focus,
+.dropdown-toggle:active {
     outline: none!important;
 }
 
-.dropdown-menu.show~.dropdown-toggle, .dropdown-toggle:focus, .dropdown-toggle:active {
+.dropdown-menu.show~.dropdown-toggle,
+.dropdown-toggle:focus,
+.dropdown-toggle:active {
     box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, .5)!important;
 }
 
-.dropdown-item:focus, .dropdown-item:hover {
+.dropdown-item:focus,
+.dropdown-item:hover {
     background-color: #f4f8ff96;
 }
 
@@ -120,7 +133,8 @@
     border: 1px solid #d3d9df;
 }
 
-.dropdown-item.active, .dropdown-item:active {
+.dropdown-item.active,
+.dropdown-item:active {
     background-color: #deebff;
     color: #333;
 }
@@ -128,5 +142,6 @@
 select:not(:nth-child(1)) {
     margin-left: 20px;
 }
+
 
 /* End Selects */

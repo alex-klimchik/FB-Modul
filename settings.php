@@ -42,7 +42,7 @@
                     <h6 style="color: #000; font-size: 21px; margin-bottom: 1rem">Настройки</h6>
 
                     <div class="main-content">
-                        <div class="card content-box">
+                        <div class="card card-bloks-shadow content-box">
                             <p>Антидетект</p>
                             <div class="form-group">
                                 <!-- <label for="ant">Добавить</label> -->
@@ -60,7 +60,7 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="card content-box">
+                        <div class="card card-bloks-shadow content-box">
                             <p>Тип регистрации</p>
                             <div class="form-group">
                                 <!-- <label for="registr">Добавить</label> -->
@@ -80,7 +80,7 @@
                                 </button>
                             </div>
                         </div>
-                        <div class="card content-box">
+                        <div class="card card-bloks-shadow content-box">
                             <p>Тип прокси</p>
                             <div class="form-group">
                                 <!-- <label for="proxy">Добавить</label> -->

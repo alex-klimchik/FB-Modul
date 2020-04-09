@@ -1,8 +1,3 @@
-main {
-    padding: 0;
-    padding-top: 55px;
-}
-
 button.close:focus {
     outline: none;
 }
@@ -16,7 +11,6 @@ button.close:focus {
     padding: 0 15px;
     border-radius: 3px;
     background-clip: padding-box;
-    border: 1px solid #ced4da;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,26 +18,32 @@ button.close:focus {
     font-size: 14px;
 }
 
+
 /* Selects */
 
 .additions-choice .dropdown-toggle {
     background-color: #fff!important;
-    border: 1px solid #d3d3d3;
+    border: 1px solid #eaeaea;
     width: 190px;
     height: 34px;
     border-radius: 6px;
     padding-top: 3px;
 }
 
-.additions-choice .dropdown-toggle, .additions-choice .dropdown-toggle:focus, .additions-choice .dropdown-toggle:active {
+.additions-choice .dropdown-toggle,
+.additions-choice .dropdown-toggle:focus,
+.additions-choice .dropdown-toggle:active {
     outline: none!important;
 }
 
-.dropdown-menu.show~.additions-choice .dropdown-toggle, .additions-choice .dropdown-toggle:focus, .additions-choice .dropdown-toggle:active {
+.dropdown-menu.show~.additions-choice .dropdown-toggle,
+.additions-choice .dropdown-toggle:focus,
+.additions-choice .dropdown-toggle:active {
     box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, .5)!important;
 }
 
-.additions-choice .dropdown-item:focus, .additions-choice .dropdown-item:hover {
+.additions-choice .dropdown-item:focus,
+.additions-choice .dropdown-item:hover {
     background-color: #f4f8ff96;
 }
 
@@ -55,7 +55,8 @@ button.close:focus {
     border: 1px solid #d3d9df;
 }
 
-.additions-choice .dropdown-item.active, .additions-choice .dropdown-item:active {
+.additions-choice .dropdown-item.active,
+.additions-choice .dropdown-item:active {
     background-color: #deebff;
     color: #333;
 }
@@ -64,24 +65,25 @@ button.close:focus {
     margin-left: 20px;
 }
 
+
 /* End Selects */
 
 .additions-modal {
-    height: 34px;
-    width: 34px;
+    height: 30px;
+    width: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    background-color: #deebff;
+    background-color: #a7abb1;
     border-width: 1px;
     border-style: solid;
-    border-color: #deebff;
+    border-color: #a7abb1;
     border-radius: 3px;
 }
 
 .additions-modal i {
-    color: #999;
+    color: #fff;
     font-size: 16px;
 }
 
@@ -99,13 +101,12 @@ button.close:focus {
 }
 
 .main-content_table {
+    border-radius: 3px;
     height: calc(100vh - 113px);
     overflow: auto;
     margin-left: 10px;
     margin-right: 10px;
     position: relative;
-    box-shadow: 0px 4px 5px 2px #949494c2;
-    border: 1px solid #ced4da;
 }
 
 .board-main {
@@ -260,35 +261,41 @@ button.close:focus {
     height: 5px;
 }
 
-.main-content_table::-webkit-scrollbar-button, .board-main::-webkit-scrollbar-button {
+.main-content_table::-webkit-scrollbar-button,
+.board-main::-webkit-scrollbar-button {
     background-color: transparent;
     width: 0;
     height: 0;
     opacity: 0;
 }
 
-.main-content_table::-webkit-scrollbar-track, .board-main::-webkit-scrollbar-track {
+.main-content_table::-webkit-scrollbar-track,
+.board-main::-webkit-scrollbar-track {
     background-color: transparent;
     opacity: 0;
 }
 
-.main-content_table::-webkit-scrollbar-track-piece, .board-main::-webkit-scrollbar-track-piece {
+.main-content_table::-webkit-scrollbar-track-piece,
+.board-main::-webkit-scrollbar-track-piece {
     background-color: transparent;
     opacity: 0;
 }
 
-.main-content_table::-webkit-scrollbar-thumb, .board-main::-webkit-scrollbar-thumb {
+.main-content_table::-webkit-scrollbar-thumb,
+.board-main::-webkit-scrollbar-thumb {
     border-radius: 7px;
     box-shadow: rgb(255, 255, 255) 0px 0px 1px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.main-content_table::-webkit-scrollbar-corner, .board-main::-webkit-scrollbar-corner {
+.main-content_table::-webkit-scrollbar-corner,
+.board-main::-webkit-scrollbar-corner {
     background-color: transparent;
     opacity: 0;
 }
 
-.main-content_table::-webkit-resizer, .board-main::-webkit-resizer {
+.main-content_table::-webkit-resizer,
+.board-main::-webkit-resizer {
     background-color: transparent;
     opacity: 0;
 }
@@ -372,7 +379,8 @@ button.close:focus {
     border-radius: 4px;
 }
 
-.modal_account-collapse, .modal_account-content {
+.modal_account-collapse,
+.modal_account-content {
     width: calc(50% - 10px);
     margin: 15px 0;
 }
@@ -403,7 +411,8 @@ button.close:focus {
     margin-bottom: 10px;
 }
 
-.modal_account-content .content-tasks label, .modal_account-content .content-tasks input {
+.modal_account-content .content-tasks label,
+.modal_account-content .content-tasks input {
     cursor: pointer;
 }
 
