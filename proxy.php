@@ -482,7 +482,7 @@
                                                     <i class="modal-ic" data-feather="more-horizontal"></i>
                                                 </div>
                                                 <div class="stage-s mb-0 form-group ">
-                                                    <div class="stages-btn ">
+                                                    <div class="stages-btn">
                                                     <select class="selectpicker form-br input-select form-control" id="stageS">
                                                         <option>Порт</option>
                                                         <option>......</option>

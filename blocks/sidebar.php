@@ -51,7 +51,7 @@
                             <span class="title">Вайты</span></a>
                     </li>
                     <li class="sidebar-item">
-                        <a class="sidebar-link" href="index.php">
+                        <a class="sidebar-link" href="tasks-page.php">
                             <span class="icon-holder"><i class="fas fa-box"></i></span>
                             <span class="title">Задачи</span>
                             <span size="18" class="sidebar-badge badge-primary badge-pill">New</span></a>

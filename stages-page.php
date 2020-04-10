@@ -63,7 +63,7 @@
                 </div>
 
                 <div class="row row-flex mt-3">
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12 pr-0  ">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12 bl-pd ">
                         <div class="thumb bg-stages-bl">
                             <div class="stages-headline access-bg">
                                 <h5>Доступные этапы</h5>
@@ -123,7 +123,7 @@
                         </div>
                     </div>
 
-                    <div class=" col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12 pr-0">
+                    <div class=" col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12 bl-pd">
                         <div class="thumb bg-stages-bl">
                             <div class="stages-headline access-bg">
                                 <h5>Доступные задачи</h5>

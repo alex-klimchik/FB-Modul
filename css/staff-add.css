@@ -268,4 +268,15 @@ input:-ms-input-placeholder { color: #adadad;}
         visibility: visible;
         opacity: 1;
     }
+    .wrap-input100 {
+        width: 48%;
+    }
+    .login100-form {
+        justify-content: space-between;
+    }
+}
+@media (max-width: 420px) {
+    .wrap-input100 {
+        width: 100%;
+    }
 }
