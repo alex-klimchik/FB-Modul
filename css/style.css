@@ -146,10 +146,6 @@ main {
     border-right: 1px solid #e6e7e9;
 }
 
-.header-menu .nb-f:hover {
-    border-bottom: 1px solid #ffffffa6;
-}
-
 .header-menu .start-work:hover .button-start-work {
     background: #027bdc;
     transition: 0.3s;
@@ -282,8 +278,11 @@ table tbody tr:hover {
 }
 
 .sidebar-item:hover {
-    color: hsla(0, 0%, 100%, .9);
     background: #1e2530;
+}
+
+.sidebar-item a:hover {
+    color: hsla(0, 0%, 100%, .9);
 }
 
 .sidebar-toggle {

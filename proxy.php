@@ -62,13 +62,13 @@
                             <div class="additions-choice">
                                 <select class="selectpicker" name="" id="proxyAllAccount">
                                     <option>FB account</option>
-                                    <option>???</option>
+                            
                                     <option>Фармер</option>
                                     <option>Фармер 2</option>
                                 </select>
                             </div>
                             <div class="proxy-add">
-                                <button type="button" class="btn-new-ticket btn" data-toggle="modal"
+                                <button type="button" class=" btn-new-ticket btn" data-toggle="modal"
                                         data-target="#proxyModalAdd" data-placement="top" title="Добавить">
                                     <i class="fa fa-plus staff-fa" aria-hidden="true"></i></button>
                             </div>
