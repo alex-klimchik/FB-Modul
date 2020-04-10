@@ -1,6 +1,7 @@
 main {
     padding: 0;
     padding-top: 55px;
+    padding-bottom: 55px;
 }
 
 .additions {
@@ -144,21 +145,39 @@ table#container-table tbody tr.colorize {
 footer {
     width: calc(100% - 240px);
     background-color: #fff;
-    background-color: #00000038;
+    background-color: #efefef;
     height: 50px;
     color: #354052!important;
-    box-shadow: 0px 0px 2rem 0 rgba(53, 64, 82, .1);
+    box-shadow: 0px 0px 5px 4px rgba(53, 64, 82, 0.24);
     position: fixed;
-    bottom: -50px;
+    bottom: 0;
     right: 0;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
     z-index: 800;
-    display: none;
+}
+
+footer>div {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+footer .message {
+    position: absolute;
+    right: 30px;
+    top: 12px;
+    font-size: 26px;
+    color: #3a89ff;
+    line-height: 26px;
+    cursor: pointer;
 }
 
 footer .btns-wrap {
+    position: absolute;
+    left: 0;
+    bottom: -50px;
     display: flex;
     height: 100%;
     align-items: center;
@@ -172,8 +191,8 @@ footer .btns-wrap>button {
 }
 
 footer .btns-wrap>.btn-primary:not(:disabled):not(.disabled).active, footer .btns-wrap>.btn-primary:not(:disabled):not(.disabled):active {
-    background-color: #36999f;
-    border-color: #329096;
+    background-color: #0260ad;
+    border-color: #0260ad;
 }
 
 footer .btns-wrap>button:hover {
