@@ -10,16 +10,16 @@ $(document).ready(() => {
             if (el.checked) count++;
         })
         if (count > 0) {
-            $('footer').show();
-            $('footer').animate({
+            $('.btns-wrap').show();
+            $('.btns-wrap').animate({
                 bottom: '0'
             }, 140);
             $('.count span').html(count);
         } else {
-            $('footer').animate({
+            $('.btns-wrap').animate({
                 bottom: '-50'
             }, 140);
-            $('footer').hide(140);
+            $('.btns-wrap').hide(140);
         }
     }
 

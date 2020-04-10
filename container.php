@@ -254,19 +254,21 @@
         </div>
     </div>
     <footer>
-        <div class="btns-wrap">
-            <div class="count">
-                Выбрано: <span></span>
-            </div>
-            <button class="btn btn-primary cansel">Отмена <i data-feather="x-circle"></i></button>
-            <button class="btn btn-primary ">Отправить <i style="transform: rotate(45deg);" data-feather="send"></i></button>
-            <select class="selectpicker" name="" id="">
-                <option value="">Фб 1</option>
-                <option value="">ФБ 2</option>
-            </select>
-            <div class="custom-control custom-checkbox ">
-                <input type="checkbox" class="custom-control-input" id="checkboxId3">
-                <label class="custom-control-label" for="checkboxId3">Передать в Lagoon</label>
+        <div>
+            <div class="btns-wrap">
+                <div class="count">
+                    Выбрано: <span></span>
+                </div>
+                <button class="btn btn-primary cansel">Отмена <i data-feather="x-circle"></i></button>
+                <button class="btn btn-primary ">Отправить <i style="transform: rotate(45deg);" data-feather="send"></i></button>
+                <select class="selectpicker" name="" id="">
+                    <option value="">Фб 1</option>
+                    <option value="">ФБ 2</option>
+                </select>
+                <div class="custom-control custom-checkbox ">
+                    <input type="checkbox" class="custom-control-input" id="checkboxId3">
+                    <label class="custom-control-label" for="checkboxId3">Передать в Lagoon</label>
+                </div>
             </div>
         </div>
     </footer>
