@@ -63,7 +63,7 @@
                 </div>
 
                 <div class="row row-flex mt-3">
-                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12 pr-0  ">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12 bl-pd ">
                         <div class="thumb bg-stages-bl">
                             <div class="stages-headline access-bg">
                                 <h5>Доступные этапы</h5>
@@ -123,7 +123,7 @@
                         </div>
                     </div>
 
-                    <div class=" col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12 pr-0">
+                    <div class=" col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12 bl-pd">
                         <div class="thumb bg-stages-bl">
                             <div class="stages-headline access-bg">
                                 <h5>Доступные задачи</h5>
@@ -132,38 +132,38 @@
                                 <ul class="task-wrap">
                                     <li><a>Регистрация</a>
                                         <div class="task-list">
-                                          <span> <i class="mr-2 task-ic" data-feather="more-horizontal"></i>Перенести и переименовать аккаунт</span>
-                                          <span> <i class="mr-2 task-ic" data-feather="more-horizontal"></i>Уникализировать фото</span>
-                                          <span> <i class="mr-2 task-ic" data-feather="more-horizontal"></i>Заполнить информацию</span>
+                                          <span> <i class="mr-2 task-ic" data-feather="minus"></i>Перенести и переименовать аккаунт</span>
+                                          <span> <i class="mr-2 task-ic" data-feather="minus"></i>Уникализировать фото</span>
+                                          <span> <i class="mr-2 task-ic" data-feather="minus"></i>Заполнить информацию</span>
                                         </div>
                                     </li>
 
                                     <li><a>Прогрев куки</a>
                                         <div class="task-list">
-                                            <span> <i class="mr-2 task-ic" data-feather="more-horizontal"></i>Смотреть видео</span>
-                                            <span> <i class="mr-2 task-ic" data-feather="more-horizontal"></i>Играть игру</span>
-                                            <span> <i class="mr-2 task-ic" data-feather="more-horizontal"></i>Сделать репост</span>
+                                            <span> <i class="mr-2 task-ic" data-feather="minus"></i>Смотреть видео</span>
+                                            <span> <i class="mr-2 task-ic" data-feather="minus"></i>Играть игру</span>
+                                            <span> <i class="mr-2 task-ic" data-feather="minus"></i>Сделать репост</span>
                                         </div>
                                     </li>
                                     <li><a>Перенос в MLA</a>
                                         <div class="task-list">
-                                          <span> <i class="mr-2 task-ic" data-feather="more-horizontal"></i>Создать фан-пейдж</span>
+                                          <span> <i class="mr-2 task-ic" data-feather="minus"></i>Создать фан-пейдж</span>
                                         </div>
                                     </li>
                                     <li><a>100 друзей</a>
                                         <div class="task-list">
-                                          <span> <i class="mr-2 task-ic" data-feather="more-horizontal"></i>Создать БМ</span>
+                                          <span> <i class="mr-2 task-ic" data-feather="minus"></i>Создать БМ</span>
                                         </div>
                                     </li>
                                     <li><a>Поднятие</a>
                                         <div class="task-list">
-                                          <span> <i class="mr-2 task-ic" data-feather="more-horizontal"></i>Тестовая</span>
-                                          <span> <i class="mr-2 task-ic" data-feather="more-horizontal"></i>Есть или нет3</span>
+                                          <span> <i class="mr-2 task-ic" data-feather="minus"></i>Тестовая</span>
+                                          <span> <i class="mr-2 task-ic" data-feather="minus"></i>Есть или нет3</span>
                                         </div>
                                     </li>
                                     <li><a>Конец Фарма</a>
                                         <div class="task-list">
-                                           <span> <i class="mr-2 task-ic" data-feather="more-horizontal"></i>Финальная задача</span>
+                                           <span> <i class="mr-2 task-ic" data-feather="minus"></i>Финальная задача</span>
                                         </div>
                                     </li>
                                 </ul>

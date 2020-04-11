@@ -19,7 +19,6 @@
     <meta charset="utf-8">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
-
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/staff-page.css">
     <link rel="stylesheet" type="text/css" href="css/staff-add.css">
@@ -294,9 +293,6 @@
                         <!-- ====== Tab - EXIT TICKETS  ======= -->
 
                         <div id="exit-tickets" class="tab-pane fade">
-                            <!--<div class="head-line-staff">-->
-                                <!--<h4>Заблокированные</h4>-->
-                            <!--</div>-->
 
                             <div class="staff-t card">
                                 <div style="overflow-x:auto;">
@@ -418,7 +414,7 @@
                                     </div>
 
                                     <div class="wrap-input100 validate-input">
-                                        <div class="stages-btn ">
+                                        <div id="stages-btn">
                                          <span class="label-input100">Отдел:</span>
                                          <select class="selectpicker input-select form-control" id="exampleFormControlSelect1">
                                             <option>ФМ1</option>
@@ -454,7 +450,7 @@
                                     </div>
 
                                     <div class="wrap-input100 validate-input">
-                                        <div class="stages-btn ">
+                                        <div id="stages-btn">
                                          <span class="label-input100">Должность:</span>
                                          <select class="selectpicker input-select form-control" id="exampleFormControlSelect2">
                                             <option>Фармер (трастовый)</option>
@@ -513,7 +509,7 @@
                     <div class=" modal-lg modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Добавить сотрудника</h5>
+                                <h5 class="modal-title" id="exampleModalLabel">Редактировать</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">×</span></button>
                             </div>
@@ -541,7 +537,7 @@
                                         </div>
 
                                         <div class="wrap-input100 validate-input">
-                                            <div class="stages-btn ">
+                                            <div id="stages-btn">
                                                 <span class="label-input100">Отдел:</span>
                                                 <select class="selectpicker input-select form-control" id="allStaff">
                                                     <option>ФМ1</option>
@@ -578,7 +574,7 @@
                                         </div>
 
                                         <div class="wrap-input100 validate-input">
-                                            <div class="stages-btn ">
+                                            <div id="stages-btn">
                                             <span class="label-input100">Должность:</span>
                                               <select class="selectpicker input-select form-control" id="exampleFormControlSelect2">
                                                 <option>Фармер (трастовый)</option>
@@ -612,7 +608,7 @@
                                             </div>
                                             <div class="wrap-login100-form-btn">
                                                 <button type="submit" class="btn btn-primary login100-form-btn">
-                                                    Добавить
+                                                    Сохранить
                                                 </button>
                                             </div>
                                         </div>
