@@ -80,15 +80,29 @@ input {outline:none;}
     display: block;
 }
 .task-ic{
-    color: #495061;
+    width: 15px;
+    height: 26px;
+    color: #495057;
 }
 .task-wrap{
     list-style: none;
     padding: 0 15px;
 }
+.stages-contant-bl ol{
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #6c757dcf!important;
+}
+.task-wrap li a{
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #6c757d!important;
+}
 .task-add{
     background-color: #17a1b7;
-    padding: 1px 7px;
+    padding: 2px 7px 0;
     color: #fff;
 }
 .task-add:hover{

@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8dc85d68-fb21-4cff-916f-c89daa524c9c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/css/tasks-page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks-page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blocks/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/blocks/sidebar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/proxy.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/proxy.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/staff-add.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/staff-add.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/staff-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/staff-page.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/stages-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stages-page.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/proxy.php" beforeDir="false" afterPath="$PROJECT_DIR$/proxy.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/staff-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/staff-page.php" afterDir="false" />
@@ -25,14 +20,23 @@
     <favorites_list name="FB-Modul" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5177792">
+    <splitter split-orientation="horizontal" split-proportion="0.68147343">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="stages-page.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/stages-page.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="571">
-                  <caret line="193" column="16" selection-start-line="193" selection-start-column="16" selection-end-line="193" selection-end-column="16" />
+                <state relative-caret-position="512">
+                  <caret line="202" column="1" lean-forward="true" selection-start-line="174" selection-end-line="202" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="stages-page.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/stages-page.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="450">
+                  <caret line="108" column="52" selection-start-line="108" selection-start-column="52" selection-end-line="108" selection-end-column="59" />
                 </state>
               </provider>
             </entry>
@@ -40,35 +44,26 @@
           <file leaf-file-name="staff-page.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/staff-page.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="410">
-                  <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="52" />
+                <state relative-caret-position="-1656">
+                  <caret line="294" column="69" selection-start-line="294" selection-start-column="69" selection-end-line="294" selection-end-column="69" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="tasks-page.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/css/tasks-page.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="571">
-                  <caret line="218" selection-start-line="218" selection-end-line="222" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="staff-page.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="staff-page.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/staff-page.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="71">
-                  <caret line="244" column="18" selection-start-line="244" selection-start-column="18" selection-end-line="244" selection-end-column="18" />
+                <state relative-caret-position="332">
+                  <caret line="254" selection-start-line="254" selection-end-line="265" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="proxy.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="proxy.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/proxy.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4265">
-                  <caret line="372" column="5" selection-start-line="372" selection-start-column="5" selection-end-line="372" selection-end-column="5" />
+                <state relative-caret-position="436">
+                  <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
                 </state>
               </provider>
             </entry>
@@ -76,12 +71,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="proxy.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/proxy.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="6907">
-                  <caret line="427" column="61" lean-forward="true" selection-start-line="427" selection-start-column="61" selection-end-line="427" selection-end-column="61" />
+                <state relative-caret-position="391">
+                  <caret line="266" column="89" selection-start-line="266" selection-start-column="89" selection-end-line="266" selection-end-column="89" />
                 </state>
               </provider>
             </entry>
@@ -110,11 +105,13 @@
       <find>stage-s</find>
       <find>stages-btn</find>
       <find>#stages-btn</find>
+      <find>more-horizontal</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;button type=&quot;button&quot; class=&quot;btn-mini btn-outline-edit&quot; data-toggle=&quot;modal&quot; data-target=&quot;#exampleModalPreSearch&quot; data-placement=&quot;bottom&quot; title=&quot;??????&quot;&gt;</replace>
       <replace>#47bac1</replace>
       <replace>tasks-s</replace>
+      <replace>minus</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -140,9 +137,9 @@
         <option value="$PROJECT_DIR$/tasks-page.php" />
         <option value="$PROJECT_DIR$/css/tasks-page.css" />
         <option value="$PROJECT_DIR$/css/staff-page.css" />
+        <option value="$PROJECT_DIR$/css/staff-add.css" />
         <option value="$PROJECT_DIR$/stages-page.php" />
         <option value="$PROJECT_DIR$/css/stages-page.css" />
-        <option value="$PROJECT_DIR$/css/staff-add.css" />
         <option value="$PROJECT_DIR$/staff-page.php" />
         <option value="$PROJECT_DIR$/proxy.php" />
         <option value="$PROJECT_DIR$/css/proxy.css" />
@@ -245,27 +242,28 @@
       <workItem from="1586324725123" duration="2587000" />
       <workItem from="1586331158762" duration="20322000" />
       <workItem from="1586415339844" duration="19287000" />
-      <workItem from="1586500726035" duration="22561000" />
+      <workItem from="1586500726035" duration="23507000" />
+      <workItem from="1586586367725" duration="5437000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104225000" />
+    <option name="totallyTimeSpent" value="110608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="7" width="1920" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49947423" visible="true" weight="0.14552239" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49947423" visible="true" weight="0.015991472" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.42857143" side_tool="true" visible="true" weight="0.088427946" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.42910448" side_tool="true" visible="true" weight="0.0" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49946696" weight="0.32969433" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" sideWeight="0.5005258" side_tool="true" weight="0.11736334" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.5714286" visible="true" weight="0.088427946" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.5708955" visible="true" weight="0.0" />
       <window_info id="Favorites" order="2" sideWeight="0.5005258" side_tool="true" weight="0.11736334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -394,23 +392,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="123" column="52" selection-start-line="123" selection-start-column="52" selection-end-line="123" selection-end-column="52" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stages-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="100" column="10" lean-forward="true" selection-start-line="100" selection-start-column="10" selection-end-line="100" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/stages-page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="193" column="16" selection-start-line="193" selection-start-column="16" selection-end-line="193" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -423,36 +404,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/tasks-page.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
+        <state relative-caret-position="18">
           <caret line="218" selection-start-line="218" selection-end-line="222" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/proxy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6907">
-          <caret line="427" column="61" lean-forward="true" selection-start-line="427" selection-start-column="61" selection-end-line="427" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/proxy.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4265">
-          <caret line="372" column="5" selection-start-line="372" selection-start-column="5" selection-end-line="372" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/staff-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="57" column="36" selection-start-line="57" selection-start-column="36" selection-end-line="57" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/staff-page.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="244" column="18" selection-start-line="244" selection-start-column="18" selection-end-line="244" selection-end-column="18" />
+        <state relative-caret-position="332">
+          <caret line="254" selection-start-line="254" selection-end-line="265" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/staff-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1656">
+          <caret line="294" column="69" selection-start-line="294" selection-start-column="69" selection-end-line="294" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stages-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="108" column="52" selection-start-line="108" selection-start-column="52" selection-end-line="108" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/stages-page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="202" column="1" lean-forward="true" selection-start-line="174" selection-end-line="202" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proxy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="266" column="89" selection-start-line="266" selection-start-column="89" selection-end-line="266" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/proxy.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
         </state>
       </provider>
     </entry>

@@ -46,53 +46,84 @@
 
 /*select header*/
 
+.stages-btn button {
+    border: 0;
+    /*background-image: linear-gradient(0deg,#e0e5ea 1px,rgba(0,0,0,0) 0),linear-gradient(0deg,rgba(0,0,0,.26) 1px,transparent 0);*/
+}
 
 .bootstrap-select>.dropdown-toggle {
     color: #999;
 }
-
 .btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle {
     color: #999;
-    border-color: transparent;
-    background-color: transparent;
-    border-bottom: 1px solid #cccccc;
+    background-color: #fefefe;
     outline: none;
+}
+.btn-light:not(:disabled):not(.disabled):active, .show>.btn-light.dropdown-toggle {
+    background-color: #fefefe;
+    outline: none;
+    border-color: #ededee;
 }
 .bootstrap-select .dropdown-toggle:focus, .bootstrap-select>select.mobile-device:focus+.dropdown-toggle {
     outline: 0 auto -webkit-focus-ring-color!important;
-    outline-offset: 0;
-    color: #999;
-    background-color: #fefefe;
-    border-bottom: 1px solid #cccccc;
 }
-
 .dropdown-item.active, .dropdown-item:active {
     background-color: #deebff;
     color: #333;
 }
-.dropdown-item:focus, .dropdown-item:hover {
-    background-color: #f4f8ff96;
-}
-.dropdown-menu{
-    padding: 0;
-}
 .bootstrap-select .dropdown-menu {
     border-color: #ededee;
 }
-
+.dropdown-item:focus, .dropdown-item:hover {
+    background-color: #f4f8ff96;
+}
 .btn-light {
     color: #999;
-    border-color: transparent;
-    background-color: transparent;
-    border-bottom: 1px solid #cccccc;
+    background-color: #fefefe;
+    border: 1px solid #ededee;
 }
-.btn-light:hover,
-.btn-light:focus,
-.btn-light:active{
-    border-color: transparent;
-    border-bottom: 1px solid #47bac1;
+.btn-light:hover{
+    border: 1px solid #ededee;
     background-color: #fefefe;
 }
+.staff-fa {
+    background-color: #babcbf;
+    color: #fff;
+    border-radius: 4px;
+    padding: 5px 9px;
+    outline: none;
+}
+
+/*Input modal*/
+.form-br {
+    border: 0;
+    background-image: linear-gradient(0deg,#e0e5ea 1px,rgba(0,0,0,0) 0),linear-gradient(0deg,rgba(0,0,0,.26) 1px,transparent 0);
+}
+
+.form-br:hover,
+.form-br:focus {
+    background-image: linear-gradient(0deg,#47bac1 1px,rgba(0,150,136,0) 0),linear-gradient(0deg,rgba(0,0,0,.26) 1px,transparent 0);
+    background-size: 100% 100%,100% 100%;
+    transition-duration: .3s;
+}
+.form-br:hover,
+.form-br:focus {
+    box-shadow: 0 0 0 0 rgba(0,123,255,.25);
+}
+.stages-btn button {
+    border: 0;
+    /*background-image: linear-gradient(0deg,#e0e5ea 1px,rgba(0,0,0,0) 0),linear-gradient(0deg,rgba(0,0,0,.26) 1px,transparent 0);*/
+}
+
+.stages-btn button :hover,
+.stages-btn button :focus {
+    border: 0;
+    box-shadow: 0 0 0 0 rgba(0,123,255,.25);
+}
+.stages-btn .btn-light:hover {
+    border: 0;
+}
+
 .staff-fa {
     background-color: #babcbf;
     color: #fff;
@@ -153,22 +184,6 @@
     margin-left: 5px;
 }
 
-/*Input modal*/
- .form-br {
-     border: 0;
-    background-image: linear-gradient(0deg,#ccc 1px,rgba(0,0,0,0) 0),linear-gradient(0deg,rgba(0,0,0,.26) 1px,transparent 0);
-}
-.form-br:hover,
- .form-br:focus {
-    background-image: linear-gradient(0deg,#47bac1 1px,rgba(0,150,136,0) 0),linear-gradient(0deg,rgba(0,0,0,.26) 1px,transparent 0);
-    background-size: 100% 100%,100% 100%;
-    transition-duration: .3s;
-    box-shadow: 0 0 0 0 rgba(0,123,255,0);
-}
-.form-br:hover,
-.form-br:focus {
-    box-shadow: 0 0 0 0 rgba(0,123,255,.25);
-}
 
 
 /* ===== DATEPICKER CALENDAR =====*/

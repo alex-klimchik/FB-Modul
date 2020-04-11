@@ -60,7 +60,7 @@
                     <div class="col-12">
                         <div class="additions proxy-account">
                             <div class="additions-choice">
-                                <select class="selectpicker" name="" id="proxyAllAccount">
+                                <select class="selectpicker" id="proxyAllAccount">
                                     <option>FB account</option>
                                     <option>???</option>
                                     <option>Фармер</option>

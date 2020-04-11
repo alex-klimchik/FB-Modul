@@ -293,9 +293,6 @@
                         <!-- ====== Tab - EXIT TICKETS  ======= -->
 
                         <div id="exit-tickets" class="tab-pane fade">
-                            <!--<div class="head-line-staff">-->
-                                <!--<h4>Заблокированные</h4>-->
-                            <!--</div>-->
 
                             <div class="staff-t card">
                                 <div style="overflow-x:auto;">
