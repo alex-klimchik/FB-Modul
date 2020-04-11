@@ -270,6 +270,10 @@
                     <label class="custom-control-label" for="checkboxId3">Передать в Lagoon</label>
                 </div>
             </div>
+</div>
+           <div class="two-pack">
+            <button class="btn btn-primary cansel">Отмена <i class="fas fa-times"></i></button>
+            
         </div>
     </footer>
     <script src="js/script.js"></script>

@@ -94,6 +94,7 @@ main {
 }
 
 .button-start-work {
+    box-shadow: 1px 1px 2px 0px #585757;
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
@@ -301,7 +302,7 @@ sup {
     padding: 2px 4px;
     font-size: 11px;
     background: #3a89ff;
-    box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.05)
+    box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.64);
 }
 
 .closebtn {
