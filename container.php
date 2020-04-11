@@ -255,19 +255,26 @@
     </div>
     <footer>
         <div class="btns-wrap">
+<div class="one-pack">
             <div class="count">
                 Выбрано: <span></span>
             </div>
-            <button class="btn btn-primary cansel">Отмена <i data-feather="x-circle"></i></button>
-            <button class="btn btn-primary ">Отправить <i style="transform: rotate(45deg);" data-feather="send"></i></button>
+          
+            <button class="btn btn-primary ">Отправить <i class="fas fa-file-export"></i></button>
+
             <select class="selectpicker" name="" id="">
                 <option value="">Фб 1</option>
                 <option value="">ФБ 2</option>
             </select>
+
             <div class="custom-control custom-checkbox ">
                 <input type="checkbox" class="custom-control-input" id="checkboxId3">
                 <label class="custom-control-label" for="checkboxId3">Передать в Lagoon</label>
             </div>
+</div>
+           <div class="two-pack">
+            <button class="btn btn-primary cansel">Отмена <i class="fas fa-times"></i></button>
+            
         </div>
     </footer>
     <script src="js/script.js"></script>
