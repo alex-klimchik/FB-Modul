@@ -1,10 +1,9 @@
-main {
-    padding: 0;
-    padding-top: 55px;
-}
-
 button.close:focus {
     outline: none;
+}
+
+main {
+    padding: 70px 0 0;
 }
 
 .additions {
@@ -16,7 +15,6 @@ button.close:focus {
     padding: 0 15px;
     border-radius: 3px;
     background-clip: padding-box;
-    border: 1px solid #ced4da;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,7 +26,7 @@ button.close:focus {
 
 .additions-choice .dropdown-toggle {
     background-color: #fff!important;
-    border: 1px solid #d3d3d3;
+    border: 1px solid #eaeaea;
     width: 190px;
     height: 34px;
     border-radius: 6px;
@@ -67,21 +65,21 @@ button.close:focus {
 /* End Selects */
 
 .additions-modal {
-    height: 34px;
-    width: 34px;
+    height: 30px;
+    width: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    background-color: #deebff;
+    background-color: #a7abb1;
     border-width: 1px;
     border-style: solid;
-    border-color: #deebff;
+    border-color: #a7abb1;
     border-radius: 3px;
 }
 
 .additions-modal i {
-    color: #999;
+    color: #fff;
     font-size: 16px;
 }
 
@@ -99,17 +97,16 @@ button.close:focus {
 }
 
 .main-content_table {
-    height: calc(100vh - 113px);
+    border-radius: 3px;
+    height: calc(100vh - 130px);
     overflow: auto;
     margin-left: 10px;
     margin-right: 10px;
     position: relative;
-    box-shadow: 0px 4px 5px 2px #949494c2;
-    border: 1px solid #ced4da;
 }
 
 .board-main {
-    height: calc(100vh - 160px);
+    height: calc(100vh - 176px);
     overflow: auto;
 }
 
@@ -388,19 +385,39 @@ button.close:focus {
     border: 1px solid #eee;
     border-radius: .25rem;
     margin-bottom: 7px;
-    padding: 10px;
+    padding: 12px 15px;
 }
 
-.modal_account-content .content-history>div {
-    color: #3e3e3e;
+.modal_account-content .content-history>ul {
+    color: #3e4676;
+    padding-left: 0;
+    list-style: none;
 }
 
-.modal_account-content .content-history>div p {
+.modal_account-content .content-history>p {
+    font-weight: 500;
+}
+
+.modal_account-content .content-history>ul li {
+    margin-bottom: 3px;
+}
+
+.modal_account-content .content-history>ul li:before {
+    content: "—";
+    position: relative;
+    left: -5px;
+}
+
+/* .modal_account-content .content-history>ul li {
     margin-bottom: 0;
-}
+} */
 
 .modal_account-content .content-tasks p {
     margin-bottom: 10px;
+}
+
+.modal_account-content .content-tasks>p {
+    font-weight: 500;
 }
 
 .modal_account-content .content-tasks label, .modal_account-content .content-tasks input {
@@ -450,13 +467,17 @@ button.close:focus {
     justify-content: space-between;
 }
 
+.modal_account-content .content-tabs .tab-content .tab-pane>div span {
+    font-weight: 500;
+}
+
 .modal_account-content .content-tabs .tab-content .tab-pane>div input {
     width: 200px;
     margin-left: 5px;
 }
 
 .modal_account-content .content-tabs .tab-content input::placeholder {
-    color: rgb(226, 226, 226);
+    color: rgb(185, 185, 185);
 }
 
 .modal_account-content .content-tabs .nav-tabs .nav-link {
@@ -507,12 +528,11 @@ button.close:focus {
 }
 
 .modal_account-collapse .item-collapse .item-collapse_container {
-    padding: 12px;
+    padding: 0 12px;
 }
 
 .modal_account-collapse .item-collapse .item-collapse_container>div {
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -521,8 +541,8 @@ button.close:focus {
     list-style: none;
     width: max-content;
     border: 1px solid #eee;
-    margin-left: 5px;
-    margin-right: 5px;
+    width: 31%;
+    margin: 10px 1%;
 }
 
 .modal_account-collapse .item-collapse_box li {
@@ -532,4 +552,107 @@ button.close:focus {
 
 .modal_account-collapse .item-collapse_box li:last-child {
     border-bottom: unset;
+}
+
+@media (max-width: 1070px) {
+    .modal_account-collapse .item-collapse_box {
+        width: 48%;
+    }
+    .modal_account-stage span {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1000px) {
+    .main-content_table {
+        height: initial;
+        overflow-x: auto;
+    }
+    .board-main {
+        height: initial;
+    }
+}
+
+@media (max-width: 800px) {
+    .bootstrap-select {
+        width: 190px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .modal_account-collapse .item-collapse_box {
+        width: 31%;
+    }
+    .modal_account-collapse, .modal_account-content {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .additions {
+        height: unset;
+    }
+    .additions-choice {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 400px;
+    }
+    .additions .bootstrap-select, .additions-choice .datepicker {
+        margin-top: 2px;
+        margin-bottom: 2px;
+        margin-right: 5px !important;
+        width: 190px!important;
+    }
+}
+
+@media (max-width: 650px) {
+    .modal-new_account .modal_account-stage {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 630px) {
+    .modal_account-collapse .item-collapse_box {
+        width: 48%;
+    }
+}
+
+@media (max-width: 530px) {
+    .additions-choice {
+        width: unset;
+        flex-direction: column;
+        display: flex;
+    }
+}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 440px) {
+    .modal_account-collapse .item-collapse_box {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .modal-new_account .modal_account-stage {
+        flex-direction: column;
+        align-items: center;
+    }
+    .modal_account-stage span {
+        margin: 5px;
+    }
+}
+
+@media (max-width: 420px) {
+    .modal_account-content .content-tabs .tab-content .tab-pane>div {
+        width: 100%;
+        flex-direction: column;
+    }
+    .modal_account-content .content-tabs .tab-content .tab-pane>div input {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 5px;
+    }
 }

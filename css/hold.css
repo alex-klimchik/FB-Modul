@@ -1,21 +1,29 @@
+.card-bloks-shadow {
+    box-shadow: 0 0 3px 1px #5d5d5d4f;
+    border: 0!important;
+}
+
 main {
-    padding: 0;
-    padding-top: 55px;
+    padding-bottom: 55px;
 }
 
 .additions {
     background-color: #fff;
-    box-shadow: 0 0 3px 1px #b7b7b74f;
-    margin-bottom: 5px;
+    box-shadow: 0 0 3px 1px #5d5d5d4f;
+    margin-bottom: 10px;
     padding: 0 15px;
     border-radius: 3px;
     background-clip: padding-box;
-    border: 1px solid #ced4da;
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 48px;
     font-size: 14px;
+}
+
+.additions .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 190px;
+    margin-right: 30px;
 }
 
 /* Selects */
@@ -35,7 +43,7 @@ main {
 .additions-choice .datepicker {
     color: #999;
     background-color: #fff!important;
-    border: 1px solid #d3d3d3;
+    border: 1px solid #eaeaea;
     width: 190px;
     height: 34px;
     border-radius: 6px;
@@ -52,7 +60,7 @@ main {
 
 .dropdown-toggle {
     background-color: #fff!important;
-    border: 1px solid #d3d3d3;
+    border: 1px solid #eaeaea;
     width: 190px!important;
     height: 34px;
     border-radius: 6px;
@@ -144,21 +152,39 @@ table#container-table tbody tr.colorize {
 footer {
     width: calc(100% - 240px);
     background-color: #fff;
-    background-color: #00000038;
+    background-color: #efefef;
     height: 50px;
     color: #354052!important;
-    box-shadow: 0px 0px 2rem 0 rgba(53, 64, 82, .1);
+    box-shadow: 0px 0px 5px 4px rgba(53, 64, 82, 0.24);
     position: fixed;
-    bottom: -50px;
+    bottom: 0;
     right: 0;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
     z-index: 800;
-    display: none;
+}
+
+footer>div {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+footer .message {
+    position: absolute;
+    right: 30px;
+    top: 12px;
+    font-size: 26px;
+    color: #3a89ff;
+    line-height: 26px;
+    cursor: pointer;
 }
 
 footer .btns-wrap {
+    position: absolute;
+    left: 0;
+    bottom: -50px;
     display: flex;
     height: 100%;
     align-items: center;
@@ -172,8 +198,8 @@ footer .btns-wrap>button {
 }
 
 footer .btns-wrap>.btn-primary:not(:disabled):not(.disabled).active, footer .btns-wrap>.btn-primary:not(:disabled):not(.disabled):active {
-    background-color: #36999f;
-    border-color: #329096;
+    background-color: #0260ad;
+    border-color: #0260ad;
 }
 
 footer .btns-wrap>button:hover {
@@ -331,4 +357,44 @@ label>input {
 
 .datepicker table tr td.active:active, .datepicker table tr td.active:hover:active, .datepicker table tr td.active.disabled:active, .datepicker table tr td.active.disabled:hover:active, .datepicker table tr td.active.active, .datepicker table tr td.active:hover.active, .datepicker table tr td.active.disabled.active, .datepicker table tr td.active.disabled:hover.active {
     background-color: rgb(69, 101, 150);
+}
+
+@media (max-width: 1050px) {
+    footer .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+        width: 190px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 1000px) {
+    footer {
+        width: 100%!important;
+    }
+}
+
+@media (max-width: 767px) {
+    .additions {
+        height: unset;
+        justify-content: center;
+    }
+    .additions-choice {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 400px;
+    }
+    .additions .bootstrap-select, .additions-choice .datepicker {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-right: 5px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .additions-choice {
+        width: 100%;
+        flex-direction: column;
+    }
 }

@@ -1,3 +1,8 @@
+.card-bloks-shadow {
+    box-shadow: 0 0 3px 1px #5d5d5d4f;
+    border: 0!important;
+}
+
 .main-content {
     display: flex;
     justify-content: space-between;
@@ -130,3 +135,20 @@ select:not(:nth-child(1)) {
 }
 
 /* End Selects */
+
+@media (max-width: 700px) {
+    .main-content .content-box {
+        width: 48%;
+        margin-bottom: 2%;
+    }
+    .main-content {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+@media (max-width: 460px) {
+    .main-content .content-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
