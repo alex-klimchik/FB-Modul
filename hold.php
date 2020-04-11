@@ -311,7 +311,7 @@
                                             <td>test1</td>
                                             <td>Аня Новикова</td>
                                             <td>
-                                                <div class="addPreset_modal" >
+                                                <div class="addPreset_modal">
                                                     <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
                                                 </div>
                                             </td>
@@ -330,7 +330,7 @@
                                             <td>test1</td>
                                             <td>Аня Новикова</td>
                                             <td>
-                                                <div class="addPreset_modal" >
+                                                <div class="addPreset_modal">
                                                     <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
                                                 </div>
                                             </td>
@@ -349,7 +349,7 @@
                                             <td>test1</td>
                                             <td>Аня Новикова</td>
                                             <td>
-                                                <div class="addPreset_modal" >
+                                                <div class="addPreset_modal">
                                                     <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
                                                 </div>
                                             </td>
@@ -368,7 +368,7 @@
                                             <td>test1</td>
                                             <td>Аня Новикова</td>
                                             <td>
-                                                <div class="addPreset_modal" >
+                                                <div class="addPreset_modal">
                                                     <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
                                                 </div>
                                             </td>
@@ -387,7 +387,7 @@
                                             <td>test1</td>
                                             <td>Аня Новикова</td>
                                             <td>
-                                                <div class="addPreset_modal" >
+                                                <div class="addPreset_modal">
                                                     <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
                                                 </div>
                                             </td>
@@ -406,7 +406,7 @@
                                             <td>test1</td>
                                             <td>Аня Новикова</td>
                                             <td>
-                                                <div class="addPreset_modal" >
+                                                <div class="addPreset_modal">
                                                     <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
                                                 </div>
                                             </td>
@@ -425,7 +425,7 @@
                                             <td>test1</td>
                                             <td>Аня Новикова</td>
                                             <td>
-                                                <div class="addPreset_modal" >
+                                                <div class="addPreset_modal">
                                                     <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
                                                 </div>
                                             </td>
@@ -444,7 +444,7 @@
                                             <td>test1</td>
                                             <td>Аня Новикова</td>
                                             <td>
-                                                <div class="addPreset_modal" >
+                                                <div class="addPreset_modal">
                                                     <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
                                                 </div>
                                             </td>
@@ -463,7 +463,7 @@
                                             <td>test1</td>
                                             <td>Аня Новикова</td>
                                             <td>
-                                                <div class="addPreset_modal" >
+                                                <div class="addPreset_modal">
                                                     <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
                                                 </div>
                                             </td>
@@ -482,7 +482,7 @@
                                             <td>test1</td>
                                             <td>Аня Новикова</td>
                                             <td>
-                                                <div class="addPreset_modal" >
+                                                <div class="addPreset_modal">
                                                     <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
                                                 </div>
                                             </td>
@@ -519,7 +519,6 @@
             </span>
 
         </div>
-
     </footer>
     <script src="js/script.js"></script>
     <script src="js/container.js"></script>

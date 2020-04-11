@@ -352,3 +352,16 @@ label>input {
 .datepicker table tr td.active:active, .datepicker table tr td.active:hover:active, .datepicker table tr td.active.disabled:active, .datepicker table tr td.active.disabled:hover:active, .datepicker table tr td.active.active, .datepicker table tr td.active:hover.active, .datepicker table tr td.active.disabled.active, .datepicker table tr td.active.disabled:hover.active {
     background-color: rgb(69, 101, 150);
 }
+
+@media (max-width: 1050px) {
+    footer .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+        width: 190px;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 1000px) {
+    footer {
+        width: 100%;
+    }
+}

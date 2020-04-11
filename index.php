@@ -45,6 +45,8 @@
 
         </div>
     </div>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 

@@ -81,7 +81,7 @@
                     <div class="modal_account-collapse" id="accordion">
 
                         <div class="item-collapse">
-                            <div data-toggle="collapse" data-target="#collapseOne" aria-expanded="false">
+                            <div data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                                 <span>Основные 1</span>
                                 <i class="fas fa-chevron-right"></i>
                             </div>
@@ -91,7 +91,7 @@
                                         <li class="box-title">Интерес 1</li>
                                         <li class="box-theme">Доберманы</li>
                                         <li>www.website.com </li>
-                                        <li>www.domain.website.com</li>
+                                        <li>www.website.com</li>
                                         <li>www.website.com</li>
                                         <li>www.website.com</li>
                                     </ul>
@@ -171,21 +171,35 @@
                             </div>
                         </div>
                         <div class="item-collapse">
-                            <div data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false">
+                            <div data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 <span>Основные 2</span>
                                 <i class="fas fa-chevron-right"></i>
                             </div>
                             <div id="collapseTwo" data-parent="#accordion" class="collapse item-collapse_container">
-                                Test 2
+                                <ul class="item-collapse_box">
+                                    <li class="box-title">Интерес 1</li>
+                                    <li class="box-theme">Доберманы</li>
+                                    <li>www.website.com </li>
+                                    <li>www.website.com</li>
+                                    <li>www.website.com</li>
+                                    <li>www.website.com</li>
+                                </ul>
                             </div>
                         </div>
                         <div class="item-collapse">
-                            <div data-toggle="collapse" data-target="#collapseTree" aria-expanded="false">
+                            <div data-toggle="collapse" data-target="#collapseTree" aria-expanded="false" aria-controls="collapseTree">
                                 <span>Основные 3</span>
                                 <i class="fas fa-chevron-right"></i>
                             </div>
                             <div id="collapseTree" data-parent="#accordion" class="collapse item-collapse_container">
-                                Test 3
+                                <ul class="item-collapse_box">
+                                    <li class="box-title">Интерес 1</li>
+                                    <li class="box-theme">Доберманы</li>
+                                    <li>www.website.com </li>
+                                    <li>www.website.com</li>
+                                    <li>www.website.com</li>
+                                    <li>www.website.com</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -229,33 +243,29 @@
 
                         <div class="content-tasks">
                             <p>Задачи</p>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="checkOne">
-                                <label class="form-check-label task-red" for="checkOne">
-                                    31.03.2020 15:00 Отредактировать фото
-                                </label>
+
+                            <div class="custom-control custom-checkbox ">
+                                <input type="checkbox" class="custom-control-input" id="checkboxId1">
+                                <label class="custom-control-label task-red" for="checkboxId1">31.03.2020 15:00 Отредактировать фото</label>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="checkTwo">
-                                <label class="form-check-label task-green" for="checkTwo">
-                                    31.03.2020 15:00 Отредактировать фото
-                                </label>
+                            <div class="custom-control custom-checkbox ">
+                                <input type="checkbox" class="custom-control-input" id="checkboxId2">
+                                <label class="custom-control-label task-green" for="checkboxId2">31.03.2020 15:00 Отредактировать фото</label>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="checkThree">
-                                <label class="form-check-label" for="checkThree">
-                                    31.03.2020 15:00 Отредактировать фото
-                                </label>
+                            <div class="custom-control custom-checkbox ">
+                                <input type="checkbox" class="custom-control-input" id="checkboxId3">
+                                <label class="custom-control-label" for="checkboxId3">31.03.2020 15:00 Отредактировать фото</label>
                             </div>
+
                         </div>
 
                         <div class="content-history">
                             <p>История</p>
-                            <div>
-                                <p>01.01.2020 12:00 Добавить аватарку</p>
-                                <p>02.01.2020 12:00 Добавить аватарку</p>
-                                <p>03.01.2020 12:00 Добавить аватарку</p>
-                            </div>
+                            <ul>
+                                <li>01.01.2020 12:00 Добавить аватарку</li>
+                                <li>02.01.2020 12:00 Добавить аватарку</li>
+                                <li>03.01.2020 12:00 Добавить аватарку</li>
+                            </ul>
                         </div>
 
                     </div>
@@ -1097,9 +1107,9 @@
             </main>
         </div>
     </div>
-    <script>
 
-    </script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
 
     <script src="js/script.js"></script>
     <script src="js/accounts.js"></script>
