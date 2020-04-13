@@ -628,7 +628,7 @@
 
         <!-------------------  STAFF CONTENT THE END-------------------------->
 
-         <script src="js/script.js"></script>
+       
         <!--feather-icons-->
         <script>
             feather.replace()
@@ -640,7 +640,7 @@
 </div>
 
         </main>
-
-
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
+        <script src="js/script.js"></script>
 </body>
 </html>

@@ -2,6 +2,10 @@
 <html lang="ru">
 <head>
     <title>Задачи</title>
+    <meta charset="utf-8">
+    <!-- favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
@@ -17,7 +21,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
           integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
-    <meta charset="utf-8">
+ 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
@@ -311,7 +315,7 @@
 
             <!-------------------  STAFF CONTENT THE END-------------------------->
 
-            <script src="js/script.js"></script>
+           
             <!--feather-icons-->
             <script>
                 feather.replace()
@@ -331,6 +335,7 @@
 
 </main>
 
-
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
