@@ -61,8 +61,8 @@
                                         <td>expected...</td>
 
                                         <td class="setting-offers">
-                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i class="fas fa-search"></i></button>
-                                            <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i class="fas fa-lock"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i data-feather="search"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -73,8 +73,8 @@
                                         <td>expected...</td>
 
                                         <td class="setting-offers">
-                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i class="fas fa-search"></i></button>
-                                            <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i class="fas fa-lock"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i data-feather="search"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -85,8 +85,8 @@
                                         <td>expected...</td>
 
                                         <td class="setting-offers">
-                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i class="fas fa-search"></i></button>
-                                            <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i class="fas fa-lock"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i data-feather="search"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -97,8 +97,8 @@
                                         <td>expected...</td>
 
                                         <td class="setting-offers">
-                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i class="fas fa-search"></i></button>
-                                            <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i class="fas fa-lock"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i data-feather="search"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -109,8 +109,8 @@
                                         <td>expected...</td>
 
                                         <td class="setting-offers">
-                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i class="fas fa-search"></i></button>
-                                            <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i class="fas fa-lock"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i data-feather="search"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -121,8 +121,8 @@
                                         <td>expected...</td>
 
                                         <td class="setting-offers">
-                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i class="fas fa-search"></i></button>
-                                            <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i class="fas fa-lock"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i data-feather="search"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -133,8 +133,8 @@
                                         <td>expected...</td>
 
                                         <td class="setting-offers">
-                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i class="fas fa-search"></i></button>
-                                            <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i class="fas fa-lock"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i data-feather="search"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -145,8 +145,8 @@
                                         <td>expected...</td>
 
                                         <td class="setting-offers">
-                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i class="fas fa-search"></i></button>
-                                            <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i class="fas fa-lock"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i data-feather="search"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -157,8 +157,8 @@
                                         <td>expected...</td>
 
                                         <td class="setting-offers">
-                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i class="fas fa-search"></i></button>
-                                            <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i class="fas fa-lock"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i data-feather="search"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -169,8 +169,8 @@
                                         <td>expected...</td>
 
                                         <td class="setting-offers">
-                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i class="fas fa-search"></i></button>
-                                            <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i class="fas fa-lock"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i data-feather="search"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -181,8 +181,8 @@
                                         <td>expected...</td>
 
                                         <td class="setting-offers">
-                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i class="fas fa-search"></i></button>
-                                            <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i class="fas fa-lock"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i data-feather="search"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -193,8 +193,8 @@
                                         <td>expected...</td>
 
                                         <td class="setting-offers">
-                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i class="fas fa-search"></i></button>
-                                            <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i class="fas fa-lock"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i data-feather="search"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -205,8 +205,8 @@
                                         <td>expected...</td>
 
                                         <td class="setting-offers">
-                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i class="fas fa-search"></i></button>
-                                            <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i class="fas fa-lock"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i data-feather="search"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -217,8 +217,8 @@
                                         <td>expected...</td>
 
                                         <td class="setting-offers">
-                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i class="fas fa-search"></i></button>
-                                            <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i class="fas fa-lock"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i data-feather="search"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -229,8 +229,8 @@
                                         <td>expected...</td>
 
                                         <td class="setting-offers">
-                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i class="fas fa-search"></i></button>
-                                            <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i class="fas fa-lock"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i data-feather="search"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                         </td>
                                     </tr>
                                     <tr>
@@ -241,8 +241,8 @@
                                         <td>expected...</td>
 
                                         <td class="setting-offers">
-                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i class="fas fa-search"></i></button>
-                                            <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i class="fas fa-lock"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalPreSearch" data-placement="bottom" title="??????"><i data-feather="search"></i></button>
+                                            <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                         </td>
                                     </tr>
 

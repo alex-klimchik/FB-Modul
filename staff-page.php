@@ -14,6 +14,13 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
+<!--    тест шрифты-->
+
+
+
+
+
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
     <meta charset="utf-8">
@@ -114,7 +121,7 @@
                                             <td>0</td>
                                             <td class="setting-offers">
                                                 <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalStaffEdit" data-placement="bottom" title="Редактировать"><i data-feather="edit-2"></i></button>
-                                                <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
+                                                <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                             </td>
                                         </tr>
                                         <tr>
@@ -128,7 +135,7 @@
                                             <td>0</td>
                                             <td class="setting-offers">
                                                 <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalStaffEdit" data-placement="bottom" title="Редактировать"><i data-feather="edit-2"></i></button>
-                                                <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
+                                                <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                             </td>
                                         </tr>
                                         <tr>
@@ -142,7 +149,7 @@
                                             <td>0</td>
                                             <td class="setting-offers">
                                                 <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalStaffEdit" data-placement="bottom" title="Редактировать"><i data-feather="edit-2"></i></button>
-                                                <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
+                                                <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                             </td>
                                         </tr>
                                         <tr>
@@ -156,7 +163,7 @@
                                             <td>0</td>
                                             <td class="setting-offers">
                                                 <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalStaffEdit" data-placement="bottom" title="Редактировать"><i data-feather="edit-2"></i></button>
-                                                <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
+                                                <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                             </td>
                                         </tr>
                                         <tr>
@@ -170,7 +177,7 @@
                                             <td>0</td>
                                             <td class="setting-offers">
                                                 <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalStaffEdit" data-placement="bottom" title="Редактировать"><i data-feather="edit-2"></i></button>
-                                                <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
+                                                <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                             </td>
                                         </tr>
                                         <tr>
@@ -184,7 +191,7 @@
                                             <td>0</td>
                                             <td class="setting-offers">
                                                 <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalStaffEdit" data-placement="bottom" title="Редактировать"><i data-feather="edit-2"></i></button>
-                                                <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
+                                                <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                             </td>
                                         </tr>
                                         <tr>
@@ -198,7 +205,7 @@
                                             <td>0</td>
                                             <td class="setting-offers">
                                                 <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalStaffEdit" data-placement="bottom" title="Редактировать"><i data-feather="edit-2"></i></button>
-                                                <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
+                                                <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                             </td>
                                         </tr>
                                         <tr>
@@ -212,7 +219,7 @@
                                             <td>0</td>
                                             <td class="setting-offers">
                                                 <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalStaffEdit" data-placement="bottom" title="Редактировать"><i data-feather="edit-2"></i></button>
-                                                <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
+                                                <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                             </td>
                                         </tr>
                                         <tr>
@@ -226,7 +233,7 @@
                                             <td>0</td>
                                             <td class="setting-offers">
                                                 <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalStaffEdit" data-placement="bottom" title="Редактировать"><i data-feather="edit-2"></i></button>
-                                                <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
+                                                <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                             </td>
                                         </tr>
                                         <tr>
@@ -240,7 +247,7 @@
                                             <td>0</td>
                                             <td class="setting-offers">
                                                 <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalStaffEdit" data-placement="bottom" title="Редактировать"><i data-feather="edit-2"></i></button>
-                                                <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
+                                                <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                             </td>
                                         </tr>
                                         <tr>
@@ -254,7 +261,7 @@
                                             <td>0</td>
                                             <td class="setting-offers">
                                                 <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalStaffEdit" data-placement="bottom" title="Редактировать"><i data-feather="edit-2"></i></button>
-                                                <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
+                                                <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                             </td>
                                         </tr>
                                         <tr>
@@ -268,7 +275,7 @@
                                             <td>0</td>
                                             <td class="setting-offers">
                                                 <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalStaffEdit" data-placement="bottom" title="Редактировать"><i data-feather="edit-2"></i></button>
-                                                <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
+                                                <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                             </td>
                                         </tr>
                                         <tr>
@@ -282,7 +289,7 @@
                                             <td>0</td>
                                             <td class="setting-offers">
                                                 <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalStaffEdit" data-placement="bottom" title="Редактировать"><i data-feather="edit-2"></i></button>
-                                                <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
+                                                <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                             </td>
                                         </tr>
                                         </tbody>
@@ -322,7 +329,7 @@
                                             <td>0</td>
                                             <td class="setting-offers">
                                                 <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalStaffEdit" data-placement="bottom" title="Редактировать"><i data-feather="edit-2"></i></button>
-                                                <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
+                                                <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                             </td>
                                         </tr>
                                         <tr>
@@ -336,7 +343,7 @@
                                             <td>0</td>
                                             <td class="setting-offers">
                                                 <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalStaffEdit" data-placement="bottom" title="Редактировать"><i data-feather="edit-2"></i></button>
-                                                <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
+                                                <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                             </td>
                                         </tr>
                                         <tr>
@@ -350,7 +357,7 @@
                                             <td>0</td>
                                             <td class="setting-offers">
                                                 <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalStaffEdit" data-placement="bottom" title="Редактировать"><i data-feather="edit-2"></i></button>
-                                                <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
+                                                <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                             </td>
                                         </tr>
                                         <tr>
@@ -364,7 +371,7 @@
                                             <td>0</td>
                                             <td class="setting-offers">
                                                 <button type="button" class="btn-mini btn-outline-edit" data-toggle="modal" data-target="#exampleModalStaffEdit" data-placement="bottom" title="Редактировать"><i data-feather="edit-2"></i></button>
-                                                <button type="button" class="btn-mini btn-outline-add" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
+                                                <button type="button" class="btn-mini btn-outline-lock" data-toggle="tooltip" data-placement="bottom" title="??????"><i data-feather="lock"></i></button>
                                             </td>
                                         </tr>
                                         </tbody>

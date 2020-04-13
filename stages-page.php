@@ -93,7 +93,7 @@
                                 <form class="stage-add">
 
                                     <div class="stage-bl-wrap mb-2">
-                                        <div class="stage-icon">
+                                        <div class="stage-icon ">
                                             <i data-feather="edit-2"></i>
                                         </div>
                                         <div class="stage-s mb-0 form-group">

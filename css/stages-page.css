@@ -50,6 +50,10 @@ input {outline:none;}
     width: 30px;
     margin-bottom: 5px;
 }
+.stage-icon:hover{
+    color: #17a1b7;
+}
+
 .stage-s{
     width: 85%;
 }
