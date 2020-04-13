@@ -59,14 +59,42 @@
 .content-box>ul {
     color: #5d5454;
 }
+.form-control:focus {
+    border-color: #47bac1;
+}
 
 .form-group>input {
     height: 34px;
     padding-bottom: 9px;
+    border: 1px solid #dee2e6;
 }
 
 .form-group>input::placeholder {
     color: rgb(214, 214, 214);
+}
+.stages-headline h5{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #495057;
+    padding: 5px 0 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ebeef1;
+}
+ul {
+    padding-left: 20px;
+    list-style-type: none;
+}
+.task-list li{
+    color: #495061;
+    font-size: 14px;
+    width: 100%;
+    display: block;
+}
+.task-ic{
+    width: 15px;
+    height: 26px;
+    color: #495057;
 }
 
 .btns {
