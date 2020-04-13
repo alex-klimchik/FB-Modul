@@ -1,3 +1,4 @@
+
 <nav class="sidebar">
             <div class="sidebar-content">
                 <div class="sidebar-brand"><a><i class="fab fa-connectdevelop"></i>FB-Lagoon</a><a href="javascript:void(0)" class="closebtn"><i class="fas fa-times"></i></a></div>
@@ -10,23 +11,23 @@
                 </div> -->
                 <ul class="sidebar-nav">
                     <li class="sidebar-header">Меню</li>
-                    <li class="sidebar-item">
+                    <li class="active sidebar-item">
                         <a class="sidebar-link" href="index.php">
                             <span class="icon-holder"><i class="fas fa-home"></i> </span>
                             <span class="title">Главная</span></a>
                     </li>
-                    <li class="sidebar-item">
+                    <li class="sidebar-item" >
                         <a class="sidebar-link" href="accounts.php">
                             <span class="icon-holder"><i class="fas fa-user"></i> </span>
                             <span class="title">Аккаунты</span></a>
                     </li>
                     <li class="sidebar-item">
-                        <a class="sidebar-link" href="staff-page.php">
+                        <a class="sidebar-link" href="staff-page.php" >
                             <span class="icon-holder"><i class="fas fa-users"></i></i> </span>
                             <span class="title">Сотрудники</span></a>
                     </li>
                     <li class="sidebar-item">
-                        <a class="sidebar-link" href="presets.php">
+                        <a class="sidebar-link" href="presets.php" >
                             <span class="icon-holder"><i class="fas fa-chart-bar"></i> </span>
                             <span class="title">Пресеты</span></a>
                     </li>
@@ -57,4 +58,5 @@
 
             </div>
         </nav>
+
         

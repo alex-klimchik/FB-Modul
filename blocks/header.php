@@ -1,5 +1,5 @@
-<nav class="navbar-theme navbar navbar-expand header">
-                <span class="sidebar-toggle "><i class="fas fa-align-justify"></i></span>
+<header><nav class="navbar-theme navbar navbar-expand header">
+                <span class="sidebar-toggle "><i class="fas fa-bars"></i></span>
 
                 <div class="collapse navbar-collapse">
                     <ul class="ml-auto navbar-nav header-menu">
@@ -17,3 +17,4 @@
                     </ul>
                 </div>
             </nav>
+            </header>

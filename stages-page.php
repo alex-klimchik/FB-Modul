@@ -38,11 +38,11 @@
     <!--Sidebar END-->
 
     <div class="page-container">
-        <!--Header-->
-        <?php require_once('blocks/header.php'); ?>
-        <!--Header END-->
+        
         <main>
-
+<!--Header-->
+<?php require_once('blocks/header.php'); ?>
+        <!--Header END-->
             <div class="container-fluid ">
                 <h6 style="color: #000; font-size: 21px; margin-bottom: 1rem">Этапы</h6>
                 <div class="row">
