@@ -167,7 +167,7 @@ main {
 }
 
 .is-collapsed .page-container {
-    padding-left: 0px;
+    padding-left: 10px;
 }
 
 .is-collapsed .header {
@@ -212,7 +212,7 @@ main {
     color: #fff;
     width: 95%;
     text-decoration: none;
-    margin: 5px;
+    margin: 21px 5px;
 }
 
 .closebtn {
@@ -357,6 +357,15 @@ body {
 .sidebar-brand .fab {
     margin-right: 5px;
 }
+
+
+/* .header-menu .nav-item::before {
+    position: absolute;
+    content: "";
+    width: 65px;
+    height: 10px;
+    background-color: red;
+} */
 
 .header {
     border-top-left-radius: 6px;
