@@ -208,13 +208,4 @@ input {outline:none;}
 .bl-pd{
     padding-right: 0;
 }
-@media (max-width: 420px) {
-    .additions {
-        justify-content: center;
-    }
-}
-@media (max-width: 575px) {
-    .bl-pd{
-        padding-right: 15px;
-    }
-}
+

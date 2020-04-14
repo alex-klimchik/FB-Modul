@@ -19,15 +19,20 @@
     <script src="https://unpkg.com/feather-icons"></script>
 
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/bootstrap-select.min.js"></script>
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/loader.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/stages-page.css">
+    <link rel="stylesheet" type="text/css" href="css/styles-all.css">
+    <link rel="stylesheet" type="text/css" href="css/media-all.css">
 
 </head>
 
@@ -38,13 +43,16 @@
     <!--Sidebar END-->
 
     <div class="page-container">
-        
-        <main>
-<!--Header-->
-<?php require_once('blocks/header.php'); ?>
-        <!--Header END-->
+
+        <!-- loader -->
+        <?php require_once('blocks/preloader.php'); ?>
+
+        <main class="page-loading d-none">
+            <!--Header-->
+            <?php require_once('blocks/header.php'); ?>
+            <!--Header END-->
             <div class="container-fluid ">
-                <h6 style="color: #000; font-size: 21px; margin-bottom: 1rem">Этапы</h6>
+                <h6 class="title-page">Этапы</h6>
                 <div class="row">
                     <div class="col-12">
 
@@ -97,8 +105,9 @@
                                             <i data-feather="edit-2"></i>
                                         </div>
                                         <div class="stage-s mb-0 form-group">
-<!--                                            <label for="example2" class="bmd-label-floating">Введите этап</label>-->
-                                            <input type="text" class="form-br form-control" id="example2" placeholder="Введите этап">
+                                            <!--                                            <label for="example2" class="bmd-label-floating">Введите этап</label>-->
+                                            <input type="text" class="form-br form-control" id="example2"
+                                                   placeholder="Введите этап">
                                         </div>
                                     </div>
 
@@ -115,7 +124,8 @@
                                     </div>
 
                                     <div class="mt-3 mr-2 stage-btn">
-                                        <button type="button" class="task-add btn" data-placement="top" title="Добавить этап">
+                                        <button type="button" class="task-add btn" data-placement="top"
+                                                title="Добавить этап">
                                             <i class="fa fa-plus" aria-hidden="true"></i></button>
                                     </div>
                                 </form>
@@ -132,38 +142,42 @@
                                 <ul class="task-wrap">
                                     <li><a>Регистрация</a>
                                         <div class="task-list">
-                                          <span> <i class="mr-2 task-ic" data-feather="minus"></i>Перенести и переименовать аккаунт</span>
-                                          <span> <i class="mr-2 task-ic" data-feather="minus"></i>Уникализировать фото</span>
-                                          <span> <i class="mr-2 task-ic" data-feather="minus"></i>Заполнить информацию</span>
+                                            <span> <i class="mr-2 task-ic" data-feather="minus"></i>Перенести и переименовать аккаунт</span>
+                                            <span> <i class="mr-2 task-ic" data-feather="minus"></i>Уникализировать фото</span>
+                                            <span> <i class="mr-2 task-ic" data-feather="minus"></i>Заполнить информацию</span>
                                         </div>
                                     </li>
 
                                     <li><a>Прогрев куки</a>
                                         <div class="task-list">
-                                            <span> <i class="mr-2 task-ic" data-feather="minus"></i>Смотреть видео</span>
+                                            <span> <i class="mr-2 task-ic"
+                                                      data-feather="minus"></i>Смотреть видео</span>
                                             <span> <i class="mr-2 task-ic" data-feather="minus"></i>Играть игру</span>
-                                            <span> <i class="mr-2 task-ic" data-feather="minus"></i>Сделать репост</span>
+                                            <span> <i class="mr-2 task-ic"
+                                                      data-feather="minus"></i>Сделать репост</span>
                                         </div>
                                     </li>
                                     <li><a>Перенос в MLA</a>
                                         <div class="task-list">
-                                          <span> <i class="mr-2 task-ic" data-feather="minus"></i>Создать фан-пейдж</span>
+                                            <span> <i class="mr-2 task-ic"
+                                                      data-feather="minus"></i>Создать фан-пейдж</span>
                                         </div>
                                     </li>
                                     <li><a>100 друзей</a>
                                         <div class="task-list">
-                                          <span> <i class="mr-2 task-ic" data-feather="minus"></i>Создать БМ</span>
+                                            <span> <i class="mr-2 task-ic" data-feather="minus"></i>Создать БМ</span>
                                         </div>
                                     </li>
                                     <li><a>Поднятие</a>
                                         <div class="task-list">
-                                          <span> <i class="mr-2 task-ic" data-feather="minus"></i>Тестовая</span>
-                                          <span> <i class="mr-2 task-ic" data-feather="minus"></i>Есть или нет3</span>
+                                            <span> <i class="mr-2 task-ic" data-feather="minus"></i>Тестовая</span>
+                                            <span> <i class="mr-2 task-ic" data-feather="minus"></i>Есть или нет3</span>
                                         </div>
                                     </li>
                                     <li><a>Конец Фарма</a>
                                         <div class="task-list">
-                                           <span> <i class="mr-2 task-ic" data-feather="minus"></i>Финальная задача</span>
+                                            <span> <i class="mr-2 task-ic"
+                                                      data-feather="minus"></i>Финальная задача</span>
                                         </div>
                                     </li>
                                 </ul>
@@ -184,8 +198,9 @@
                                             <i data-feather="edit-2"></i>
                                         </div>
                                         <div class="stage-s mb-0 form-group">
-<!--                                            <label for="exampleTask" class="bmd-label-floating">Введите задачу</label>-->
-                                            <input type="text" class="form-br form-control" id="exampleTask" placeholder="Введите задачу">
+                                            <!--                                            <label for="exampleTask" class="bmd-label-floating">Введите задачу</label>-->
+                                            <input type="text" class="form-br form-control" id="exampleTask"
+                                                   placeholder="Введите задачу">
                                         </div>
                                     </div>
 
@@ -202,7 +217,8 @@
                                     </div>
 
                                     <div class="mt-3 mr-2 stage-btn">
-                                        <button type="button" class="task-add btn" data-placement="top" title="Добавить этап">
+                                        <button type="button" class="task-add btn" data-placement="top"
+                                                title="Добавить этап">
                                             <i class="fa fa-plus" aria-hidden="true"></i></button>
                                     </div>
                                 </form>
@@ -218,14 +234,14 @@
     </div>
 </div>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
-        <script src="js/script.js"></script>
+<script src="js/script.js"></script>
 
-        <!--feather-icons-->
-        <script>
-            feather.replace()
-        </script>
-
-
+<!--feather-icons-->
+<script>
+    feather.replace()
+</script>
+<!-- loader script -->
+<script src="js/loader.js"></script>
 
 </body>
 

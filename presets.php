@@ -21,8 +21,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/loader.css">
+
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/presets.css">
+    <link rel="stylesheet" type="text/css" href="css/styles-all.css">
+    <link rel="stylesheet" type="text/css" href="css/media-all.css">
 </head>
 
 <body>
@@ -32,8 +36,11 @@
         <!--Sidebar END-->
 
         <div class="page-container">
-           
-            <main>
+
+            <!-- loader -->
+            <?php require_once('blocks/preloader.php'); ?>
+
+            <main class="page-loading d-none">
                 <!--Header-->
                 <?php require_once('blocks/header.php'); ?>
                 <!--Header END-->
@@ -41,7 +48,7 @@
                 <div class="container-fluid" style="position: relative;">
                     <div class="card" style="padding: 15px;">
                         <h6 class="table-headline">Пресеты</h6>
-                        <div style="overflow-x:auto;">
+                        <div class="table-scroll">
                             <table class="table-staff table table-striped">
                                 <thead>
                                     <tr>
@@ -350,6 +357,8 @@
             <script>
                 feather.replace()
             </script>
+            <!-- loader script -->
+            <script src="js/loader.js"></script>
 </body>
 
 </html>

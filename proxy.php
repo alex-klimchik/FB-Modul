@@ -28,9 +28,12 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.js"></script>
 
+    <link rel="stylesheet" type="text/css" href="css/loader.css">
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/proxy.css">
+    <link rel="stylesheet" type="text/css" href="css/styles-all.css">
+    <link rel="stylesheet" type="text/css" href="css/media-all.css">
 
 
     <!--feather-icons-->
@@ -50,8 +53,10 @@
 
     <div class="page-container">
 
+        <!-- loader -->
+        <?php require_once('blocks/preloader.php'); ?>
 
-        <main>
+        <main class="page-loading d-none">
             
         <!--Header-->
         <?php require_once('blocks/header.php'); ?>
@@ -576,6 +581,8 @@
         /* <!--feather-icons--> */
         feather.replace();
     </script>
+<!-- loader script -->
+<script src="js/loader.js"></script>
 
 </body>
 

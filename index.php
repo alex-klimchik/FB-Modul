@@ -27,18 +27,20 @@
 </head>
 
 <body>
-<!-- loader -->
-<?php require_once('blocks/preloader.php'); ?>
 
 <!-- loader END-->
-    <div class="wrapper d-none">
+    <div class="wrapper">
         <!--Sidebar-->
         <?php require_once('blocks/sidebar.php'); ?>
         <!--Sidebar END-->
 
+
         <div class="page-container">
+
+            <!-- loader -->
+            <?php require_once('blocks/preloader.php'); ?>
          
-            <main>
+            <main class="page-loading d-none">
             <!--Header-->
             <?php require_once('blocks/header.php'); ?>
             <!--Header END-->

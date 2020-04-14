@@ -28,9 +28,12 @@
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
+    <link rel="stylesheet" type="text/css" href="css/loader.css">
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/container.css">
+    <link rel="stylesheet" type="text/css" href="css/styles-all.css">
+    <link rel="stylesheet" type="text/css" href="css/media-all.css">
     <!--feather-icons-->
     <script src="https://unpkg.com/feather-icons"></script>
 </head>
@@ -43,7 +46,10 @@
 
         <div class="page-container">
 
-            <main>
+            <!-- loader -->
+            <?php require_once('blocks/preloader.php'); ?>
+
+            <main class="page-loading d-none">
                 <!--Header-->
                 <?php require_once('blocks/header.php'); ?>
                 <!--Header END-->
@@ -69,8 +75,8 @@
 
 
                         <div class="card card-bloks-shadow " style="padding: 15px;">
-                            <h6>Контейнер</h6>
-                            <div style="border-top: 1px solid #e7e9ea;overflow-x:auto;overflow-y: hidden;">
+                            <h6 class="table-headline">Контейнер</h6>
+                            <div class="table-scroll">
                                 <table id="mainTable" class="table-staff table table-striped">
                                     <thead>
                                         <tr>
@@ -284,6 +290,8 @@
             feather.replace();
         });
     </script>
+    <!-- loader script -->
+    <script src="js/loader.js"></script>
 
 </body>
 

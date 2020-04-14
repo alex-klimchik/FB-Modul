@@ -1,74 +1,74 @@
-:focus {
-    outline: none!important;
-}
+/*:focus {*/
+    /*outline: none!important;*/
+/*}*/
 
-.btn.focus,
-.btn:focus {
-    outline: none;
-    box-shadow: 0 0 0 0 rgba(0, 123, 255, .25);
-}
+/*.btn.focus,*/
+/*.btn:focus {*/
+    /*outline: none;*/
+    /*box-shadow: 0 0 0 0 rgba(0, 123, 255, .25);*/
+/*}*/
 
 
 /*============ STAFF head tab styles ==============*/
 
-.nav-tabs {
-    border-bottom: 0 solid #dee2e6;
-}
+/*.nav-tabs {*/
+    /*border-bottom: 0 solid #dee2e6;*/
+/*}*/
 
-.staff-tabs:focus,
-.staff-tabs:hover {
-    color: #495057;
-    background-color: #ffffff14;
-    border-color: transparent;
-    box-shadow: 3px -1px 3px -1px #b7b7b74f, -3px -1px 3px -1px #b7b7b74f
-}
+/*.staff-tabs:focus,*/
+/*.staff-tabs:hover {*/
+    /*color: #495057;*/
+    /*background-color: #ffffff14;*/
+    /*border-color: transparent;*/
+    /*box-shadow: 3px -1px 3px -1px #b7b7b74f, -3px -1px 3px -1px #b7b7b74f*/
+/*}*/
 
-.staff-tabs:active {
-    color: #495057;
-    background-color: #fff;
-}
+/*.staff-tabs:active {*/
+    /*color: #495057;*/
+    /*background-color: #fff;*/
+/*}*/
 
-.staff-tabs {
-    font-size: 14px;
-    color: #495057;
-}
+/*.staff-tabs {*/
+    /*font-size: 14px;*/
+    /*color: #495057;*/
+/*}*/
 
-.staff-department {
-    display: flex;
-    margin-bottom: 15px;
-}
+/*.staff-department {*/
+    /*display: flex;*/
+    /*margin-bottom: 15px;*/
+/*}*/
 
-.staff-fa {
-    background-color: #babcbf;
-    color: #fff;
-    border-radius: 4px;
-    padding: 5px 9px;
-    outline: none;
-}
+/*.staff-fa {*/
+    /*background-color: #babcbf;*/
+    /*color: #fff;*/
+    /*border-radius: 4px;*/
+    /*padding: 5px 9px;*/
+    /*outline: none;*/
+/*}*/
 
-.staff-fa:hover {
-    background-color: #babcbf;
-    color: #fff;
-}
+/*.staff-fa:hover {*/
+    /*background-color: #babcbf;*/
+    /*color: #fff;*/
+/*}*/
 
-.staff-fa:focus {
-    outline: none;
-}
+/*.staff-fa:focus {*/
+    /*outline: none;*/
+/*}*/
 
-.staff-tab {
-    justify-content: start;
-}
+/*.staff-tab {*/
+    /*justify-content: start;*/
+/*}*/
 
-.head-line-staff {
-    position: absolute;
-    left: 15px;
-    top: -20px;
-}
+/*.head-line-staff {*/
+    /*position: absolute;*/
+    /*left: 15px;*/
+    /*top: -20px;*/
+/*}*/
 
-.nav-tabs .nav-item {
-    margin-bottom: -1px;
-    z-index: 100;
-}
+/*.nav-tabs .nav-item {*/
+    /*margin-bottom: -1px;*/
+    /*z-index: 100;*/
+/*}*/
 
 
 /*========== STAFF head tab styles the end ===============*/
@@ -150,63 +150,63 @@
 
 /*=================== select table styles =======================*/
 
-.card {
-    padding: 15px;
-    margin-bottom: 2rem;
-    box-shadow: 0 0 0.875rem 0 rgba(53, 64, 82, .05);
-}
+/*.card {*/
+    /*padding: 15px;*/
+    /*margin-bottom: 2rem;*/
+    /*box-shadow: 0 0 0.875rem 0 rgba(53, 64, 82, .05);*/
+/*}*/
 
-.table {
-    color: #495057;
-}
+/*.table {*/
+    /*color: #495057;*/
+/*}*/
 
-.table-striped tbody tr:nth-of-type(odd) {
-    background-color: #f8f9fa;
-}
+/*.table-striped tbody tr:nth-of-type(odd) {*/
+    /*background-color: #f8f9fa;*/
+/*}*/
 
-.table thead th {
-    vertical-align: bottom;
-    border-bottom: 2px solid #dee2e6;
-}
+/*.table thead th {*/
+    /*vertical-align: bottom;*/
+    /*border-bottom: 2px solid #dee2e6;*/
+/*}*/
 
-.table td,
-.table th {
-    padding: .45rem .75rem;
-    vertical-align: top;
-    border-top: 0 solid #dee2e6;
-}
+/*.table td,*/
+/*.table th {*/
+    /*padding: .45rem .75rem;*/
+    /*vertical-align: top;*/
+    /*border-top: 0 solid #dee2e6;*/
+/*}*/
 
-table tbody tr:hover {
-    background: #00000013!important;
-}
+/*table tbody tr:hover {*/
+    /*background: #00000013!important;*/
+/*}*/
 
-.staff-tab .staff-tabs.active {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    color: #495057;
-    background-color: #fff;
-    border-color: transparent;
-    box-shadow: 3px -1px 3px -1px #b7b7b74f, -3px -1px 3px -1px #b7b7b74f
-}
+/*.staff-tab .staff-tabs.active {*/
+    /*border-top-left-radius: 10px;*/
+    /*border-top-right-radius: 10px;*/
+    /*color: #495057;*/
+    /*background-color: #fff;*/
+    /*border-color: transparent;*/
+    /*box-shadow: 3px -1px 3px -1px #b7b7b74f, -3px -1px 3px -1px #b7b7b74f*/
+/*}*/
 
-.staff-tab .staff-tabs:hover {
-    border-color: transparent;
-}
+/*.staff-tab .staff-tabs:hover {*/
+    /*border-color: transparent;*/
+/*}*/
 
-.staff-t {
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-    box-shadow: 0 0 3px 1px #b7b7b74f;
-    border: 0 solid rgba(0, 0, 0, .125);
-}
+/*.staff-t {*/
+    /*border-bottom-left-radius: 10px;*/
+    /*border-bottom-right-radius: 10px;*/
+    /*border-top-right-radius: 10px;*/
+    /*box-shadow: 0 0 3px 1px #b7b7b74f;*/
+    /*border: 0 solid rgba(0, 0, 0, .125);*/
+/*}*/
 
-[type=button]:not(:disabled),
-[type=reset]:not(:disabled),
-[type=submit]:not(:disabled),
-button:not(:disabled) {
-    outline: none;
-}
+/*[type=button]:not(:disabled),*/
+/*[type=reset]:not(:disabled),*/
+/*[type=submit]:not(:disabled),*/
+/*button:not(:disabled) {*/
+    /*outline: none;*/
+/*}*/
 
 .btn-mini {
     display: inline-block;
@@ -230,26 +230,26 @@ button:not(:disabled) {
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
 }
 
-.feather {
-    width: 16px;
-    height: 16px;
-}
+/*.feather {*/
+    /*width: 16px;*/
+    /*height: 16px;*/
+/*}*/
 
-.setting-offers button {
-    margin: 0 2px;
-}
+/*.setting-offers button {*/
+    /*margin: 0 2px;*/
+/*}*/
 
-.btn-outline-edit,
-.btn-outline-lock {
-    color: #6c757d;
-}
+/*.btn-outline-edit,*/
+/*.btn-outline-lock {*/
+    /*color: #6c757d;*/
+/*}*/
 
-.btn-outline-edit:hover {
-    color: #a180da;
-}
-.btn-outline-lock:hover {
-    color: #5b7dff;
-}
+/*.btn-outline-edit:hover {*/
+    /*color: #a180da;*/
+/*}*/
+/*.btn-outline-lock:hover {*/
+    /*color: #5b7dff;*/
+/*}*/
 
 
 /*=================== select table the end styles =======================*/
@@ -291,8 +291,3 @@ button:not(:disabled) {
     bottom: 0;
 }
 
-@media (max-width: 380px) {
-    .staff-tabs {
-        font-size: 12px;
-    }
-}

@@ -25,10 +25,13 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
+    <link rel="stylesheet" type="text/css" href="css/loader.css">
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/staff-page.css">
     <link rel="stylesheet" type="text/css" href="css/tasks-page.css">
+    <link rel="stylesheet" type="text/css" href="css/styles-all.css">
+    <link rel="stylesheet" type="text/css" href="css/media-all.css">
 
     <!--feather-icons-->
     <script src="https://unpkg.com/feather-icons"></script>
@@ -52,9 +55,10 @@
 
     <div class="page-container">
 
+        <!-- loader -->
+        <?php require_once('blocks/preloader.php'); ?>
 
-
-        <main>
+        <main class="page-loading d-none">
         <!--Header-->
         <?php require_once('blocks/header.php'); ?>
         <!--Header END-->
@@ -108,7 +112,7 @@
 
                             <div id="open-tickets" class="tab-pane fade active show">
                                 <div class="staff-t card">
-                                    <div style="overflow-x:auto;">
+                                    <div class="table-scroll">
                                         <table class="table-staff table table-striped">
                                             <thead>
                                             <tr>
@@ -125,7 +129,7 @@
                                                 <td></td>
                                                 <td>Виктория Суходольска</td>
                                                 <td>Pamela26</td>
-                                                <td><strong>Новая</strong></td>
+                                                <td><span class="status-active">Новая</span></td>
                                                 <td>123123123123123</td>
                                                 <td><span>21/03/2020 12:03</span></td>
                                             </tr>
@@ -133,7 +137,7 @@
                                                 <td></td>
                                                 <td>Виктория Суходольска</td>
                                                 <td>Pamela26</td>
-                                                <td><strong>Новая</strong></td>
+                                                <td><span class="status-active">Новая</span></td>
                                                 <td>123123123123123</td>
                                                 <td><span>21/03/2020 12:03</span></td>
                                             </tr>
@@ -141,7 +145,7 @@
                                                 <td></td>
                                                 <td>Виктория Суходольска</td>
                                                 <td>Pamela26</td>
-                                                <td><strong>Новая</strong></td>
+                                                <td><span class="status-active">Новая</span></td>
                                                 <td>123123123123123</td>
                                                 <td><span>21/03/2020 12:03</span></td>
                                             </tr>
@@ -149,7 +153,7 @@
                                                 <td></td>
                                                 <td>Виктория Суходольска</td>
                                                 <td>Pamela26</td>
-                                                <td><strong>Новая</strong></td>
+                                                <td><span class="status-active">Новая</span></td>
                                                 <td>123123123123123</td>
                                                 <td><span>21/03/2020 12:03</span></td>
                                             </tr>
@@ -157,7 +161,7 @@
                                                 <td></td>
                                                 <td>Виктория Суходольска</td>
                                                 <td>Pamela26</td>
-                                                <td><strong>Новая</strong></td>
+                                                <td><span class="status-active">Новая</span></td>
                                                 <td>123123123123123</td>
                                                 <td><span>21/03/2020 12:03</span></td>
                                             </tr>
@@ -165,7 +169,7 @@
                                                 <td></td>
                                                 <td>Виктория Суходольска</td>
                                                 <td>Pamela26</td>
-                                                <td><strong>Завершена</strong></td>
+                                                <td><span class="status-no-active">Завершена</span></td>
                                                 <td>123123123123123</td>
                                                 <td><span>21/03/2020 12:03</span></td>
                                             </tr>
@@ -173,7 +177,7 @@
                                                 <td></td>
                                                 <td>Виктория Суходольска</td>
                                                 <td>Pamela26</td>
-                                                <td><strong>Завершена</strong></td>
+                                                <td><span class="status-no-active">Завершена</span></td>
                                                 <td>123123123123123</td>
                                                 <td><span>21/03/2020 12:03</span></td>
                                             </tr>
@@ -181,7 +185,7 @@
                                                 <td></td>
                                                 <td>Виктория Суходольска</td>
                                                 <td>Pamela26</td>
-                                                <td><strong>Завершена</strong></td>
+                                                <td><span class="status-no-active">Завершена</span></td>
                                                 <td>123123123123123</td>
                                                 <td><span>21/03/2020 12:03</span></td>
                                             </tr>
@@ -189,7 +193,7 @@
                                                 <td></td>
                                                 <td>Виктория Суходольска</td>
                                                 <td>Pamela26</td>
-                                                <td><strong>Завершена</strong></td>
+                                                <td><span class="status-no-active">Завершена</span></td>
                                                 <td>123123123123123</td>
                                                 <td><span>21/03/2020 12:03</span></td>
                                             </tr>
@@ -337,5 +341,7 @@
 
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
 <script src="js/script.js"></script>
+<!-- loader script -->
+<script src="js/loader.js"></script>
 </body>
 </html>
