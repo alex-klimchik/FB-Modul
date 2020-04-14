@@ -28,11 +28,16 @@
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
-
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/container.css">
     <!--feather-icons-->
     <script src="https://unpkg.com/feather-icons"></script>
+    <!-- cookie -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/mainStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/container.css">
+
 </head>
 
 <body>
@@ -51,22 +56,6 @@
                 <div class="container-fluid" style="position: relative;">
 
                     <div class="main-content">
-                        <!-- <div class="additions">
-                            <div class="additions-choice">
-                                <input class="datepicker" data-provide="datepicker" placeholder="Дата регистрации">
-                                <select class="selectpicker" name="" id="">
-                                    <option value="">Этап</option>
-                                </select>
-                                <select class="selectpicker" name="" id="">
-                                    <option value="">Статус</option>
-                                </select>
-                                <select class="selectpicker" name="" id="">
-                                    <option value="">Сотрудник</option>
-                                </select>
-                            </div>
-                        </div> -->
-
-
 
                         <div class="card card-bloks-shadow " style="padding: 15px;">
                             <h6>Контейнер</h6>
@@ -245,7 +234,6 @@
                             </div>
                         </div>
 
-
                     </div>
 
                 </div>
@@ -275,9 +263,7 @@
     </footer>
 
 
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/footer.js"></script>
     <script>
         $(document).ready(() => {
             // Инит иконок

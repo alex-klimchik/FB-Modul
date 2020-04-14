@@ -25,19 +25,19 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/bootstrap-select.min.js"></script>
 
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.js"></script>
-
-
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/proxy.css">
-
+    <!-- Datepicker  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker3.standalone.min.css">
 
     <!--feather-icons-->
     <script src="https://unpkg.com/feather-icons"></script>
+    <!-- cookie -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
 
-
-
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/mainStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/proxy.css">
 
 </head>
 
@@ -59,24 +59,21 @@
             <div class="container-fluid" style="position: relative;">
                 <div class="row">
                     <div class="col-12">
-                        <div class="additions proxy-account">
+                        <div class="additions">
                             <div class="additions-choice">
                                 <select class="selectpicker" id="proxyAllAccount">
                                     <option>FB account</option>
-                            
                                     <option>Фармер</option>
                                     <option>Фармер 2</option>
                                 </select>
                             </div>
-                            <div class="proxy-add">
-                                <button type="button" class=" btn-new-ticket btn" data-toggle="modal"
-                                        data-target="#proxyModalAdd" data-placement="top" title="Добавить">
-                                    <i class="fa fa-plus staff-fa" aria-hidden="true"></i></button>
+                            <div class="additions-modal" data-toggle="modal" data-target="#proxyModalAdd" data-placement="top" title="Добавить">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-12 mt-3">
+                    <div class="col-12 mt-3" style="margin-top: 0!important;">
                         <div class="staff-t card">
                             <h6 class="table-headline">Proxy</h6>
                             <div style="overflow-x:auto;">
@@ -265,7 +262,7 @@
                                                 </div>
                                                 <div class="stage-s mb-0 form-group ">
                                                     <div class="stages-btn ">
-                                                      <select class="selectpicker form-br input-select form-control" id="proxy-account">
+                                                      <select class="selectpicker form-br input-select form-control">
                                                         <option>FB аккаунт</option>
                                                         <option>.....</option>
                                                         <option>.....</option>
@@ -422,7 +419,7 @@
                                                 </div>
                                                 <div class="stage-s mb-0 form-group ">
                                                     <div class="stages-btn ">
-                                                    <select class="form-br selectpicker input-select form-control" id="proxy-account">
+                                                    <select class="form-br selectpicker input-select form-control">
                                                         <option>FB аккаунт</option>
                                                         <option>.....</option>
                                                         <option>.....</option>
@@ -562,19 +559,17 @@
         </div>
     </footer>
 
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/footer.js"></script>
-
     <script>
-        $(function() {
+        $(document).ready(() => {
             $('.dateselect').datepicker({
                 format: 'mm/dd/yyyy',
                 // startDate: '-3d'
             });
+
+            /* <!--feather-icons--> */
+            feather.replace();
         });
-        /* <!--feather-icons--> */
-        feather.replace();
     </script>
 
 </body>

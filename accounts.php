@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Аккаунты (new)</title>
+    <title>Аккаунты</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
@@ -21,8 +21,10 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/mainStyle.css">
     <link rel="stylesheet" type="text/css" href="css/accounts.css">
 
 </head>
@@ -283,15 +285,15 @@
 
         <div class="page-container">
 
-        
+
 
             <main>
                 <!--Header-->
                 <?php require_once('blocks/header.php'); ?>
-                 <!--Header END-->
-                 
+                <!--Header END-->
+
                 <div class="main-content">
-                    <div class="additions">
+                    <div class="additions" style="margin: 0 10px 10px">
                         <div class="additions-choice">
                             <select class="selectpicker" name="" id="">
                                 <option value="">Сотрудники</option>
@@ -327,13 +329,10 @@
                             </select>
                         </div>
                         <div class="additions-modal" data-toggle="modal" data-target="#addAccount">
-
                             <i class="fa fa-plus"></i>
-
-
                         </div>
-
                     </div>
+
                     <div class="main-content_table">
                         <div>
                             <div class="board-col">
@@ -1110,7 +1109,6 @@
     </div>
 
 
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
 
     <script src="js/script.js"></script>
     <script src="js/accounts.js"></script>

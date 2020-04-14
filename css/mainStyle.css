@@ -1,0 +1,467 @@
+table#mainTable tbody tr.colorize {
+    background: #00000013 !important;
+}
+
+/* Footer */
+.is-collapsed footer {
+    width: 100%;
+}
+
+footer {
+    width: calc(100% - 240px);
+    background-color: #d3d3d3;
+    height: 50px;
+    color: #354052 !important;
+    box-shadow: 0 0 2rem 0 rgba(53, 64, 82, .1);
+    position: fixed;
+    bottom: -50px;
+    right: 0;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+    z-index: 800;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8px;
+}
+
+footer>div {
+    display: flex;
+    align-items: center;
+}
+
+footer>div>button.btn {
+    background-color: #3a89ff;
+    border-color: #3a89ff;
+    margin: 0 7px;
+    padding: .175rem .75rem;
+}
+
+footer>div>button.btn:hover {
+    background-color: #027bdc;
+    border-color: #027bdc;
+}
+
+footer>div>.btn-primary:not(:disabled):not(.disabled).active {
+    background-color: #0260ad;
+    border-color: #0260ad;
+}
+
+footer .count {
+    margin: 0 7px;
+}
+
+footer .count span {
+    padding: 1px 4px 2px 3px;
+    background-color: #3a89ff;
+    border-radius: 4px;
+    color: #fff;
+}
+
+footer .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 190px;
+    margin: 0 7px;
+}
+
+footer .custom-checkbox {
+    margin: 0 7px;
+}
+
+footer .dropup .dropdown-toggle::after {
+    border-bottom: .3em solid #fff;
+}
+
+footer .dropdown-toggle::after {
+    border-top: .3em solid #fff;
+}
+
+footer .dropdown-toggle {
+    border: 1px solid #3a89ff;
+    background-color: #3a89ff !important;
+    color: #fff !important;
+}
+
+footer .dropdown-toggle:hover {
+    background-color: #027bdc !important;
+    border-color: #027bdc;
+}
+
+.select-all {
+    cursor: pointer;
+}
+
+/* selectpicker line */
+
+.additions {
+    background-color: #fff;
+    box-shadow: 0 0 3px 1px #b7b7b74f;
+    margin-bottom: 1rem;
+    padding: 0 15px;
+    border-radius: 3px;
+    background-clip: padding-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    font-size: 14px;
+}
+
+.additions-choice {
+    display: flex;
+}
+
+.additions-choice .datepicker {
+    color: #999;
+    background-color: #fff !important;
+    border: 1px solid #eaeaea;
+    width: 190px;
+    height: 34px;
+    border-radius: 6px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding-top: 4px;
+    margin-right: 30px;
+}
+
+.additions-choice .datepicker::placeholder {
+    color: #999;
+}
+
+.additions .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 190px;
+    margin-right: 30px;
+}
+
+.additions-modal {
+    height: 30px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #a7abb1;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #a7abb1;
+    border-radius: 3px;
+}
+
+.additions-modal i {
+    color: #fff;
+    font-size: 16px;
+}
+
+.additions-modal:hover i {
+    color: #212529;
+}
+
+.additions-modal:hover {
+    background-color: #8dc7d0;
+    border-color: #8dc7d0;
+}
+
+.dropdown-toggle {
+    background-color: #fff !important;
+    border: 1px solid #eaeaea;
+    width: 190px;
+    height: 34px;
+    border-radius: 6px;
+    padding-top: 3px;
+}
+
+.dropdown-toggle,
+.dropdown-toggle:focus,
+.dropdown-toggle:active {
+    outline: none !important;
+}
+
+.dropdown-menu.show~.dropdown-toggle,
+.dropdown-toggle:focus,
+.dropdown-toggle:active {
+    box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, .5) !important;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: #f4f8ff96;
+}
+
+
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: #deebff !important;
+    color: #333;
+}
+
+.bootstrap-select .dropdown-toggle:focus,
+.bootstrap-select>select.mobile-device:focus+.dropdown-toggle {
+    outline: none !important;
+}
+
+.dropdown-item.disabled {
+    color: #999;
+}
+
+.bootstrap-select>.dropdown-toggle {
+    color: #999;
+}
+
+.btn-light:not(:disabled):not(.disabled):active,
+.show>.btn-light.dropdown-toggle {
+    color: #999;
+    background-color: #fefefe;
+    outline: none;
+}
+
+.btn-light:not(:disabled):not(.disabled):active,
+.show>.btn-light.dropdown-toggle {
+    background-color: #fefefe;
+    outline: none;
+    border-color: #ededee;
+}
+
+.bootstrap-select .dropdown-toggle:focus,
+.bootstrap-select>select.mobile-device:focus+.dropdown-toggle {
+    outline: 0 auto -webkit-focus-ring-color !important;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: #deebff;
+    color: #333;
+}
+
+.bootstrap-select .dropdown-menu {
+    border-color: #ededee;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: #f4f8ff96;
+}
+
+.btn-light {
+    color: #999;
+    background-color: #fefefe;
+    border: 1px solid #ededee;
+}
+
+.btn-light:hover {
+    border: 1px solid #ededee;
+    background-color: #fefefe;
+}
+
+/* ===== DATEPICKER CALENDAR =====*/
+
+label {
+    position: relative;
+    display: block;
+}
+
+label>input {
+    height: 38px;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+
+/*Bootstrap Calendar*/
+
+.datepicker {
+    border-radius: 0;
+    padding: 0;
+}
+
+.datepicker-days table thead,
+.datepicker-days table tbody,
+.datepicker-days table tfoot {
+    padding: 10px;
+    display: list-item;
+}
+
+.datepicker-days table tfoot {
+    padding: 0;
+}
+
+.datepicker-days table thead,
+.datepicker-months table thead,
+.datepicker-years table thead,
+.datepicker-decades table thead,
+.datepicker-centuries table thead {
+    background: #DEEBFF;
+    color: #ffffff;
+    border-radius: 0;
+}
+
+.datepicker-days table thead tr:nth-child(2n+0) td,
+.datepicker-days table thead tr:nth-child(2n+0) th {
+    border-radius: 3px;
+}
+
+.datepicker-days table thead tr:nth-child(3n+0) {
+    text-transform: uppercase;
+    font-weight: 300 !important;
+    font-size: 12px;
+    color: #212529;
+}
+
+.table-condensed>tbody>tr>td,
+.table-condensed>tbody>tr>th,
+.table-condensed>tfoot>tr>td,
+.table-condensed>tfoot>tr>th,
+.table-condensed>thead>tr>td,
+.table-condensed>thead>tr>th {
+    padding: 11px 13px;
+}
+
+.datepicker-months table thead td,
+.datepicker-months table thead th,
+.datepicker-years table thead td,
+.datepicker-years table thead th,
+.datepicker-decades table thead td,
+.datepicker-decades table thead th,
+.datepicker-centuries table thead td,
+.datepicker-centuries table thead th {
+    border-radius: 0;
+}
+
+.datepicker td,
+.datepicker th {
+    border-radius: 50%;
+    padding: 0 12px;
+}
+
+.datepicker-days table thead,
+.datepicker-months table thead,
+.datepicker-years table thead,
+.datepicker-decades table thead,
+.datepicker-centuries table thead {
+    background: #DEEBFF;
+    color: #ffffff;
+    border-radius: 0;
+}
+
+.datepicker table tr td.active,
+.datepicker table tr td.active:hover,
+.datepicker table tr td.active.disabled,
+.datepicker table tr td.active.disabled:hover {
+    background-image: none;
+}
+
+.datepicker .prev,
+.datepicker .next {
+    color: #212529;
+    transition: 0.3s;
+    width: 37px;
+    height: 37px;
+}
+
+.datepicker .prev:hover,
+.datepicker .next:hover {
+    background: transparent;
+    font-size: 21px;
+}
+
+.datepicker .datepicker-switch {
+    font-size: 24px;
+    font-weight: 400;
+    transition: 0.3s;
+    color: #212529;
+}
+
+.datepicker .datepicker-switch:hover {
+    background: transparent;
+}
+
+.datepicker table tr td span {
+    border-radius: 2px;
+    margin: 3%;
+    width: 27%;
+}
+
+.datepicker table tr td span.active,
+.datepicker table tr td span.active:hover,
+.datepicker table tr td span.active.disabled,
+.datepicker table tr td span.active.disabled:hover {
+    background-color: #DEEBFF;
+    background-image: none;
+}
+
+.dropdown-menu {
+    padding: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 4px 1px #00000030;
+    border: 1px solid #d3d9df;
+}
+
+.dropdown-menu {
+    padding: 0;
+    border: 1px solid rgba(0, 0, 0, .1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.datepicker-dropdown.datepicker-orient-top:before {
+    border-top: 7px solid rgba(0, 0, 0, .1);
+}
+
+.datepicker table tr td.active:active,
+.datepicker table tr td.active:hover:active,
+.datepicker table tr td.active.disabled:active,
+.datepicker table tr td.active.disabled:hover:active,
+.datepicker table tr td.active.active,
+.datepicker table tr td.active:hover.active,
+.datepicker table tr td.active.disabled.active,
+.datepicker table tr td.active.disabled:hover.active {
+    background-color: rgb(69, 101, 150);
+}
+
+.datepicker table tbody tr:hover {
+    background-color: white !important;
+}
+
+/* end selectpicker line */
+
+@media (max-width:1000px) {
+    footer {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 790px) {
+    .additions .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .additions {
+        height: unset;
+    }
+
+    .additions-choice {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 400px;
+    }
+
+    .additions .bootstrap-select,
+    .additions-choice .datepicker {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-right: 5px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .additions-choice {
+        width: 100%;
+        flex-direction: column;
+    }
+}

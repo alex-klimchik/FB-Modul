@@ -2,99 +2,7 @@ button.close:focus {
     outline: none;
 }
 
-.additions {
-    background-color: #fff;
-    box-shadow: 0 0 3px 1px #b7b7b74f;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    padding: 0 15px;
-    border-radius: 3px;
-    background-clip: padding-box;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 48px;
-    font-size: 14px;
-}
-
-
-/* Selects */
-
-.additions-choice .dropdown-toggle {
-    background-color: #fff!important;
-    border: 1px solid #eaeaea;
-    width: 190px;
-    height: 34px;
-    border-radius: 6px;
-    padding-top: 3px;
-}
-
-.additions-choice .dropdown-toggle,
-.additions-choice .dropdown-toggle:focus,
-.additions-choice .dropdown-toggle:active {
-    outline: none!important;
-}
-
-.dropdown-menu.show~.additions-choice .dropdown-toggle,
-.additions-choice .dropdown-toggle:focus,
-.additions-choice .dropdown-toggle:active {
-    box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, .5)!important;
-}
-
-.additions-choice .dropdown-item:focus,
-.additions-choice .dropdown-item:hover {
-    background-color: #f4f8ff96;
-}
-
-.additions-choice .dropdown-menu {
-    padding: 0;
-    min-width: 190px!important;
-    border-radius: 5px;
-    box-shadow: 0 0 4px 1px #00000030;
-    border: 1px solid #d3d9df;
-}
-
-.additions-choice .dropdown-item.active,
-.additions-choice .dropdown-item:active {
-    background-color: #deebff;
-    color: #333;
-}
-
-.additions-choice select:not(:nth-child(1)) {
-    margin-left: 20px;
-}
-
-
 /* End Selects */
-
-.additions-modal {
-    height: 30px;
-    width: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    background-color: #a7abb1;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #a7abb1;
-    border-radius: 3px;
-}
-
-.additions-modal i {
-    color: #fff;
-    font-size: 16px;
-}
-
-.additions-modal:hover i {
-    color: #212529;
-}
-
-.additions-modal:hover {
-    background-color: #8dc7d0;
-    border-color: #8dc7d0;
-}
 
 .main-content {
     position: relative;
@@ -328,11 +236,11 @@ button.close:focus {
 }
 
 .modal-new_account {
-    padding: 0!important;
+    padding: 0 !important;
 }
 
 .modal-new_account .modal-content {
-    min-height: calc( 100vh - 10px);
+    min-height: calc(100vh - 10px);
 }
 
 .modal-new_account .modal-dialog {
@@ -418,11 +326,6 @@ button.close:focus {
     position: relative;
     left: -5px;
 }
-
-
-/* .modal_account-content .content-history>ul li {
-    margin-bottom: 0;
-} */
 
 .modal_account-content .content-tasks p {
     margin-bottom: 10px;
@@ -571,6 +474,7 @@ button.close:focus {
     .modal_account-collapse .item-collapse_box {
         width: 48%;
     }
+
     .modal_account-stage span {
         text-align: center;
     }
@@ -581,14 +485,9 @@ button.close:focus {
         height: initial;
         overflow-x: auto;
     }
+
     .board-main {
         height: initial;
-    }
-}
-
-@media (max-width: 800px) {
-    .bootstrap-select {
-        width: 190px !important;
     }
 }
 
@@ -596,30 +495,14 @@ button.close:focus {
     .modal_account-collapse .item-collapse_box {
         width: 31%;
     }
+
     .modal_account-collapse,
     .modal_account-content {
         width: 100%;
         margin-right: 0;
         margin-left: 0;
     }
-    .additions {
-        height: unset;
-    }
-    .additions-choice {
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-        padding-top: 5px;
-        padding-bottom: 5px;
-        width: 400px;
-    }
-    .additions .bootstrap-select,
-    .additions-choice .datepicker {
-        margin-top: 2px;
-        margin-bottom: 2px;
-        margin-right: 5px !important;
-        width: 190px!important;
-    }
+
 }
 
 @media (max-width: 650px) {
@@ -635,26 +518,18 @@ button.close:focus {
     }
 }
 
-@media (max-width: 530px) {
-    .additions-choice {
-        width: unset;
-        flex-direction: column;
-        display: flex;
-    }
-}
-
-@media (max-width: 480px) {}
-
 @media (max-width: 440px) {
     .modal_account-collapse .item-collapse_box {
         width: 100%;
         margin-right: 0;
         margin-left: 0;
     }
+
     .modal-new_account .modal_account-stage {
         flex-direction: column;
         align-items: center;
     }
+
     .modal_account-stage span {
         margin: 5px;
     }
@@ -665,6 +540,7 @@ button.close:focus {
         width: 100%;
         flex-direction: column;
     }
+
     .modal_account-content .content-tabs .tab-content .tab-pane>div input {
         width: 100%;
         margin-left: 0;

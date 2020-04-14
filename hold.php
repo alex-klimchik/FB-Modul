@@ -28,11 +28,16 @@
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
-
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/hold.css">
     <!--feather-icons-->
     <script src="https://unpkg.com/feather-icons"></script>
+    <!-- cookie -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/mainStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/hold.css">
+
 </head>
 
 <body>
@@ -106,8 +111,6 @@
                                 </select>
                             </div>
                         </div>
-
-
 
                         <div class="card card-bloks-shadow" style="padding: 15px;">
                             <h6>Холд</h6>
@@ -517,9 +520,8 @@
             <button class="btn btn-primary cansel-all">Отмена <i data-feather="x-circle"></i></button>
         </div>
     </footer>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
+
     <script src="js/script.js"></script>
-    <script src="js/footer.js"></script>
     <script>
         $(document).ready(() => {
             // Инит иконок
