@@ -82,12 +82,12 @@
         <!--Sidebar END-->
 
         <div class="page-container">
-          
+
             <main>
                 <!--Header-->
                 <?php require_once('blocks/header.php'); ?>
                 <!--Header END-->
-                
+
                 <div class="container-fluid" style="position: relative;">
 
                     <div class="main-content">
@@ -112,7 +112,7 @@
                         <div class="card card-bloks-shadow" style="padding: 15px;">
                             <h6>Холд</h6>
                             <div style="border-top: 1px solid #e7e9ea;overflow-x:auto;overflow-y: hidden;">
-                                <table id="container-table" class="table-staff table table-striped">
+                                <table id="mainTable" class="table-staff table table-striped">
                                     <thead>
                                         <tr>
                                             <th class="select-all">Все</th>
@@ -502,29 +502,30 @@
 
         </div>
     </div>
-    <footer>
+    <footer style="display: none">
         <div>
-            <div class="btns-wrap">
-                <div class="count">
-                    Выбрано: <span></span>
-                </div>
-                <button class="btn btn-primary cansel">Отмена <i data-feather="x-circle"></i></button>
-                <button class="btn btn-primary ">Передать <i style="transform: rotate(45deg)" data-feather="send"></i></button>
-                <select class="selectpicker" name="" id="">
-                    <option value="">Фб 1</option>
-                    <option value="">ФБ 2</option>
-                </select>
+            <select class="selectpicker" name="" id="">
+                <option value="">Фб 1</option>
+                <option value="">ФБ 2</option>
+            </select>
+            <button class="btn btn-primary ">Передать <i style="transform: rotate(45deg);" data-feather="send"></i></button>
+        </div>
+        <div>
+            <div class="count">
+                Выбрано: <span>0</span>
             </div>
-            <span class="message">
-                <i class="fab fa-telegram-plane"></i>
-            </span>
-
+            <button class="btn btn-primary cansel-all">Отмена <i data-feather="x-circle"></i></button>
         </div>
     </footer>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/container.js"></script>
-
+    <script src="js/footer.js"></script>
+    <script>
+        $(document).ready(() => {
+            // Инит иконок
+            feather.replace();
+        });
+    </script>
 
 </body>
 

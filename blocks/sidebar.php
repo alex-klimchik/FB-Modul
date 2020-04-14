@@ -11,7 +11,7 @@
                 </div> -->
                 <ul class="sidebar-nav">
                     <li class="sidebar-header">Меню</li>
-                    <li class="active sidebar-item">
+                    <li class="sidebar-item">
                         <a class="sidebar-link" href="index.php">
                             <span class="icon-holder"><i class="fas fa-home"></i> </span>
                             <span class="title">Главная</span></a>

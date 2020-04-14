@@ -80,10 +80,10 @@
                         <div class="staff-t card">
                             <h6 class="table-headline">Proxy</h6>
                             <div style="overflow-x:auto;">
-                                <table id="container-table" class="table table-striped ">
+                                <table id="mainTable" class="table table-striped ">
                                     <thead>
                                     <tr>
-                                        <th>Все</th>
+                                        <th class="select-all">Все</th>
                                         <th>Имя прокси</th>
                                         <th>IP</th>
                                         <th>Сетевой протокол</th>
@@ -208,8 +208,8 @@
                                     <tr>
                                         <td>
                                             <div class="custom-control custom-checkbox ">
-                                                <input type="checkbox" class="custom-control-input" id="checkboxId6">
-                                                <label class="custom-control-label" for="checkboxId6"></label>
+                                                <input type="checkbox" class="custom-control-input" id="checkboxId7">
+                                                <label class="custom-control-label" for="checkboxId7"></label>
                                             </div>
                                         </td>
                                         <td>Прокси 1</td>
@@ -545,38 +545,37 @@
 
 
             </div>
-
-            <footer>
-                <div class="btns-wrap">
-                    <div class="count">
-                        Выбрано: <span></span>
-                    </div>
-                    <button class="btn btn-primary cansel">Отмена <i class="ft-icon" data-feather="x-circle"></i></button>
-                    <button class="btn btn-primary cansel">Удалить <i class="ft-icon" data-feather="trash-2"></i></button>
-                    <button class="btn btn-primary" data-toggle="modal" data-target="#proxyModalEdit">Редактировать <i class="ft-icon" data-feather="edit-2"></i></button>
-
-                </div>
-            </footer>
-
         </main>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
-        <script src="js/script.js"></script>
-        <script src="js/container.js"></script>
+        </div>
+    </div>
+    <footer style="display: none">
+        <div>
+            <button class="btn btn-primary cansel-all">Удалить <i class="ft-icon" data-feather="trash-2"></i></button>
+            <button class="btn btn-primary" data-toggle="modal" data-target="#proxyModalEdit">Редактировать <i class="ft-icon" data-feather="edit-2"></i></button>
 
-        <script>
-            $(function() {
-                $('.dateselect').datepicker({
-                    format: 'mm/dd/yyyy',
-                    // startDate: '-3d'
-                });
+        </div>
+        <div>
+            <div class="count">
+                Выбрано: <span>0</span>
+            </div>
+            <button class="btn btn-primary cansel-all">Отмена <i class="ft-icon" data-feather="x-circle"></i></button>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/footer.js"></script>
+
+    <script>
+        $(function() {
+            $('.dateselect').datepicker({
+                format: 'mm/dd/yyyy',
+                // startDate: '-3d'
             });
-        </script>
-
-        <!--feather-icons-->
-        <script>
-            feather.replace()
-        </script>
-
+        });
+        /* <!--feather-icons--> */
+        feather.replace();
+    </script>
 
 </body>
 

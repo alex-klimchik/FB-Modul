@@ -1,15 +1,15 @@
 let stateSidebar = !!Cookies.get('sidebar');
 
-let mySingleton = (function() {
+let mySingleton = (function () {
     let instance;
     return {
-        getInstance: function() {
+        getInstance: function () {
             if (!instance) {
                 $('body').on('click', '.sidebar .sidebar-link', collapseSidebar);
                 instance = true;
             }
         },
-        deleteInstance: function() {
+        deleteInstance: function () {
             if (instance) {
                 $('body').off('click', '.sidebar .sidebar-link', collapseSidebar);
                 instance = false;
@@ -36,9 +36,9 @@ function closeSidebar() {
 
 
 // Document Ready ------------------------------------------------------
-$(document).ready(function() {
+$(document).ready(function () {
     closeSidebar();
-    $(window).resize(function() {
+    $(window).resize(function () {
         closeSidebar();
     })
 
@@ -48,7 +48,7 @@ $(document).ready(function() {
     };
 
     //Кнопка открыть/закрыть главное меню
-    $('.sidebar-toggle , .closebtn').on('click', function(e) {
+    $('.sidebar-toggle , .closebtn').on('click', function (e) {
         $('body').toggleClass('is-collapsed');
 
         // Запись/удаление состояния sidebar в cookies
@@ -61,12 +61,15 @@ $(document).ready(function() {
         }
 
     });
-    $(function() {
-        $("li").click(function(e) {
-            e.preventDefault();
-            $("li").removeClass("active");
-            $(this).addClass("active");
-        });
-    });
 
+    $(function () {
+        var current = location.pathname.slice(1);
+        $('.sidebar-nav li a').each(function () {
+            var $this = $(this);
+            // if the current path is like this link, make it active
+            if ($this.attr('href').indexOf(current) !== -1) {
+                $this.parent().addClass('active');
+            }
+        })
+    })
 });

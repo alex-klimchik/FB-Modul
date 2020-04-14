@@ -371,7 +371,6 @@ label>input {
     background-color: #47bac1;
 }
 
-
 /* Footer */
 
 .is-collapsed footer {
@@ -380,49 +379,50 @@ label>input {
 
 footer {
     width: calc(100% - 240px);
-    background-color: #fff!important;
+    background-color: #d3d3d3;
     height: 50px;
     color: #354052!important;
     box-shadow: 0px 0px 2rem 0 rgba(53, 64, 82, .1);
     position: fixed;
     bottom: -50px;
     right: 0;
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
     z-index: 800;
-    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8px;
 }
 
-footer .btns-wrap {
+footer>div {
     display: flex;
-    height: 100%;
     align-items: center;
 }
 
-footer .btns-wrap>button {
-    background-color: #47BAC1;
-    border-color: #47BAC1;
-    margin-left: 15px;
+footer>div>button.btn {
+    background-color: #3a89ff;
+    border-color: #3a89ff;
+    margin: 0 7px;
     padding: .175rem .75rem;
 }
 
-footer .btns-wrap>.btn-primary:not(:disabled):not(.disabled).active,
-footer .btns-wrap>.btn-primary:not(:disabled):not(.disabled):active {
-    background-color: #36999f;
-    border-color: #329096;
+footer>div>button.btn:hover {
+    background-color: #027bdc;
+    border-color: #027bdc;
 }
 
-footer .btns-wrap>button:hover {
-    background-color: #39a2a9;
-    border-color: #36999f;
+footer>div>.btn-primary:not(:disabled):not(.disabled).active, footer>div>.btn-primary:not(:disabled):not(.disabled):active {
+    background-color: #0260ad;
+    border-color: #0260ad;
 }
 
-footer .btns-wrap .count {
-    padding-left: 15px;
+footer .count {
+    margin: 0 7px;
 }
 
-footer .btns-wrap .count span {
+footer .count span {
     padding-bottom: 2px;
     padding-top: 1px;
     padding-right: 4px;
@@ -432,18 +432,14 @@ footer .btns-wrap .count span {
     color: white;
 }
 
-
-/* footer .dropup .dropdown-toggle::after {
-    border-bottom: .3em solid #47bac1;
+footer .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+    width: 190px;
+    margin: 0 7px;
 }
 
-footer .dropdown-toggle::after {
-    border-top: .3em solid #47bac1;
+footer .custom-checkbox {
+    margin: 0 7px;
 }
-
-footer .dropdown-toggle {
-    border: 1px solid #47bac1;
-} */
 
 footer .dropup .dropdown-toggle::after {
     border-bottom: .3em solid #ffffff;
@@ -454,18 +450,23 @@ footer .dropdown-toggle::after {
 }
 
 footer .dropdown-toggle {
-    border: 1px solid #47bac1;
-    background-color: #47bac1!important;
+    border: 1px solid #3a89ff;
+    background-color: #3a89ff!important;
     color: white!important;
 }
 
 footer .dropdown-toggle:hover {
-    background-color: #39a2a9!important;
-    border-color: #36999f;
+    background-color: #027bdc!important;
+    border-color: #027bdc;
+}
+.select-all {
+    cursor: pointer;
 }
 
-footer .dropdown {
-    margin-left: 15px!important;
+@media (max-width: 1000px) {
+    footer {
+        width: 100%;
+    }
 }
 
 @media (max-width: 519px) {
