@@ -17,12 +17,11 @@ input {
 }
 
 .sidebar-content {
-    background: #fff;
+    background: #262f3d;
     -webkit-transition: margin-left 0.3s ease-in-out, left 0.3s ease-in-out, margin-right 0.3s ease-in-out, right 0.3s ease-in-out;
     transition: margin-left 0.3s ease-in-out, left 0.3s ease-in-out, margin-right 0.3s ease-in-out, right 0.3s ease-in-out;
     height: 100%;
     min-height: 100%;
-    display: -webkit-box;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -36,12 +35,13 @@ input {
 }
 
 header {
+    padding: 10px;
     margin-bottom: 15px;
 }
 
 main {
     height: 100%;
-    background-color: #f7f9fc;
+    background-color: #fcfdff;
     border-radius: 10px;
 }
 
@@ -58,7 +58,7 @@ main {
 }
 
 .page-container {
-    padding: 3px;
+    padding: 10px;
     width: 100%;
     min-height: 100vh;
     padding-left: 240px;
@@ -81,6 +81,7 @@ main {
 }
 
 .sidebar-brand {
+    border-bottom: 1px solid #ffffff33;
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -88,8 +89,9 @@ main {
     font-size: 1.175rem;
     font-weight: 500;
     color: #fff;
-    width: 100%;
+    width: 95%;
     text-decoration: none;
+    margin: 5px;
 }
 
 .closebtn {
@@ -233,14 +235,15 @@ body {
 }
 
 .header {
-    border-radius: 6px;
-    background-color: #fff!important;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background-color: #fcfdff!important;
     min-height: 50px;
     color: #354052!important;
-    border-bottom: 0;
-    box-shadow: 0 0 6px 0 rgba(53, 64, 82, 0.35);
+    border-bottom: 1px solid #e2e2e2;
+    /* box-shadow: 0 0 6px 0 rgba(53, 64, 82, 0.35); */
     margin-bottom: 0;
-    padding: 5px 10px;
+    padding: 6px 17px;
     /* position: fixed; */
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
@@ -284,7 +287,7 @@ body {
     font-size: 12px;
     border-radius: 4px;
     position: absolute;
-    right: 30px;
+    right: 40px;
     top: 5px;
 }
 
@@ -297,14 +300,14 @@ table tbody tr:hover {
 }
 
 .sidebar-nav .active a {
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
     color: #4e5b6f;
-    background-color: #f7f9fc;
+    background-color: #fcfdff;
 }
 
 .sidebar-nav .active:after {
-    background: #f7f9fc;
+    background: #fcfdff;
     margin-top: -10px;
     position: absolute;
     right: 0;
@@ -315,7 +318,7 @@ table tbody tr:hover {
 }
 
 .sidebar-nav .active:before {
-    background: #f7f9fc;
+    background: #fcfdff;
     margin-top: -10px;
     position: absolute;
     right: 0;
