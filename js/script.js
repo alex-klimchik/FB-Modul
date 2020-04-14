@@ -63,7 +63,7 @@ $(document).ready(function() {
     });
     $(function() {
         $("li").click(function(e) {
-            e.preventDefault();
+            // e.preventDefault();
             $("li").removeClass("active");
             $(this).addClass("active");
         });
