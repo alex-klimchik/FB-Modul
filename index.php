@@ -3,6 +3,8 @@
 
 <head>
     <title>Modul FB</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
@@ -16,9 +18,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
+    
+    <!-- main css -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+   
+    <!-- loader -->
+    <link rel="stylesheet" type="text/css" href="css/loader.css">
 </head>
 
 <body>
@@ -48,8 +53,12 @@
         </div>
     </div>
 
+    <!-- cookie cdn -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
+    <!-- sidebar script -->
     <script src="js/script.js"></script>
+    <!-- loader script -->
+    <script src="js/loader.js"></script>
 </body>
 
 </html>
