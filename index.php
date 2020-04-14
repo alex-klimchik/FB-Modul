@@ -27,6 +27,9 @@
 </head>
 
 <body>
+ <!-- loader -->
+ <?php require_once('blocks/preloader.php'); ?>
+<!-- loader END-->
     <div class="wrapper">
         <!--Sidebar-->
         <?php require_once('blocks/sidebar.php'); ?>
