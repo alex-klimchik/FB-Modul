@@ -14,13 +14,6 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-<!--    тест шрифты-->
-
-
-
-
-
-
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
     <meta charset="utf-8">
@@ -40,7 +33,6 @@
 
 </head>
 <body>
-
 
 <div class="wrapper">
 
@@ -649,5 +641,6 @@
         </main>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
         <script src="js/script.js"></script>
+
 </body>
 </html>

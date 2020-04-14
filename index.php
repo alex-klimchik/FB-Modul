@@ -22,7 +22,13 @@
 </head>
 
 <body>
-    <div class="wrapper">
+<!-- Loading -->
+<div class="loader">
+    <div class="load-wrap"><div class="circle"> <i class="rot spiner-load fab fa-connectdevelop"></i></div><span>FB-Lagoon</span></div>
+</div>
+<!-- Loading -->
+
+    <div class="wrapper d-none">
         <!--Sidebar-->
         <?php require_once('blocks/sidebar.php'); ?>
         <!--Sidebar END-->
@@ -48,6 +54,18 @@
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
     <script src="js/script.js"></script>
+
+<!--========== LOADING ==============-->
+<script>
+
+    $(function(){
+      $('body > .loader').addClass('d-none');
+      $('.wrapper').removeClass('d-none')
+    });
+
+</script>
+<!--========== LOADING ==============-->
+
 </body>
 
 </html>
