@@ -32,10 +32,12 @@
         <!--Sidebar END-->
 
         <div class="page-container">
-            <!--Header-->
-            <?php require_once('blocks/header.php'); ?>
-            <!--Header END-->
+           
             <main>
+                <!--Header-->
+                <?php require_once('blocks/header.php'); ?>
+                <!--Header END-->
+
                 <div class="container-fluid" style="position: relative;">
                     <div class="card" style="padding: 15px;">
                         <h6 class="table-headline">Пресеты</h6>

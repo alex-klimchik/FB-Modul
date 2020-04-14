@@ -283,12 +283,13 @@
 
         <div class="page-container">
 
-            <!--Header-->
-            <?php require_once('blocks/header.php'); ?>
-            <!--Header END-->
+        
 
             <main>
-
+                <!--Header-->
+                <?php require_once('blocks/header.php'); ?>
+                 <!--Header END-->
+                 
                 <div class="main-content">
                     <div class="additions">
                         <div class="additions-choice">

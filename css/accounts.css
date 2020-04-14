@@ -2,10 +2,6 @@ button.close:focus {
     outline: none;
 }
 
-main {
-    padding: 70px 0 0;
-}
-
 .additions {
     background-color: #fff;
     box-shadow: 0 0 3px 1px #b7b7b74f;
@@ -22,6 +18,7 @@ main {
     font-size: 14px;
 }
 
+
 /* Selects */
 
 .additions-choice .dropdown-toggle {
@@ -33,15 +30,20 @@ main {
     padding-top: 3px;
 }
 
-.additions-choice .dropdown-toggle, .additions-choice .dropdown-toggle:focus, .additions-choice .dropdown-toggle:active {
+.additions-choice .dropdown-toggle,
+.additions-choice .dropdown-toggle:focus,
+.additions-choice .dropdown-toggle:active {
     outline: none!important;
 }
 
-.dropdown-menu.show~.additions-choice .dropdown-toggle, .additions-choice .dropdown-toggle:focus, .additions-choice .dropdown-toggle:active {
+.dropdown-menu.show~.additions-choice .dropdown-toggle,
+.additions-choice .dropdown-toggle:focus,
+.additions-choice .dropdown-toggle:active {
     box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, .5)!important;
 }
 
-.additions-choice .dropdown-item:focus, .additions-choice .dropdown-item:hover {
+.additions-choice .dropdown-item:focus,
+.additions-choice .dropdown-item:hover {
     background-color: #f4f8ff96;
 }
 
@@ -53,7 +55,8 @@ main {
     border: 1px solid #d3d9df;
 }
 
-.additions-choice .dropdown-item.active, .additions-choice .dropdown-item:active {
+.additions-choice .dropdown-item.active,
+.additions-choice .dropdown-item:active {
     background-color: #deebff;
     color: #333;
 }
@@ -61,6 +64,7 @@ main {
 .additions-choice select:not(:nth-child(1)) {
     margin-left: 20px;
 }
+
 
 /* End Selects */
 
@@ -257,35 +261,41 @@ main {
     height: 5px;
 }
 
-.main-content_table::-webkit-scrollbar-button, .board-main::-webkit-scrollbar-button {
+.main-content_table::-webkit-scrollbar-button,
+.board-main::-webkit-scrollbar-button {
     background-color: transparent;
     width: 0;
     height: 0;
     opacity: 0;
 }
 
-.main-content_table::-webkit-scrollbar-track, .board-main::-webkit-scrollbar-track {
+.main-content_table::-webkit-scrollbar-track,
+.board-main::-webkit-scrollbar-track {
     background-color: transparent;
     opacity: 0;
 }
 
-.main-content_table::-webkit-scrollbar-track-piece, .board-main::-webkit-scrollbar-track-piece {
+.main-content_table::-webkit-scrollbar-track-piece,
+.board-main::-webkit-scrollbar-track-piece {
     background-color: transparent;
     opacity: 0;
 }
 
-.main-content_table::-webkit-scrollbar-thumb, .board-main::-webkit-scrollbar-thumb {
+.main-content_table::-webkit-scrollbar-thumb,
+.board-main::-webkit-scrollbar-thumb {
     border-radius: 7px;
     box-shadow: rgb(255, 255, 255) 0px 0px 1px;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.main-content_table::-webkit-scrollbar-corner, .board-main::-webkit-scrollbar-corner {
+.main-content_table::-webkit-scrollbar-corner,
+.board-main::-webkit-scrollbar-corner {
     background-color: transparent;
     opacity: 0;
 }
 
-.main-content_table::-webkit-resizer, .board-main::-webkit-resizer {
+.main-content_table::-webkit-resizer,
+.board-main::-webkit-resizer {
     background-color: transparent;
     opacity: 0;
 }
@@ -369,7 +379,8 @@ main {
     border-radius: 4px;
 }
 
-.modal_account-collapse, .modal_account-content {
+.modal_account-collapse,
+.modal_account-content {
     width: calc(50% - 10px);
     margin: 15px 0;
 }
@@ -408,6 +419,7 @@ main {
     left: -5px;
 }
 
+
 /* .modal_account-content .content-history>ul li {
     margin-bottom: 0;
 } */
@@ -420,7 +432,8 @@ main {
     font-weight: 500;
 }
 
-.modal_account-content .content-tasks label, .modal_account-content .content-tasks input {
+.modal_account-content .content-tasks label,
+.modal_account-content .content-tasks input {
     cursor: pointer;
 }
 
@@ -583,7 +596,8 @@ main {
     .modal_account-collapse .item-collapse_box {
         width: 31%;
     }
-    .modal_account-collapse, .modal_account-content {
+    .modal_account-collapse,
+    .modal_account-content {
         width: 100%;
         margin-right: 0;
         margin-left: 0;
@@ -599,7 +613,8 @@ main {
         padding-bottom: 5px;
         width: 400px;
     }
-    .additions .bootstrap-select, .additions-choice .datepicker {
+    .additions .bootstrap-select,
+    .additions-choice .datepicker {
         margin-top: 2px;
         margin-bottom: 2px;
         margin-right: 5px !important;

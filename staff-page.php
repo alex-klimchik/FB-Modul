@@ -41,12 +41,12 @@
         <!--Sidebar END-->
 
     <div class="page-container">
-
+    <main>
             <!--Header-->
             <?php require_once('blocks/header.php'); ?>
             <!--Header END-->
 
-     <main>
+     
 
         <div class="container-fluid">
             <div class="row">
@@ -625,6 +625,12 @@
         </div>
 
 
+      
+
+        </main>
+    </div>
+</div>
+
         <!-------------------  STAFF CONTENT THE END-------------------------->
 
        
@@ -633,12 +639,6 @@
             feather.replace()
         </script>
         <script src="js/validate-form-staff.js"></script>
-
-
-    </div>
-</div>
-
-        </main>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
         <script src="js/script.js"></script>
 

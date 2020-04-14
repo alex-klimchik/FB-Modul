@@ -50,11 +50,12 @@
 
     <div class="page-container">
 
+
+        <main>
+            
         <!--Header-->
         <?php require_once('blocks/header.php'); ?>
         <!--Header END-->
-
-        <main>
             <div class="container-fluid" style="position: relative;">
                 <div class="row">
                     <div class="col-12">
