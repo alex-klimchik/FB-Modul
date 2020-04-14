@@ -1,15 +1,18 @@
 /*============== fonts NUNITO =================*/
+
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500&display=swap');
-body{
+body {
     font-family: 'Nunito', sans-serif;
     font-size: .875rem;
     font-weight: 400;
     line-height: 1.5;
 }
+
 input {
     outline: none;
 }
+
 .table tbody tr td,
 .table thead tr th {
     padding: .45rem .75rem;
@@ -17,30 +20,45 @@ input {
     border-top: 0 solid #dee2e6;
 }
 
+
 /*============== fonts NUNITO =================*/
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: Nunito;
     font-weight: 700;
 }
-h6{
+
+h6 {
     color: #6c757d!important;
 }
-p{
+
+p {
     font-family: Nunito;
     font-weight: 400;
 }
-ul li{
+
+
+/* ul li {
     font-family: Nunito;
     font-weight: 600;
-}
-div,span {
+} */
+
+
+/* div,
+span {
     font-family: Nunito;
 }
+
 .form-group>input {
     font-family: Nunito;
     font-weight: 300;
-}
+} */
+
 
 /*============== fonts NUNITO =================*/
 
@@ -55,7 +73,8 @@ div,span {
     align-items: center;
     justify-content: center;
 }
-.load-wrap{
+
+.load-wrap {
     display: flex;
     align-items: center;
     position: absolute;
@@ -64,7 +83,8 @@ div,span {
     margin-top: -1.5rem;
     margin-left: -1.5rem;
 }
-.load-wrap span{
+
+.load-wrap span {
     font-family: 'Prompt', sans-serif;
     font-weight: 300;
     letter-spacing: 1px;
@@ -72,10 +92,12 @@ div,span {
     font-size: 30px;
     color: #fff;
 }
-.spiner-load{
+
+.spiner-load {
     margin-right: 0;
     font-size: 45px;
 }
+
 .circle {
     display: flex;
     justify-content: center;
@@ -92,7 +114,6 @@ div,span {
     0% {
         box-shadow: 0 0 0 0 rgba(225, 225, 225, 0.5);
     }
-
     100% {
         box-shadow: 0 0 0 25px rgba(225, 225, 225, 0);
     }
@@ -103,6 +124,7 @@ div,span {
     -webkit-animation: 3s linear 0s normal none infinite running rot;
     width: 100px;
 }
+
 @keyframes rot {
     0% {
         transform: rotate(0deg);
@@ -111,6 +133,7 @@ div,span {
         transform: rotate(360deg);
     }
 }
+
 @-webkit-keyframes rot {
     0% {
         transform: rotate(0deg);
@@ -120,8 +143,8 @@ div,span {
     }
 }
 
-/* The END   Loading*/
 
+/* The END   Loading*/
 
 :focus {
     outline: none!important;
@@ -224,7 +247,7 @@ main {
 }
 
 .button-start-work {
-    font-family: monospace;
+    font-family: monospace!important;
     box-shadow: 1px 1px 2px 0px #585757;
     font-size: 14px;
     font-weight: 400;
@@ -331,10 +354,9 @@ body {
 }
 
 .title {
-    font-family: Nunito;
     font-weight: 400;
-    /*font-family: monospace;*/
-    padding-top: 3px;
+    font-family: monospace;
+    padding-top: 6px;
 }
 
 .sidebar ul li a {
@@ -510,15 +532,16 @@ sup {
     vertical-align: middle;
     border-bottom: 2px solid #dee2e6;
 }
+
 .table thead tr th {
     font-family: Nunito;
     font-weight: 700;
 }
-.table tbody tr td{
+
+.table tbody tr td {
     font-family: Nunito;
     font-weight: 400;
 }
-
 
 table tbody tr:hover {
     background: #00000013!important;
