@@ -49,7 +49,19 @@ ul{
 .modal-header h5 {
     color: #000;
 }
-
+.feather {
+    width: 16px;
+    height: 16px;
+}
+.btn-outline-edit, .btn-outline-lock {
+    color: #6c757d;
+}
+.btn-outline-edit:hover {
+    color: #a180da;
+}
+.btn-outline-lock:hover {
+    color: #5b7dff;
+}
 .close {
     font-size: 1.5rem;
     font-weight: 400;

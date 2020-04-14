@@ -19,6 +19,7 @@
     font-size: 14px;
 }
 
+
 /* Selects */
 
 .additions-choice {
@@ -52,15 +53,20 @@
     padding-top: 3px;
 }
 
-.dropdown-toggle, .dropdown-toggle:focus, .dropdown-toggle:active {
+.dropdown-toggle,
+.dropdown-toggle:focus,
+.dropdown-toggle:active {
     outline: none!important;
 }
 
-.dropdown-menu.show~.dropdown-toggle, .dropdown-toggle:focus, .dropdown-toggle:active {
+.dropdown-menu.show~.dropdown-toggle,
+.dropdown-toggle:focus,
+.dropdown-toggle:active {
     box-shadow: 0 0 0 0.2rem rgba(216, 217, 219, .5)!important;
 }
 
-.dropdown-item:focus, .dropdown-item:hover {
+.dropdown-item:focus,
+.dropdown-item:hover {
     background-color: #f4f8ff96;
 }
 
@@ -72,18 +78,21 @@
     border: 1px solid #d3d9df;
 }
 
-.dropdown-item.active, .dropdown-item:active {
+.dropdown-item.active,
+.dropdown-item:active {
     background-color: #deebff;
     color: #333;
 }
 
-.bootstrap-select .dropdown-toggle:focus, .bootstrap-select>select.mobile-device:focus+.dropdown-toggle {
+.bootstrap-select .dropdown-toggle:focus,
+.bootstrap-select>select.mobile-device:focus+.dropdown-toggle {
     outline: none!important;
 }
 
 .custom-checkbox>label {
     cursor: pointer;
 }
+
 
 /* Table */
 
@@ -109,7 +118,8 @@ table#mainTable {
     text-align: center;
 }
 
-table#mainTable thead th, table#mainTable tbody td {
+table#mainTable thead th,
+table#mainTable tbody td {
     vertical-align: middle;
 }
 
@@ -125,6 +135,7 @@ table#mainTable tbody tr.colorize {
     font-size: 10px;
     left: 2px;
 }
+
 
 /* Footer */
 
@@ -168,7 +179,8 @@ footer>div>button.btn:hover {
     border-color: #027bdc;
 }
 
-footer>div>.btn-primary:not(:disabled):not(.disabled).active, footer>div>.btn-primary:not(:disabled):not(.disabled):active {
+footer>div>.btn-primary:not(:disabled):not(.disabled).active,
+footer>div>.btn-primary:not(:disabled):not(.disabled):active {
     background-color: #0260ad;
     border-color: #0260ad;
 }
@@ -219,6 +231,7 @@ footer .dropdown-toggle:hover {
     cursor: pointer;
 }
 
+
 /* ===== DATEPICKER CALENDAR =====*/
 
 label {
@@ -233,6 +246,7 @@ label>input {
     font-size: 16px;
 }
 
+
 /*Bootstrap Calendar*/
 
 .datepicker {
@@ -240,18 +254,25 @@ label>input {
     padding: 0;
 }
 
-.datepicker-days table thead, .datepicker-days table tbody, .datepicker-days table tfoot {
+.datepicker-days table thead,
+.datepicker-days table tbody,
+.datepicker-days table tfoot {
     padding: 10px;
     display: list-item;
 }
 
-.datepicker-days table thead, .datepicker-months table thead, .datepicker-years table thead, .datepicker-decades table thead, .datepicker-centuries table thead {
+.datepicker-days table thead,
+.datepicker-months table thead,
+.datepicker-years table thead,
+.datepicker-decades table thead,
+.datepicker-centuries table thead {
     background: #DEEBFF;
     color: #ffffff;
     border-radius: 0;
 }
 
-.datepicker-days table thead tr:nth-child(2n+0) td, .datepicker-days table thead tr:nth-child(2n+0) th {
+.datepicker-days table thead tr:nth-child(2n+0) td,
+.datepicker-days table thead tr:nth-child(2n+0) th {
     border-radius: 3px;
 }
 
@@ -262,37 +283,59 @@ label>input {
     color: #212529;
 }
 
-.table-condensed>tbody>tr>td, .table-condensed>tbody>tr>th, .table-condensed>tfoot>tr>td, .table-condensed>tfoot>tr>th, .table-condensed>thead>tr>td, .table-condensed>thead>tr>th {
+.table-condensed>tbody>tr>td,
+.table-condensed>tbody>tr>th,
+.table-condensed>tfoot>tr>td,
+.table-condensed>tfoot>tr>th,
+.table-condensed>thead>tr>td,
+.table-condensed>thead>tr>th {
     padding: 11px 13px;
 }
 
-.datepicker-months table thead td, .datepicker-months table thead th, .datepicker-years table thead td, .datepicker-years table thead th, .datepicker-decades table thead td, .datepicker-decades table thead th, .datepicker-centuries table thead td, .datepicker-centuries table thead th {
+.datepicker-months table thead td,
+.datepicker-months table thead th,
+.datepicker-years table thead td,
+.datepicker-years table thead th,
+.datepicker-decades table thead td,
+.datepicker-decades table thead th,
+.datepicker-centuries table thead td,
+.datepicker-centuries table thead th {
     border-radius: 0;
 }
 
-.datepicker td, .datepicker th {
+.datepicker td,
+.datepicker th {
     border-radius: 50%;
     padding: 0 12px;
 }
 
-.datepicker-days table thead, .datepicker-months table thead, .datepicker-years table thead, .datepicker-decades table thead, .datepicker-centuries table thead {
+.datepicker-days table thead,
+.datepicker-months table thead,
+.datepicker-years table thead,
+.datepicker-decades table thead,
+.datepicker-centuries table thead {
     background: #DEEBFF;
     color: #ffffff;
     border-radius: 0;
 }
 
-.datepicker table tr td.active, .datepicker table tr td.active:hover, .datepicker table tr td.active.disabled, .datepicker table tr td.active.disabled:hover {
+.datepicker table tr td.active,
+.datepicker table tr td.active:hover,
+.datepicker table tr td.active.disabled,
+.datepicker table tr td.active.disabled:hover {
     background-image: none;
 }
 
-.datepicker .prev, .datepicker .next {
+.datepicker .prev,
+.datepicker .next {
     color: #212529;
     transition: 0.3s;
     width: 37px;
     height: 37px;
 }
 
-.datepicker .prev:hover, .datepicker .next:hover {
+.datepicker .prev:hover,
+.datepicker .next:hover {
     background: transparent;
     color: rgba(255, 255, 255, 0.99);
     font-size: 21px;
@@ -316,7 +359,10 @@ label>input {
     width: 27%;
 }
 
-.datepicker table tr td span.active, .datepicker table tr td span.active:hover, .datepicker table tr td span.active.disabled, .datepicker table tr td span.active.disabled:hover {
+.datepicker table tr td span.active,
+.datepicker table tr td span.active:hover,
+.datepicker table tr td span.active.disabled,
+.datepicker table tr td span.active.disabled:hover {
     background-color: #DEEBFF;
     background-image: none;
 }
@@ -330,7 +376,14 @@ label>input {
     border-top: 7px solid rgba(0, 0, 0, .1);
 }
 
-.datepicker table tr td.active:active, .datepicker table tr td.active:hover:active, .datepicker table tr td.active.disabled:active, .datepicker table tr td.active.disabled:hover:active, .datepicker table tr td.active.active, .datepicker table tr td.active:hover.active, .datepicker table tr td.active.disabled.active, .datepicker table tr td.active.disabled:hover.active {
+.datepicker table tr td.active:active,
+.datepicker table tr td.active:hover:active,
+.datepicker table tr td.active.disabled:active,
+.datepicker table tr td.active.disabled:hover:active,
+.datepicker table tr td.active.active,
+.datepicker table tr td.active:hover.active,
+.datepicker table tr td.active.disabled.active,
+.datepicker table tr td.active.disabled:hover.active {
     background-color: rgb(69, 101, 150);
 }
 
