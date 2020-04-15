@@ -143,9 +143,25 @@ table#mainTable tbody tr.colorize {
     width: 100%;
 }
 
+.hide-title-btn {
+    padding: 0px 5px;
+    display: none;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.mybtn {
+    display: flex;
+}
+
+.mybtn:hover .hide-title-btn {
+    display: block;
+}
+
 footer {
     width: calc(100% - 240px);
-    background-color: #d3d3d3;
+    background-color: #7f7f7f5c;
     height: 50px;
     color: #354052!important;
     box-shadow: 0px 0px 2rem 0 rgba(53, 64, 82, .1);
@@ -159,7 +175,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 8px;
+    /* padding: 0 8px; */
 }
 
 footer>div {

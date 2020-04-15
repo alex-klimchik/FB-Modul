@@ -44,7 +44,7 @@
 <?php require_once('blocks/header.php'); ?>
         <!--Header END-->
             <div class="container-fluid ">
-                <h6 style="color: #000; font-size: 21px; margin-bottom: 1rem">Этапы</h6>
+                <!-- <h6 style="color: #000; font-size: 21px; margin-bottom: 1rem">Этапы</h6> -->
                 <div class="row">
                     <div class="col-12">
 
