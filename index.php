@@ -24,6 +24,12 @@
 
     <!-- loader -->
     <link rel="stylesheet" type="text/css" href="css/loader.css">
+    
+    <!--icon-->
+    <link rel="stylesheet" href="icon/themify-icons.css">
+
+    <link rel="stylesheet" href="icon/ie7/ie7.css">
+
 </head>
 
 <body>

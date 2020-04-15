@@ -34,6 +34,7 @@
 
     <link rel="stylesheet" type="text/css" href="css/loader.css">
 
+    <link rel="stylesheet" href="icon/ie7/ie7.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/container.css">
 
@@ -264,7 +265,9 @@
                 <option value="">Фб 1</option>
                 <option value="">ФБ 2</option>
             </select>
-            <button class="btn btn-primary ">Отправить <i style="transform: rotate(45deg);" data-feather="send"></i></button>
+            <button class="btn btn-primary mybtn"><span class="hide-title-btn">Отправить</span> <i style="
+    margin-top: 4px;
+"class="fas fa-file-export"></i></button>
             <div class="custom-control custom-checkbox">
                 <input type="checkbox" class="custom-control-input" id="checkboxId3">
                 <label class="custom-control-label" for="checkboxId3">Передать в Lagoon</label>
@@ -274,7 +277,16 @@
             <div class="count">
                 Выбрано: <span>0</span>
             </div>
-            <button class="btn btn-primary cansel-all">Отмена <i data-feather="x-circle"></i></button>
+            <button class="btn btn-primary cansel-all"style="
+    border: 0;
+    background: #f74343;
+    margin: 0;
+     padding-top: 16px;
+    padding-right: 10px;
+    padding-bottom: 17px;
+border-top-left-radius: 30px;
+   border-bottom-left-radius: 30px;
+"> <i class="fas fa-times"></i></button>
         </div>
     </footer>
 
