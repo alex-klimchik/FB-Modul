@@ -21,113 +21,130 @@
 
     <!--feather-icons-->
     <script src="https://unpkg.com/feather-icons"></script>
-
+    <link rel="stylesheet" type="text/css" href="css/loader.css">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/settings.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/media-all.css">
 </head>
 
 <body>
+    <!-- cookie -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
+    <script>
+        window.stateSidebar = !!Cookies.get('sidebar');
+        //Состояние sidebar
+        if (stateSidebar) {
+            $('body').toggleClass('is-collapsed').click();
+        };
+    </script>
     <div class="wrapper">
         <!--Sidebar-->
         <?php require_once('blocks/sidebar.php'); ?>
         <!--Sidebar END-->
 
         <div class="page-container">
-          
-            <main>
-  <!--Header-->
-  <?php require_once('blocks/header.php'); ?>
-            <!--Header END-->
-                <div class="container-fluid" style="position: relative;">
-                    <h6 style="color: #000; font-size: 21px; margin-bottom: 1rem">Настройки</h6>
+            <div class="main-wrap">
+                <!-- loader -->
+                <?php require_once('blocks/preloader.php'); ?>
 
-                    <div class="main-content">
-                        <div class="card card-bloks-shadow content-box">
-                            <div class="stages-headline access-bg">
-                                <h5>Антидетект</h5>
-                            </div>
-<!--                            <p>Антидетект</p>-->
-                            <div class="form-group">
-                                <!-- <label for="ant">Добавить</label> -->
-                                <input type="text" class="form-control" id="ant" placeholder="Добавить">
-                            </div>
-                            <ul class="task-list">
-                                <li>
-                                    <i class="mr-2 task-ic" data-feather="minus"></i>MLA
-                                </li>
-                            </ul>
-                            <div class="btns">
-                                <!-- <button type="button" class="btn btn-danger">
+                <main class="page-loading d-none">
+                    <!--Header-->
+                    <?php require_once('blocks/header.php'); ?>
+                    <!--Header END-->
+                    <div class="container-fluid" style="position: relative;">
+                        <h6 class="title-page">Настройки</h6>
+
+                        <div class="main-content">
+                            <div class="card card-bloks-shadow content-box">
+                                <div class="stages-headline access-bg">
+                                    <h5>Антидетект</h5>
+                                </div>
+                                <!--                            <p>Антидетект</p>-->
+                                <div class="form-group">
+                                    <!-- <label for="ant">Добавить</label> -->
+                                    <input type="text" class="form-control" id="ant" placeholder="Добавить">
+                                </div>
+                                <ul class="task-list">
+                                    <li>
+                                        <i class="mr-2 task-ic" data-feather="minus"></i>MLA
+                                    </li>
+                                </ul>
+                                <div class="btns">
+                                    <!-- <button type="button" class="btn btn-danger">
                                     Удалить
                                 </button> -->
-                                <button type="button" class="btn btn-primary">
-                                    Добавить
-                                </button>
+                                    <button type="button" class="btn btn-primary">
+                                        Добавить
+                                    </button>
+                                </div>
                             </div>
-                        </div>
-                        <div class="card card-bloks-shadow content-box">
-                            <div class="stages-headline access-bg">
-                                <h5>Тип регистрации</h5>
-                            </div>
-<!--                            <p>Тип регистрации</p>-->
-                            <div class="form-group">
-                                <!-- <label for="registr">Добавить</label> -->
-                                <input type="text" class="form-control" id="registr" placeholder="Добавить">
-                            </div>
-                            <ul class="task-list">
-                                <li><i class="mr-2 task-ic" data-feather="minus"></i>E-mail</li>
-                                <li><i class="mr-2 task-ic" data-feather="minus"></i>Телефон</li>
-                                <li><i class="mr-2 task-ic" data-feather="minus"></i>MLA</li>
-                            </ul>
-                            <div class="btns">
-                                <!-- <button type="button" class="btn btn-danger">
+                            <div class="card card-bloks-shadow content-box">
+                                <div class="stages-headline access-bg">
+                                    <h5>Тип регистрации</h5>
+                                </div>
+                                <!--                            <p>Тип регистрации</p>-->
+                                <div class="form-group">
+                                    <!-- <label for="registr">Добавить</label> -->
+                                    <input type="text" class="form-control" id="registr" placeholder="Добавить">
+                                </div>
+                                <ul class="task-list">
+                                    <li><i class="mr-2 task-ic" data-feather="minus"></i>E-mail</li>
+                                    <li><i class="mr-2 task-ic" data-feather="minus"></i>Телефон</li>
+                                    <li><i class="mr-2 task-ic" data-feather="minus"></i>MLA</li>
+                                </ul>
+                                <div class="btns">
+                                    <!-- <button type="button" class="btn btn-danger">
                                     Удалить
                                 </button> -->
-                                <button type="button" class="btn btn-primary">
-                                    Добавить
-                                </button>
+                                    <button type="button" class="btn btn-primary">
+                                        Добавить
+                                    </button>
+                                </div>
                             </div>
-                        </div>
-                        <div class="card card-bloks-shadow content-box">
-                            <div class="stages-headline access-bg">
-                                <h5>Тип прокси</h5>
-                            </div>
-<!--                            <p>Тип прокси</p>-->
-                            <div class="form-group">
-                                <!-- <label for="proxy">Добавить</label> -->
-                                <input type="text" class="form-control" id="proxy" placeholder="Добавить">
-                            </div>
-                            <ul class="task-list">
-                                <li><i class="mr-2 task-ic" data-feather="minus"></i>static</li>
-                                <li><i class="mr-2 task-ic" data-feather="minus"></i>3g/4g</li>
-                            </ul>
-                            <div class="btns">
-                                <!-- <button type="button" class="btn btn-danger">
+                            <div class="card card-bloks-shadow content-box">
+                                <div class="stages-headline access-bg">
+                                    <h5>Тип прокси</h5>
+                                </div>
+                                <!--                            <p>Тип прокси</p>-->
+                                <div class="form-group">
+                                    <!-- <label for="proxy">Добавить</label> -->
+                                    <input type="text" class="form-control" id="proxy" placeholder="Добавить">
+                                </div>
+                                <ul class="task-list">
+                                    <li><i class="mr-2 task-ic" data-feather="minus"></i>static</li>
+                                    <li><i class="mr-2 task-ic" data-feather="minus"></i>3g/4g</li>
+                                </ul>
+                                <div class="btns">
+                                    <!-- <button type="button" class="btn btn-danger">
                                     Удалить
                                 </button> -->
-                                <button type="button" class="btn btn-primary">
-                                    Добавить
-                                </button>
+                                    <button type="button" class="btn btn-primary">
+                                        Добавить
+                                    </button>
+                                </div>
                             </div>
                         </div>
+
                     </div>
 
-                </div>
+                </main>
 
-            </main>
-
+            </div>
         </div>
     </div>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
+
     <script src="js/script.js"></script>
     <!--feather-icons-->
     <script>
         feather.replace()
     </script>
+    <!-- loader script -->
+    <script src="js/loader.js"></script>
 
 </body>
 

@@ -30,17 +30,27 @@
 
     <!--feather-icons-->
     <script src="https://unpkg.com/feather-icons"></script>
-    <!-- cookie -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
 
+    <link rel="stylesheet" type="text/css" href="css/loader.css">
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/mainStyle.css">
     <link rel="stylesheet" type="text/css" href="css/hold.css">
+
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/media-all.css">
 
 </head>
 
 <body>
+    <!-- cookie -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
+    <script>
+        window.stateSidebar = !!Cookies.get('sidebar');
+        //Состояние sidebar
+        if (stateSidebar) {
+            $('body').toggleClass('is-collapsed').click();
+        };
+    </script>
     <!-- Modal Add Account-->
     <div class="modal fade modal-add_account" id="addPreset">
         <div class="modal-dialog  modal-sm" role="document">
@@ -88,421 +98,426 @@
 
         <div class="page-container">
 
-            <main>
-                <!--Header-->
-                <?php require_once('blocks/header.php'); ?>
-                <!--Header END-->
+            <div class="main-wrap">
+                <!-- loader -->
+                <?php require_once('blocks/preloader.php'); ?>
 
-                <div class="container-fluid" style="position: relative;">
+                <main class="page-loading d-none">
+                    <!--Header-->
+                    <?php require_once('blocks/header.php'); ?>
+                    <!--Header END-->
 
-                    <div class="main-content">
-                        <div class="additions" style="margin-bottom: 1rem;">
-                            <div class="additions-choice">
-                                <input class="datepicker" data-provide="datepicker" placeholder="Дата регистрации">
-                                <select class="selectpicker" name="" id="">
-                                    <option value="" disabled selected>Статус</option>
-                                    <option value="">Статус 5</option>
-                                    <option value="">Статус 10</option>
-                                </select>
-                                <select class="selectpicker" name="" id="">
-                                    <option value="">Сотрудник</option>
-                                    <option value="">Сотрудник 1</option>
-                                    <option value="">Сотрудник 2</option>
-                                </select>
+                    <div class="container-fluid" style="position: relative;">
+
+                        <div class="main-content">
+                            <div class="additions" style="margin-bottom: 1rem;">
+                                <div class="additions-choice">
+                                    <input class="datepicker" data-provide="datepicker" placeholder="Дата регистрации">
+                                    <select class="selectpicker" name="" id="">
+                                        <option value="" disabled selected>Статус</option>
+                                        <option value="">Статус 5</option>
+                                        <option value="">Статус 10</option>
+                                    </select>
+                                    <select class="selectpicker" name="" id="">
+                                        <option value="">Сотрудник</option>
+                                        <option value="">Сотрудник 1</option>
+                                        <option value="">Сотрудник 2</option>
+                                    </select>
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="card card-bloks-shadow" style="padding: 15px;">
-                            <h6>Холд</h6>
-                            <div style="border-top: 1px solid #e7e9ea;overflow-x:auto;overflow-y: hidden;">
-                                <table id="mainTable" class="table-staff table table-striped">
-                                    <thead>
-                                        <tr>
-                                            <th class="select-all">Все</th>
-                                            <th>Название MLA</th>
-                                            <th>Тип рег.</th>
-                                            <th>Дата рег.</th>
-                                            <th>Логин</th>
-                                            <th>Пароль</th>
-                                            <th>Сотрудник</th>
-                                            <th>Добавить пресет</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>
-                                                <div class="custom-control custom-checkbox ">
-                                                    <input type="checkbox" class="custom-control-input" id="checkboxId1">
-                                                    <label class="custom-control-label" for="checkboxId1"></label>
-                                                </div>
-                                            </td>
-                                            <td>Lorena1</td>
-                                            <td class="type_registr"><i class="fa fa-envelope"></i></td>
-                                            <td>2020-03-11</td>
-                                            <td>test</td>
-                                            <td>test1</td>
-                                            <td>Дмитрий Фомин</td>
-                                            <td>
-                                                <div class="addPreset_modal">
-                                                    <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
-                                                </div>
-                                            </td>
+                            <div class="card card-bloks-shadow" style="padding: 15px;">
+                                <h6 class="table-headline">Холд</h6>
+                                <div class="table-scroll">
+                                    <table id="mainTable" class="table-staff table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th class="select-all">Все</th>
+                                                <th>Название MLA</th>
+                                                <th>Тип рег.</th>
+                                                <th>Дата рег.</th>
+                                                <th>Логин</th>
+                                                <th>Пароль</th>
+                                                <th>Сотрудник</th>
+                                                <th>Добавить пресет</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-checkbox ">
+                                                        <input type="checkbox" class="custom-control-input" id="checkboxId1">
+                                                        <label class="custom-control-label" for="checkboxId1"></label>
+                                                    </div>
+                                                </td>
+                                                <td>Lorena1</td>
+                                                <td class="type_registr"><i class="fa fa-envelope"></i></td>
+                                                <td>2020-03-11</td>
+                                                <td>test</td>
+                                                <td>test1</td>
+                                                <td>Дмитрий Фомин</td>
+                                                <td>
+                                                    <div class="addPreset_modal">
+                                                        <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
+                                                    </div>
+                                                </td>
 
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="custom-control custom-checkbox ">
-                                                    <input type="checkbox" class="custom-control-input" id="checkboxId2">
-                                                    <label class="custom-control-label" for="checkboxId2"></label>
-                                                </div>
-                                            </td>
-                                            <td>Maryse1</td>
-                                            <td class="type_registr"><i class="fa fa-envelope"></i></td>
-                                            <td>2020-03-11</td>
-                                            <td>test</td>
-                                            <td>test1</td>
-                                            <td>Аня Новикова</td>
-                                            <td>
-                                                <div class="addPreset_modal">
-                                                    <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="custom-control custom-checkbox ">
-                                                    <input type="checkbox" class="custom-control-input" id="checkboxId2">
-                                                    <label class="custom-control-label" for="checkboxId2"></label>
-                                                </div>
-                                            </td>
-                                            <td>Maryse1</td>
-                                            <td class="type_registr"><i class="fa fa-envelope"></i></td>
-                                            <td>2020-03-11</td>
-                                            <td>test</td>
-                                            <td>test1</td>
-                                            <td>Аня Новикова</td>
-                                            <td>
-                                                <div class="addPreset_modal">
-                                                    <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="custom-control custom-checkbox ">
-                                                    <input type="checkbox" class="custom-control-input" id="checkboxId2">
-                                                    <label class="custom-control-label" for="checkboxId2"></label>
-                                                </div>
-                                            </td>
-                                            <td>Maryse1</td>
-                                            <td class="type_registr"><i class="fa fa-envelope"></i></td>
-                                            <td>2020-03-11</td>
-                                            <td>test</td>
-                                            <td>test1</td>
-                                            <td>Аня Новикова</td>
-                                            <td>
-                                                <div class="addPreset_modal">
-                                                    <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="custom-control custom-checkbox ">
-                                                    <input type="checkbox" class="custom-control-input" id="checkboxId2">
-                                                    <label class="custom-control-label" for="checkboxId2"></label>
-                                                </div>
-                                            </td>
-                                            <td>Maryse1</td>
-                                            <td class="type_registr"><i class="fa fa-envelope"></i></td>
-                                            <td>2020-03-11</td>
-                                            <td>test</td>
-                                            <td>test1</td>
-                                            <td>Аня Новикова</td>
-                                            <td>
-                                                <div class="addPreset_modal">
-                                                    <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="custom-control custom-checkbox ">
-                                                    <input type="checkbox" class="custom-control-input" id="checkboxId2">
-                                                    <label class="custom-control-label" for="checkboxId2"></label>
-                                                </div>
-                                            </td>
-                                            <td>Maryse1</td>
-                                            <td class="type_registr"><i class="fa fa-envelope"></i></td>
-                                            <td>2020-03-11</td>
-                                            <td>test</td>
-                                            <td>test1</td>
-                                            <td>Аня Новикова</td>
-                                            <td>
-                                                <div class="addPreset_modal">
-                                                    <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="custom-control custom-checkbox ">
-                                                    <input type="checkbox" class="custom-control-input" id="checkboxId2">
-                                                    <label class="custom-control-label" for="checkboxId2"></label>
-                                                </div>
-                                            </td>
-                                            <td>Maryse1</td>
-                                            <td class="type_registr"><i class="fa fa-envelope"></i></td>
-                                            <td>2020-03-11</td>
-                                            <td>test</td>
-                                            <td>test1</td>
-                                            <td>Аня Новикова</td>
-                                            <td>
-                                                <div class="addPreset_modal">
-                                                    <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="custom-control custom-checkbox ">
-                                                    <input type="checkbox" class="custom-control-input" id="checkboxId2">
-                                                    <label class="custom-control-label" for="checkboxId2"></label>
-                                                </div>
-                                            </td>
-                                            <td>Maryse1</td>
-                                            <td class="type_registr"><i class="fa fa-envelope"></i></td>
-                                            <td>2020-03-11</td>
-                                            <td>test</td>
-                                            <td>test1</td>
-                                            <td>Аня Новикова</td>
-                                            <td>
-                                                <div class="addPreset_modal">
-                                                    <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="custom-control custom-checkbox ">
-                                                    <input type="checkbox" class="custom-control-input" id="checkboxId2">
-                                                    <label class="custom-control-label" for="checkboxId2"></label>
-                                                </div>
-                                            </td>
-                                            <td>Maryse1</td>
-                                            <td class="type_registr"><i class="fa fa-envelope"></i></td>
-                                            <td>2020-03-11</td>
-                                            <td>test</td>
-                                            <td>test1</td>
-                                            <td>Аня Новикова</td>
-                                            <td>
-                                                <div class="addPreset_modal">
-                                                    <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="custom-control custom-checkbox ">
-                                                    <input type="checkbox" class="custom-control-input" id="checkboxId2">
-                                                    <label class="custom-control-label" for="checkboxId2"></label>
-                                                </div>
-                                            </td>
-                                            <td>Maryse1</td>
-                                            <td class="type_registr"><i class="fa fa-envelope"></i></td>
-                                            <td>2020-03-11</td>
-                                            <td>test</td>
-                                            <td>test1</td>
-                                            <td>Аня Новикова</td>
-                                            <td>
-                                                <div class="addPreset_modal">
-                                                    <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="custom-control custom-checkbox ">
-                                                    <input type="checkbox" class="custom-control-input" id="checkboxId2">
-                                                    <label class="custom-control-label" for="checkboxId2"></label>
-                                                </div>
-                                            </td>
-                                            <td>Maryse1</td>
-                                            <td class="type_registr"><i class="fa fa-envelope"></i></td>
-                                            <td>2020-03-11</td>
-                                            <td>test</td>
-                                            <td>test1</td>
-                                            <td>Аня Новикова</td>
-                                            <td>
-                                                <div class="addPreset_modal">
-                                                    <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="custom-control custom-checkbox ">
-                                                    <input type="checkbox" class="custom-control-input" id="checkboxId2">
-                                                    <label class="custom-control-label" for="checkboxId2"></label>
-                                                </div>
-                                            </td>
-                                            <td>Maryse1</td>
-                                            <td class="type_registr"><i class="fa fa-envelope"></i></td>
-                                            <td>2020-03-11</td>
-                                            <td>test</td>
-                                            <td>test1</td>
-                                            <td>Аня Новикова</td>
-                                            <td>
-                                                <div class="addPreset_modal">
-                                                    <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="custom-control custom-checkbox ">
-                                                    <input type="checkbox" class="custom-control-input" id="checkboxId2">
-                                                    <label class="custom-control-label" for="checkboxId2"></label>
-                                                </div>
-                                            </td>
-                                            <td>Maryse1</td>
-                                            <td class="type_registr"><i class="fa fa-envelope"></i></td>
-                                            <td>2020-03-11</td>
-                                            <td>test</td>
-                                            <td>test1</td>
-                                            <td>Аня Новикова</td>
-                                            <td>
-                                                <div class="addPreset_modal">
-                                                    <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="custom-control custom-checkbox ">
-                                                    <input type="checkbox" class="custom-control-input" id="checkboxId2">
-                                                    <label class="custom-control-label" for="checkboxId2"></label>
-                                                </div>
-                                            </td>
-                                            <td>Maryse1</td>
-                                            <td class="type_registr"><i class="fa fa-envelope"></i></td>
-                                            <td>2020-03-11</td>
-                                            <td>test</td>
-                                            <td>test1</td>
-                                            <td>Аня Новикова</td>
-                                            <td>
-                                                <div class="addPreset_modal">
-                                                    <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="custom-control custom-checkbox ">
-                                                    <input type="checkbox" class="custom-control-input" id="checkboxId2">
-                                                    <label class="custom-control-label" for="checkboxId2"></label>
-                                                </div>
-                                            </td>
-                                            <td>Maryse1</td>
-                                            <td class="type_registr"><i class="fa fa-envelope"></i></td>
-                                            <td>2020-03-11</td>
-                                            <td>test</td>
-                                            <td>test1</td>
-                                            <td>Аня Новикова</td>
-                                            <td>
-                                                <div class="addPreset_modal">
-                                                    <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="custom-control custom-checkbox ">
-                                                    <input type="checkbox" class="custom-control-input" id="checkboxId2">
-                                                    <label class="custom-control-label" for="checkboxId2"></label>
-                                                </div>
-                                            </td>
-                                            <td>Maryse1</td>
-                                            <td class="type_registr"><i class="fa fa-envelope"></i></td>
-                                            <td>2020-03-11</td>
-                                            <td>test</td>
-                                            <td>test1</td>
-                                            <td>Аня Новикова</td>
-                                            <td>
-                                                <div class="addPreset_modal">
-                                                    <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="custom-control custom-checkbox ">
-                                                    <input type="checkbox" class="custom-control-input" id="checkboxId2">
-                                                    <label class="custom-control-label" for="checkboxId2"></label>
-                                                </div>
-                                            </td>
-                                            <td>Maryse1</td>
-                                            <td class="type_registr"><i class="fa fa-envelope"></i></td>
-                                            <td>2020-03-11</td>
-                                            <td>test</td>
-                                            <td>test1</td>
-                                            <td>Аня Новикова</td>
-                                            <td>
-                                                <div class="addPreset_modal">
-                                                    <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="custom-control custom-checkbox ">
-                                                    <input type="checkbox" class="custom-control-input" id="checkboxId2">
-                                                    <label class="custom-control-label" for="checkboxId2"></label>
-                                                </div>
-                                            </td>
-                                            <td>Maryse1</td>
-                                            <td class="type_registr"><i class="fa fa-envelope"></i></td>
-                                            <td>2020-03-11</td>
-                                            <td>test</td>
-                                            <td>test1</td>
-                                            <td>Аня Новикова</td>
-                                            <td>
-                                                <div class="addPreset_modal">
-                                                    <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>
-                                                <div class="custom-control custom-checkbox ">
-                                                    <input type="checkbox" class="custom-control-input" id="checkboxId2">
-                                                    <label class="custom-control-label" for="checkboxId2"></label>
-                                                </div>
-                                            </td>
-                                            <td>Maryse1</td>
-                                            <td class="type_registr"><i class="fa fa-envelope"></i></td>
-                                            <td>2020-03-11</td>
-                                            <td>test</td>
-                                            <td>test1</td>
-                                            <td>Аня Новикова</td>
-                                            <td>
-                                                <div class="addPreset_modal">
-                                                    <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
-                                                </div>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-checkbox ">
+                                                        <input type="checkbox" class="custom-control-input" id="checkboxId2">
+                                                        <label class="custom-control-label" for="checkboxId2"></label>
+                                                    </div>
+                                                </td>
+                                                <td>Maryse1</td>
+                                                <td class="type_registr"><i class="fa fa-envelope"></i></td>
+                                                <td>2020-03-11</td>
+                                                <td>test</td>
+                                                <td>test1</td>
+                                                <td>Аня Новикова</td>
+                                                <td>
+                                                    <div class="addPreset_modal">
+                                                        <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-checkbox ">
+                                                        <input type="checkbox" class="custom-control-input" id="checkboxId2">
+                                                        <label class="custom-control-label" for="checkboxId2"></label>
+                                                    </div>
+                                                </td>
+                                                <td>Maryse1</td>
+                                                <td class="type_registr"><i class="fa fa-envelope"></i></td>
+                                                <td>2020-03-11</td>
+                                                <td>test</td>
+                                                <td>test1</td>
+                                                <td>Аня Новикова</td>
+                                                <td>
+                                                    <div class="addPreset_modal">
+                                                        <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-checkbox ">
+                                                        <input type="checkbox" class="custom-control-input" id="checkboxId2">
+                                                        <label class="custom-control-label" for="checkboxId2"></label>
+                                                    </div>
+                                                </td>
+                                                <td>Maryse1</td>
+                                                <td class="type_registr"><i class="fa fa-envelope"></i></td>
+                                                <td>2020-03-11</td>
+                                                <td>test</td>
+                                                <td>test1</td>
+                                                <td>Аня Новикова</td>
+                                                <td>
+                                                    <div class="addPreset_modal">
+                                                        <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-checkbox ">
+                                                        <input type="checkbox" class="custom-control-input" id="checkboxId2">
+                                                        <label class="custom-control-label" for="checkboxId2"></label>
+                                                    </div>
+                                                </td>
+                                                <td>Maryse1</td>
+                                                <td class="type_registr"><i class="fa fa-envelope"></i></td>
+                                                <td>2020-03-11</td>
+                                                <td>test</td>
+                                                <td>test1</td>
+                                                <td>Аня Новикова</td>
+                                                <td>
+                                                    <div class="addPreset_modal">
+                                                        <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-checkbox ">
+                                                        <input type="checkbox" class="custom-control-input" id="checkboxId2">
+                                                        <label class="custom-control-label" for="checkboxId2"></label>
+                                                    </div>
+                                                </td>
+                                                <td>Maryse1</td>
+                                                <td class="type_registr"><i class="fa fa-envelope"></i></td>
+                                                <td>2020-03-11</td>
+                                                <td>test</td>
+                                                <td>test1</td>
+                                                <td>Аня Новикова</td>
+                                                <td>
+                                                    <div class="addPreset_modal">
+                                                        <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-checkbox ">
+                                                        <input type="checkbox" class="custom-control-input" id="checkboxId2">
+                                                        <label class="custom-control-label" for="checkboxId2"></label>
+                                                    </div>
+                                                </td>
+                                                <td>Maryse1</td>
+                                                <td class="type_registr"><i class="fa fa-envelope"></i></td>
+                                                <td>2020-03-11</td>
+                                                <td>test</td>
+                                                <td>test1</td>
+                                                <td>Аня Новикова</td>
+                                                <td>
+                                                    <div class="addPreset_modal">
+                                                        <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-checkbox ">
+                                                        <input type="checkbox" class="custom-control-input" id="checkboxId2">
+                                                        <label class="custom-control-label" for="checkboxId2"></label>
+                                                    </div>
+                                                </td>
+                                                <td>Maryse1</td>
+                                                <td class="type_registr"><i class="fa fa-envelope"></i></td>
+                                                <td>2020-03-11</td>
+                                                <td>test</td>
+                                                <td>test1</td>
+                                                <td>Аня Новикова</td>
+                                                <td>
+                                                    <div class="addPreset_modal">
+                                                        <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-checkbox ">
+                                                        <input type="checkbox" class="custom-control-input" id="checkboxId2">
+                                                        <label class="custom-control-label" for="checkboxId2"></label>
+                                                    </div>
+                                                </td>
+                                                <td>Maryse1</td>
+                                                <td class="type_registr"><i class="fa fa-envelope"></i></td>
+                                                <td>2020-03-11</td>
+                                                <td>test</td>
+                                                <td>test1</td>
+                                                <td>Аня Новикова</td>
+                                                <td>
+                                                    <div class="addPreset_modal">
+                                                        <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-checkbox ">
+                                                        <input type="checkbox" class="custom-control-input" id="checkboxId2">
+                                                        <label class="custom-control-label" for="checkboxId2"></label>
+                                                    </div>
+                                                </td>
+                                                <td>Maryse1</td>
+                                                <td class="type_registr"><i class="fa fa-envelope"></i></td>
+                                                <td>2020-03-11</td>
+                                                <td>test</td>
+                                                <td>test1</td>
+                                                <td>Аня Новикова</td>
+                                                <td>
+                                                    <div class="addPreset_modal">
+                                                        <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-checkbox ">
+                                                        <input type="checkbox" class="custom-control-input" id="checkboxId2">
+                                                        <label class="custom-control-label" for="checkboxId2"></label>
+                                                    </div>
+                                                </td>
+                                                <td>Maryse1</td>
+                                                <td class="type_registr"><i class="fa fa-envelope"></i></td>
+                                                <td>2020-03-11</td>
+                                                <td>test</td>
+                                                <td>test1</td>
+                                                <td>Аня Новикова</td>
+                                                <td>
+                                                    <div class="addPreset_modal">
+                                                        <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-checkbox ">
+                                                        <input type="checkbox" class="custom-control-input" id="checkboxId2">
+                                                        <label class="custom-control-label" for="checkboxId2"></label>
+                                                    </div>
+                                                </td>
+                                                <td>Maryse1</td>
+                                                <td class="type_registr"><i class="fa fa-envelope"></i></td>
+                                                <td>2020-03-11</td>
+                                                <td>test</td>
+                                                <td>test1</td>
+                                                <td>Аня Новикова</td>
+                                                <td>
+                                                    <div class="addPreset_modal">
+                                                        <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-checkbox ">
+                                                        <input type="checkbox" class="custom-control-input" id="checkboxId2">
+                                                        <label class="custom-control-label" for="checkboxId2"></label>
+                                                    </div>
+                                                </td>
+                                                <td>Maryse1</td>
+                                                <td class="type_registr"><i class="fa fa-envelope"></i></td>
+                                                <td>2020-03-11</td>
+                                                <td>test</td>
+                                                <td>test1</td>
+                                                <td>Аня Новикова</td>
+                                                <td>
+                                                    <div class="addPreset_modal">
+                                                        <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-checkbox ">
+                                                        <input type="checkbox" class="custom-control-input" id="checkboxId2">
+                                                        <label class="custom-control-label" for="checkboxId2"></label>
+                                                    </div>
+                                                </td>
+                                                <td>Maryse1</td>
+                                                <td class="type_registr"><i class="fa fa-envelope"></i></td>
+                                                <td>2020-03-11</td>
+                                                <td>test</td>
+                                                <td>test1</td>
+                                                <td>Аня Новикова</td>
+                                                <td>
+                                                    <div class="addPreset_modal">
+                                                        <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-checkbox ">
+                                                        <input type="checkbox" class="custom-control-input" id="checkboxId2">
+                                                        <label class="custom-control-label" for="checkboxId2"></label>
+                                                    </div>
+                                                </td>
+                                                <td>Maryse1</td>
+                                                <td class="type_registr"><i class="fa fa-envelope"></i></td>
+                                                <td>2020-03-11</td>
+                                                <td>test</td>
+                                                <td>test1</td>
+                                                <td>Аня Новикова</td>
+                                                <td>
+                                                    <div class="addPreset_modal">
+                                                        <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-checkbox ">
+                                                        <input type="checkbox" class="custom-control-input" id="checkboxId2">
+                                                        <label class="custom-control-label" for="checkboxId2"></label>
+                                                    </div>
+                                                </td>
+                                                <td>Maryse1</td>
+                                                <td class="type_registr"><i class="fa fa-envelope"></i></td>
+                                                <td>2020-03-11</td>
+                                                <td>test</td>
+                                                <td>test1</td>
+                                                <td>Аня Новикова</td>
+                                                <td>
+                                                    <div class="addPreset_modal">
+                                                        <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-checkbox ">
+                                                        <input type="checkbox" class="custom-control-input" id="checkboxId2">
+                                                        <label class="custom-control-label" for="checkboxId2"></label>
+                                                    </div>
+                                                </td>
+                                                <td>Maryse1</td>
+                                                <td class="type_registr"><i class="fa fa-envelope"></i></td>
+                                                <td>2020-03-11</td>
+                                                <td>test</td>
+                                                <td>test1</td>
+                                                <td>Аня Новикова</td>
+                                                <td>
+                                                    <div class="addPreset_modal">
+                                                        <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-checkbox ">
+                                                        <input type="checkbox" class="custom-control-input" id="checkboxId2">
+                                                        <label class="custom-control-label" for="checkboxId2"></label>
+                                                    </div>
+                                                </td>
+                                                <td>Maryse1</td>
+                                                <td class="type_registr"><i class="fa fa-envelope"></i></td>
+                                                <td>2020-03-11</td>
+                                                <td>test</td>
+                                                <td>test1</td>
+                                                <td>Аня Новикова</td>
+                                                <td>
+                                                    <div class="addPreset_modal">
+                                                        <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="custom-control custom-checkbox ">
+                                                        <input type="checkbox" class="custom-control-input" id="checkboxId2">
+                                                        <label class="custom-control-label" for="checkboxId2"></label>
+                                                    </div>
+                                                </td>
+                                                <td>Maryse1</td>
+                                                <td class="type_registr"><i class="fa fa-envelope"></i></td>
+                                                <td>2020-03-11</td>
+                                                <td>test</td>
+                                                <td>test1</td>
+                                                <td>Аня Новикова</td>
+                                                <td>
+                                                    <div class="addPreset_modal">
+                                                        <i class="fa fa-plus" data-toggle="modal" data-target="#addPreset"></i>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
                             </div>
-                        </div>
 
+
+                        </div>
 
                     </div>
 
-                </div>
+                </main>
 
-            </main>
-
+            </div>
         </div>
     </div>
     <footer style="display: none">
@@ -528,6 +543,8 @@
             feather.replace();
         });
     </script>
+    <!-- loader script -->
+    <script src="js/loader.js"></script>
 
 </body>
 

@@ -1,4 +1,8 @@
-$(function() {
-    $('body > .loader').addClass(1200, 'd-none').fadeOut('slow');
-    $('.wrapper').removeClass('d-none')
-});
+$(document).ready(() => {
+    $(function () {
+        $('.loader').fadeOut(600);
+        setTimeout(() => {
+            $('.page-loading').removeClass('d-none').css('display', 'none').fadeIn(400);
+        }, 600)
+    });
+})

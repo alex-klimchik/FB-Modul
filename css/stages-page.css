@@ -147,8 +147,12 @@ input {outline:none;}
 .bl-pd{
     padding-right: 0;
 }
+<<<<<<< HEAD
 @media (max-width: 575px) {
     .bl-pd{
         padding-right: 15px;
     }
 }
+=======
+
+>>>>>>> Inna

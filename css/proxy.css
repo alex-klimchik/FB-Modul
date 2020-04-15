@@ -1,41 +1,7 @@
-.card {
-    padding: 15px;
-    margin-bottom: 2rem;
-    box-shadow: 0 0 3px 1px #b7b7b74f;
-    border: 0;
-}
-
-.table-headline {
-    color: #3e4676;
-    ;
-    font-size: 17px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #e7e9ea;
-}
-
-.custom-control {
-    min-height: 1.3rem;
-}
-
-
-
-.close {
-    font-size: 1.5rem;
-    font-weight: 400;
-    line-height: 1;
-    color: #000;
-    text-shadow: 0 1px 0 #fff;
-}
-
-.modal-header h5 {
-    color: #000;
-}
 
 .stages-btn button {
     border: 0;
 }
-
-
 
 /*Input modal*/
 

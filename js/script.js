@@ -1,5 +1,3 @@
-let stateSidebar = !!Cookies.get('sidebar');
-
 let mySingleton = (function () {
     let instance;
     return {
@@ -42,10 +40,7 @@ $(document).ready(function () {
         closeSidebar();
     })
 
-    //Состояние sidebar
-    if (stateSidebar) {
-        $('body').toggleClass('is-collapsed').click();
-    };
+
 
     //Кнопка открыть/закрыть главное меню
     $('.sidebar-toggle , .closebtn').on('click', function (e) {

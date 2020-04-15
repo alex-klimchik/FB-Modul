@@ -1,0 +1,85 @@
+@media (max-width: 1000px) {
+    footer {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .new-task-wrap {
+        width: 100%;
+    }
+}
+
+@media (max-width: 790px) {
+    .additions .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .additions {
+        height: unset;
+    }
+
+    .additions-choice {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 400px;
+    }
+
+    .additions .bootstrap-select,
+    .additions-choice .datepicker {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-right: 5px !important;
+    }
+
+    .add-mr {
+        margin: 0 10px 5px 0;
+    }
+
+}
+
+@media (max-width: 575px) {
+    .bl-pd {
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 547px) {
+    .new-task-wrap {
+        width: 100%;
+    }
+
+    .form-fr-wrap {
+        width: 100%;
+    }
+
+    .form-bl-wrap {
+        justify-content: center;
+    }
+
+    .form-bt-wrap {
+        width: 100%;
+    }
+
+    .form-bt-wrap {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .additions-choice {
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 380px) {
+    .staff-tabs {
+        font-size: 12px;
+    }
+}

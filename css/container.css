@@ -11,13 +11,13 @@
 /* Table */
 
 .symbol-token {
-    font-size: 23px;
+    font-size: 17px;
     color: #03921ba1;
     font-weight: 900;
 }
 
 .symbol-proxy {
-    font-size: 23px;
+    font-size: 17px;
     color: #adadad9e;
     font-weight: 900;
 }
@@ -25,6 +25,15 @@
 .custom-control-input:checked~.custom-control-label::before {
     border-color: #3a89ff;
     background-color: #3a89ff;
+}
+
+.calc-spend {
+    cursor: pointer;
+    color: #3bb6f1;
+    position: relative;
+    top: -9px;
+    font-size: 10px;
+    left: 2px;
 }
 
 table#mainTable {
@@ -35,13 +44,4 @@ table#mainTable {
 table#mainTable thead th,
 table#mainTable tbody td {
     vertical-align: middle;
-}
-
-.calc-spend {
-    cursor: pointer;
-    color: #3bb6f1;
-    position: relative;
-    top: -9px;
-    font-size: 10px;
-    left: 2px;
 }
