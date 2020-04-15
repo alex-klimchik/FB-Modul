@@ -544,16 +544,19 @@
         </div>
     </div>
     <footer style="display: none">
+   
         <div>
-            <button class="btn btn-primary cansel-all">Удалить <i class="ft-icon" data-feather="trash-2"></i></button>
+        <div class="count">
+                Выбрано: <span>0</span>
+            </div>
             <button class="btn btn-primary" data-toggle="modal" data-target="#proxyModalEdit">Редактировать <i class="ft-icon" data-feather="edit-2"></i></button>
+            <button class="btn btn-primary cansel-all">Удалить <i class="ft-icon" data-feather="trash-2"></i></button>
+           
 
         </div>
         <div>
-            <div class="count">
-                Выбрано: <span>0</span>
-            </div>
-            <button class="btn btn-primary cansel-all">Отмена <i class="ft-icon" data-feather="x-circle"></i></button>
+          
+        <button class="bottom-btn btn btn-primary cansel-all"> <i class="fas fa-times"></i></button>
         </div>
     </footer>
 

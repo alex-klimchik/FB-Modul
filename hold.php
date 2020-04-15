@@ -522,6 +522,9 @@
     </div>
     <footer style="display: none">
         <div>
+        <div class="count">
+                Выбрано: <span>0</span>
+            </div>
             <select class="selectpicker" name="" id="">
                 <option value="">Фб 1</option>
                 <option value="">ФБ 2</option>
@@ -529,10 +532,8 @@
             <button class="btn btn-primary ">Передать <i style="transform: rotate(45deg);" data-feather="send"></i></button>
         </div>
         <div>
-            <div class="count">
-                Выбрано: <span>0</span>
-            </div>
-            <button class="btn btn-primary cansel-all">Отмена <i data-feather="x-circle"></i></button>
+          
+            <button class="bottom-btn btn btn-primary cansel-all"> <i class="fas fa-times"></i></button>
         </div>
     </footer>
 

@@ -130,7 +130,7 @@
                                                     </thead>
                                                     <tbody>
                                                         <tr>
-                                                            <td></td>
+                                                            <td>Name</td>
                                                             <td>Виктория Суходольска</td>
                                                             <td>Pamela26</td>
                                                             <td><span class="status-active">Новая</span></td>
@@ -138,7 +138,7 @@
                                                             <td><span>21/03/2020 12:03</span></td>
                                                         </tr>
                                                         <tr>
-                                                            <td></td>
+                                                            <td>Name</td>
                                                             <td>Виктория Суходольска</td>
                                                             <td>Pamela26</td>
                                                             <td><span class="status-active">Новая</span></td>
@@ -146,7 +146,7 @@
                                                             <td><span>21/03/2020 12:03</span></td>
                                                         </tr>
                                                         <tr>
-                                                            <td></td>
+                                                            <td>Name</td>
                                                             <td>Виктория Суходольска</td>
                                                             <td>Pamela26</td>
                                                             <td><span class="status-active">Новая</span></td>
@@ -154,7 +154,7 @@
                                                             <td><span>21/03/2020 12:03</span></td>
                                                         </tr>
                                                         <tr>
-                                                            <td></td>
+                                                        <td>Name</td>
                                                             <td>Виктория Суходольска</td>
                                                             <td>Pamela26</td>
                                                             <td><span class="status-active">Новая</span></td>
@@ -162,7 +162,7 @@
                                                             <td><span>21/03/2020 12:03</span></td>
                                                         </tr>
                                                         <tr>
-                                                            <td></td>
+                                                        <td>Name</td>
                                                             <td>Виктория Суходольска</td>
                                                             <td>Pamela26</td>
                                                             <td><span class="status-active">Новая</span></td>
@@ -170,7 +170,7 @@
                                                             <td><span>21/03/2020 12:03</span></td>
                                                         </tr>
                                                         <tr>
-                                                            <td></td>
+                                                        <td>Name</td>
                                                             <td>Виктория Суходольска</td>
                                                             <td>Pamela26</td>
                                                             <td><span class="status-no-active">Завершена</span></td>
@@ -178,7 +178,7 @@
                                                             <td><span>21/03/2020 12:03</span></td>
                                                         </tr>
                                                         <tr>
-                                                            <td></td>
+                                                        <td>Name</td>
                                                             <td>Виктория Суходольска</td>
                                                             <td>Pamela26</td>
                                                             <td><span class="status-no-active">Завершена</span></td>
@@ -186,7 +186,7 @@
                                                             <td><span>21/03/2020 12:03</span></td>
                                                         </tr>
                                                         <tr>
-                                                            <td></td>
+                                                        <td>Name</td>
                                                             <td>Виктория Суходольска</td>
                                                             <td>Pamela26</td>
                                                             <td><span class="status-no-active">Завершена</span></td>
@@ -194,7 +194,7 @@
                                                             <td><span>21/03/2020 12:03</span></td>
                                                         </tr>
                                                         <tr>
-                                                            <td></td>
+                                                        <td>Name</td>
                                                             <td>Виктория Суходольска</td>
                                                             <td>Pamela26</td>
                                                             <td><span class="status-no-active">Завершена</span></td>

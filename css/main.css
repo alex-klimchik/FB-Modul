@@ -17,7 +17,9 @@ ul {
     box-shadow: 0 0 0 0 rgba(0, 123, 255, .25);
 }
 
+
 /*fonts icon in tables*/
+
 .feather {
     width: 16px;
     height: 16px;
@@ -46,6 +48,7 @@ ul {
     margin-bottom: 1rem;
 }
 
+
 /*====== styles button ========*/
 
 .btn-secondary {
@@ -60,6 +63,7 @@ ul {
     background-color: #aaadb1;
     border-color: #aaadb1;
 }
+
 
 /*====== styles button the end ========*/
 
@@ -139,6 +143,7 @@ table tbody tr:hover {
 .custom-control {
     min-height: 1.4rem;
 }
+
 
 /* ======== THE END all  style table ========*/
 
@@ -237,6 +242,7 @@ button:not(:disabled) {
 
 /*========== the end styles All head TAB (pages staff and task)===============*/
 
+
 /*======== styles modal all ======*/
 
 .close {
@@ -255,14 +261,16 @@ table#mainTable tbody tr.colorize {
     background: #00000013 !important;
 }
 
+
 /* Footer */
+
 .is-collapsed footer {
     width: 100%;
 }
 
 footer {
     width: calc(100% - 240px);
-    background-color: #d3d3d3;
+    background-color: #3b3b3b66;
     height: 50px;
     color: #354052 !important;
     box-shadow: 0 0 2rem 0 rgba(53, 64, 82, .1);
@@ -280,13 +288,31 @@ footer {
 }
 
 footer>div {
+    margin-top: 10px;
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
 }
 
+footer .custom-checkbox:hover {
+    background: #3773cd!important;
+}
+
+.bottom-btn:hover {
+    background: #d23636!important;
+}
+
+.bottom-btn {
+    box-shadow: 1px 2px 3px 0px #262f3d;
+    padding: 6px 16px;
+    border: 0;
+    background: #f74343!important;
+}
+
 footer>div>button.btn {
+    color: #ffffff;
+    box-shadow: 1px 2px 3px 0px #262f3d;
     background-color: #3a89ff;
-    border-color: #3a89ff;
     margin: 0 7px;
     padding: .175rem .75rem;
 }
@@ -302,7 +328,25 @@ footer>div>.btn-primary:not(:disabled):not(.disabled).active {
 }
 
 footer .count {
+    box-shadow: 1px 2px 3px 0px #262f3d;
+    padding: 6px;
+    background: #3a89ff;
     margin: 0 7px;
+    border-radius: 3px;
+    color: white;
+    margin: 0 7px;
+}
+
+footer .custom-control-label::before {
+    left: -20px;
+}
+
+.hide-title-btn {
+    padding-right: 3px;
+}
+
+footer .custom-control-label::after {
+    left: -20px;
 }
 
 footer .count span {
@@ -318,6 +362,15 @@ footer .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.inpu
 }
 
 footer .custom-checkbox {
+    color: white;
+    box-shadow: 1px 2px 3px 0px #262f3d;
+    /* padding: 5px; */
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    /* padding-left: 5px; */
+    background: #3a89ff;
+    border-radius: 3px;
     margin: 0 7px;
 }
 
@@ -330,6 +383,7 @@ footer .dropdown-toggle::after {
 }
 
 footer .dropdown-toggle {
+    box-shadow: 1px 2px 3px 0px #262f3d;
     border: 1px solid #3a89ff;
     background-color: #3a89ff !important;
     color: #fff !important;
@@ -343,6 +397,7 @@ footer .dropdown-toggle:hover {
 .select-all {
     cursor: pointer;
 }
+
 
 /* selectpicker line */
 
@@ -406,12 +461,12 @@ footer .dropdown-toggle:hover {
 }
 
 .additions-modal:hover i {
-    color: #212529;
+    color: #ffffff;
 }
 
 .additions-modal:hover {
-    background-color: #8dc7d0;
-    border-color: #8dc7d0;
+    background-color: #555555;
+    border-color: #555555;
 }
 
 .dropdown-toggle {
@@ -439,8 +494,6 @@ footer .dropdown-toggle:hover {
 .dropdown-item:hover {
     background-color: #f4f8ff96;
 }
-
-
 
 .dropdown-item.active,
 .dropdown-item:active {
@@ -505,6 +558,7 @@ footer .dropdown-toggle:hover {
     border: 1px solid #ededee;
     background-color: #fefefe;
 }
+
 
 /* ===== DATEPICKER CALENDAR =====*/
 
@@ -675,5 +729,6 @@ label>input {
 .datepicker table tbody tr:hover {
     background-color: white !important;
 }
+
 
 /* end selectpicker line */

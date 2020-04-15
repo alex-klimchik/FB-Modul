@@ -20,7 +20,6 @@
     .additions {
         height: unset;
     }
-
     .additions-choice {
         flex-wrap: wrap;
         align-items: center;
@@ -29,21 +28,51 @@
         padding-bottom: 5px;
         width: 400px;
     }
-
     .additions .bootstrap-select,
     .additions-choice .datepicker {
         margin-top: 5px;
         margin-bottom: 5px;
         margin-right: 5px !important;
     }
-
     .add-mr {
         margin: 0 10px 5px 0;
     }
-
 }
 
 @media (max-width: 575px) {
+    footer>div {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .count {
+        display: none;
+    }
+    footer {
+        display: block;
+        height: 110px;
+    }
+    .feather {
+        display: none;
+    }
+    .sidebar-nav .active a {
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+    .sidebar-nav .active:before,
+    .sidebar-nav .active a:before,
+    .sidebar-nav .active a:after,
+    .sidebar-nav .active:after {
+        content: none!important;
+    }
+    header {
+        padding: 0!important;
+    }
+    sup {
+        padding: 0;
+    }
     .bl-pd {
         padding-right: 15px;
     }
@@ -53,19 +82,15 @@
     .new-task-wrap {
         width: 100%;
     }
-
     .form-fr-wrap {
         width: 100%;
     }
-
     .form-bl-wrap {
         justify-content: center;
     }
-
     .form-bt-wrap {
         width: 100%;
     }
-
     .form-bt-wrap {
         justify-content: center;
     }

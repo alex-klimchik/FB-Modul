@@ -82,7 +82,7 @@
                                         <i class="fa fa-plus" aria-hidden="true"></i>
                                     </div>
                                 </div>
-
+                            </div>
                                 <div class="col-md-12 mt-3">
 
                                     <ul id="tabs" class="staff-tab nav nav-tabs">
@@ -384,7 +384,7 @@
                                                 </div>
                                             </div>
 
-                                        </div>
+                                      
                                         <!-- ====== THE END Tab - EXIT TICKETS  ======= -->
                                     </div>
                                 </div>
