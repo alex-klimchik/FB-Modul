@@ -20,9 +20,10 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/mainStyle.css">
     <link rel="stylesheet" type="text/css" href="css/staff-page.css">
     <link rel="stylesheet" type="text/css" href="css/staff-add.css">
-
+   
     <!--feather-icons-->
     <script src="https://unpkg.com/feather-icons"></script>
 
@@ -52,8 +53,7 @@
             <div class="row">
 
                 <div class="col-12">
-
-                    <div class="additions proxy-account">
+                    <div class="additions">
                         <div class="additions-choice">
                             <select class="selectpicker" id="allStaff" >
                                 <option>Отдел</option>
@@ -61,10 +61,8 @@
                                 <option>Фарм</option>
                             </select>
                         </div>
-                        <div class="staff-add">
-
-                            <button type="button" class="add-btn btn" data-toggle="modal" data-target="#exampleModalStaff"  data-placement="top" title="Добавить сотрудника">
-                                <i class="fa fa-plus staff-fa" aria-hidden="true"></i></button>
+                        <div class="additions-modal" data-toggle="modal" data-target="#exampleModalStaff" data-placement="top" title="Добавить сотрудника">
+                            <i class="fa fa-plus" aria-hidden="true"></i>
                         </div>
                     </div>
                 </div>

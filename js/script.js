@@ -65,6 +65,7 @@ $(document).ready(function () {
     // Добавления сласса .active в сайдбар
     $(function () {
         var current = location.pathname.slice(1);
+        if (current === '') current = 'index.php';
         $('.sidebar-nav li a').each(function () {
             var $this = $(this);
             // if the current path is like this link, make it active

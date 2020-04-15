@@ -25,8 +25,13 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
-
+    
+    <!-- Datepicker -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker3.standalone.min.css">
+    
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/mainStyle.css">
     <link rel="stylesheet" type="text/css" href="css/staff-page.css">
     <link rel="stylesheet" type="text/css" href="css/tasks-page.css">
 
@@ -36,7 +41,6 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/bootstrap-select.min.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -64,28 +68,22 @@
                     <div class="col-12">
 
                         <div class="additions">
-                            <div class="additions-choice-wrap">
-                                <div class="additions-choice add-mr ">
-                                    <select class="selectpicker" id="oneStaff">
-                                        <option>Сотрудник</option>
-                                        <option>.....</option>
-                                        <option>......</option>
-                                    </select>
-                                </div>
-                                <div class="additions-choice add-mr">
-                                    <select class="selectpicker" id="oneAccount">
-                                        <option>Аккаунт</option>
-                                        <option>.....</option>
-                                        <option>......</option>
-                                    </select>
-                                </div>
-                                <div class="additions-choice add-mr">
-                                    <select class="selectpicker" id="oneStatus">
-                                        <option>Статус</option>
-                                        <option>.....</option>
-                                        <option>......</option>
-                                    </select>
-                                </div>
+                            <div class="additions-choice">
+                                <select class="selectpicker" id="oneStaff">
+                                    <option>Сотрудник</option>
+                                    <option>.....</option>
+                                    <option>......</option>
+                                </select>
+                                <select class="selectpicker" id="oneAccount">
+                                    <option>Аккаунт</option>
+                                    <option>.....</option>
+                                    <option>......</option>
+                                </select>
+                                <select class="selectpicker" id="oneStatus">
+                                    <option>Статус</option>
+                                    <option>.....</option>
+                                    <option>......</option>
+                                </select>
                             </div>
                         </div>
                     </div>

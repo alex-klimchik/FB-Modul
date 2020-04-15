@@ -38,23 +38,6 @@
     margin-bottom: 15px;
 }
 
-.staff-fa {
-    background-color: #babcbf;
-    color: #fff;
-    border-radius: 4px;
-    padding: 5px 9px;
-    outline: none;
-}
-
-.staff-fa:hover {
-    background-color: #babcbf;
-    color: #fff;
-}
-
-.staff-fa:focus {
-    outline: none;
-}
-
 .staff-tab {
     justify-content: start;
 }
@@ -72,81 +55,6 @@
 
 
 /*========== STAFF head tab styles the end ===============*/
-
-
-/*================ select styles header===================*/
-
-.additions {
-    background-color: #fff;
-    box-shadow: 0 0 3px 1px #b7b7b74f;
-    margin-bottom: 5px;
-    padding: 5px 15px;
-    border-radius: 10px;
-    background-clip: padding-box;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 14px;
-}
-
-.bootstrap-select>.dropdown-toggle {
-    color: #999;
-}
-
-#stages-btn .btn-light:not(:disabled):not(.disabled):active,
-.show>#stages-btn.btn-light.dropdown-toggle {
-    color: #999;
-    background-color: #fefefe;
-    border: 1px solid transparent;
-    outline: none;
-}
-
-.btn-light:not(:disabled):not(.disabled):active,
-.show>.btn-light.dropdown-toggle {
-    color: #999;
-    background-color: #fefefe;
-    border: 1px solid #ededee;
-    outline: none;
-}
-
-.bootstrap-select .dropdown-toggle:focus,
-.bootstrap-select>select.mobile-device:focus+.dropdown-toggle {
-    outline: 0 auto -webkit-focus-ring-color!important;
-    outline-offset: -2px;
-    color: #999;
-    background-color: #fefefe;
-    border: 1px solid #ededee;
-}
-
-.dropdown-item.active,
-.dropdown-item:active {
-    background-color: #deebff;
-    color: #333;
-}
-
-.dropdown-item:focus,
-.dropdown-item:hover {
-    background-color: #f4f8ff96;
-}
-
-.bootstrap-select .dropdown-menu {
-    border-color: #ededee;
-}
-
-.btn-light {
-    color: #999;
-    background-color: #fefefe;
-    border: 1px solid #ededee;
-}
-
-.btn-light:hover {
-    border: 1px solid #ededee;
-    background-color: #fefefe;
-}
-
-
-/*=================== select the end styles =======================*/
-
 
 /*=================== select table styles =======================*/
 

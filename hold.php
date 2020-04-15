@@ -96,7 +96,7 @@
                 <div class="container-fluid" style="position: relative;">
 
                     <div class="main-content">
-                        <div class="additions">
+                        <div class="additions" style="margin-bottom: 1rem;">
                             <div class="additions-choice">
                                 <input class="datepicker" data-provide="datepicker" placeholder="Дата регистрации">
                                 <select class="selectpicker" name="" id="">

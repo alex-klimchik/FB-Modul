@@ -96,7 +96,6 @@ footer .dropdown-toggle:hover {
 .additions {
     background-color: #fff;
     box-shadow: 0 0 3px 1px #b7b7b74f;
-    margin-bottom: 1rem;
     padding: 0 15px;
     border-radius: 3px;
     background-clip: padding-box;
@@ -392,6 +391,7 @@ label>input {
 }
 
 .dropdown-menu {
+    z-index: 801 !important;
     padding: 0;
     border-radius: 5px;
     box-shadow: 0 0 4px 1px #00000030;

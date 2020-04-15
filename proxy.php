@@ -73,7 +73,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 mt-3" style="margin-top: 0!important;">
+                    <div class="col-12 mt-3">
                         <div class="staff-t card">
                             <h6 class="table-headline">Proxy</h6>
                             <div style="overflow-x:auto;">
